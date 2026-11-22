@@ -1,0 +1,6 @@
+dataset,fraction,rows,operation,engine,format,partitions,cached,median_seconds,min_seconds,max_seconds,runs,result
+global,0.1,68190,groupby_year,spark,parquet,,True,0.1645368000026792,0.144287200004328,1.649459399995976,3,aggregated
+global,0.25,170476,groupby_year,spark,parquet,,True,0.1065456999931484,0.0940968999930191,0.1426877999911084,3,aggregated
+global,0.5,340951,groupby_year,spark,parquet,,True,0.1105891999904997,0.1037913000036496,0.1117610999936005,3,aggregated
+global,1.0,681902,groupby_year,spark,parquet,,False,0.2454568000102881,0.2454568000102881,0.2454568000102881,1,uncached
+global,1.0,681902,groupby_year,spark,parquet,,True,0.19512519999989306,0.1154621000023325,0.2883412000082899,4,aggregated

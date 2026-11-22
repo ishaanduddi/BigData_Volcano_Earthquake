@@ -1,0 +1,61 @@
+{
+  "dataset": "sample_10k",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "created_at": "2026-11-19T13:19:29+00:00",
+  "seed": 20261119,
+  "target_rows": 10000,
+  "rows": 10000,
+  "raw_rows_before_sampling": 29498,
+  "source_months": [
+    "2000-01",
+    "2002-01",
+    "2004-01",
+    "2006-01",
+    "2008-01",
+    "2010-01",
+    "2012-01",
+    "2014-01",
+    "2016-01",
+    "2018-01",
+    "2020-01",
+    "2022-01",
+    "2024-01"
+  ],
+  "source_files": [
+    "earthquakes\\global\\2000\\2000-01.csv",
+    "earthquakes\\global\\2002\\2002-01.csv",
+    "earthquakes\\global\\2004\\2004-01.csv",
+    "earthquakes\\global\\2006\\2006-01.csv",
+    "earthquakes\\global\\2008\\2008-01.csv",
+    "earthquakes\\global\\2010\\2010-01.csv",
+    "earthquakes\\global\\2012\\2012-01.csv",
+    "earthquakes\\global\\2014\\2014-01.csv",
+    "earthquakes\\global\\2016\\2016-01.csv",
+    "earthquakes\\global\\2018\\2018-01.csv",
+    "earthquakes\\global\\2020\\2020-01.csv",
+    "earthquakes\\global\\2022\\2022-01.csv",
+    "earthquakes\\global\\2024\\2024-01.csv"
+  ],
+  "sampling": "proportional stratified by source_month and magnitude bin (0.5-1.0 width); real records only",
+  "year_counts": {
+    "2000": 444,
+    "2002": 622,
+    "2004": 718,
+    "2006": 760,
+    "2008": 798,
+    "2010": 492,
+    "2012": 505,
+    "2014": 818,
+    "2016": 777,
+    "2018": 993,
+    "2020": 1450,
+    "2022": 860,
+    "2024": 763
+  },
+  "magnitude_range": [
+    2.5,
+    7.9
+  ],
+  "file_sha256": "f57f0ec86c5dd5d472fcd461e1a892e01275bcea76510fadbf890d1e1f54b092",
+  "file_bytes": 1917484
+}

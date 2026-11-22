@@ -1,0 +1,19 @@
+{
+  "dataset": "stress_alaska",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "count_url": "https://earthquake.usgs.gov/fdsnws/event/1/count",
+  "start_date": "2000-01-01",
+  "end_date": "2025-12-31",
+  "region": {
+    "minlatitude": 50.0,
+    "maxlatitude": 72.0,
+    "minlongitude": -180.0,
+    "maxlongitude": -129.0,
+    "minmagnitude": 1.0
+  },
+  "generated_at": "2026-11-19T15:32:03+00:00",
+  "n_chunks": 312,
+  "total_rows": 731416,
+  "chunks_requested_this_run": 312,
+  "dry_run": false
+}

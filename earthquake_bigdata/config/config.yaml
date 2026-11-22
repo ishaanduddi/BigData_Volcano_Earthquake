@@ -1,0 +1,266 @@
+# =============================================================================
+# Global Earthquake / Volcanism Big Data Project
+# Central configuration.  All paths are relative to the project root.
+# Environment-specific values can be overridden with EARTHQUAKE_* env vars
+# (see common/config.py) or by editing this file.  Never hard-code paths in
+# analysis code.
+# =============================================================================
+
+project:
+  name: "Global Earthquake Patterns and Volcanic Activity"
+  short_name: "earthquake_bigdata"
+  version: "1.0.0"
+  timezone: "UTC"
+  random_seed: 20261119
+  # This project performs statistical association analysis only. It does not
+  # predict earthquakes or volcanic eruptions.
+  disclaimer: >-
+    Statistical association only. No earthquake or eruption prediction is
+    claimed or attempted.
+
+paths:
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  data_sample: "data/sample"
+  data_stress: "data/stress_test"
+  results: "results"
+  logs: "logs"
+  docs: "docs"
+
+storage:
+  # "auto" tries HDFS and falls back to local storage with an explicit warning.
+  # Use "hdfs" to fail if HDFS is unavailable, or "local" to force local mode.
+  backend: "auto"
+  hdfs_uri: "hdfs://localhost:9000"
+  hdfs_root: "/"
+  hdfs_layout:
+    earthquake_raw: "/earthquake/raw"
+    earthquake_processed: "/earthquake/processed"
+    volcano_raw: "/volcano/raw"
+    volcano_processed: "/volcano/processed"
+    results: "/results"
+  parquet_compression: "snappy"
+  earthquake_partition_column: "year"
+  write_local_mirror: true
+  verify_after_write: true
+  # Windows installation found during environment inspection.  On Linux leave
+  # blank and JAVA_HOME/HADOOP_HOME from the shell will be used.
+  java_home_windows: "C:/PROGRA~1/ECLIPS~1/JDK-17~1.11-"
+  hadoop_home_windows: "C:/hadoop/hadoop-3.3.6"
+  hdfs_cli_timeout_seconds: 120
+
+spark:
+  master: "local[6]"
+  driver_memory: "5g"
+  shuffle_partitions: 32
+  ui_enabled: false
+  log_level: "WARN"
+  arrow_enabled: true
+  # Local mode is multi-threaded on one machine. It is NOT a multi-node
+  # cluster. Benchmarking reports state this explicitly.
+  execution_note: >-
+    Spark local[*] mode: distributed computation across partitions on one
+    machine, not a multi-machine cluster.
+
+usgs:
+  query_url: "https://earthquake.usgs.gov/fdsnws/event/1/query"
+  count_url: "https://earthquake.usgs.gov/fdsnws/event/1/count"
+  application: "earthquake_bigdata/1.0 (academic project)"
+  start_date: "2000-01-01"
+  end_date: "2025-12-31"
+  min_magnitude: 2.5
+  format: "csv"
+  max_limit: 20000
+  request_timeout_seconds: 180
+  retries: 5
+  backoff_seconds: 3
+  # Fields retained from the USGS CSV response.  The raw file is stored
+  # unchanged; this list is used only for documentation and validation.
+  columns:
+    - time
+    - latitude
+    - longitude
+    - depth
+    - mag
+    - magType
+    - nst
+    - gap
+    - dmin
+    - rms
+    - net
+    - id
+    - updated
+    - place
+    - type
+    - status
+    - horizontalError
+    - depthError
+    - magError
+    - magNst
+    - locationSource
+    - magSource
+  sample:
+    # One real month every two years, spanning the whole study period.
+    months:
+      - "2000-01"
+      - "2002-01"
+      - "2004-01"
+      - "2006-01"
+      - "2008-01"
+      - "2010-01"
+      - "2012-01"
+      - "2014-01"
+      - "2016-01"
+      - "2018-01"
+      - "2020-01"
+      - "2022-01"
+      - "2024-01"
+    target_rows: 10000
+    # Stratify the 10k sample across month and magnitude bin so that the
+    # sample is representative, not the first 10k records returned by the API.
+    magnitude_bins: [2.5, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0]
+
+stress:
+  # Approximate bounding boxes.  They are used ONLY for the scalability
+  # stress-test dataset, never for global scientific findings.  Boxes include
+  # some neighbouring events; this is documented as a limitation.
+  regions:
+    alaska:
+      minlatitude: 50.0
+      maxlatitude: 72.0
+      minlongitude: -180.0
+      maxlongitude: -129.0
+      minmagnitude: 1.0
+    california:
+      minlatitude: 32.0
+      maxlatitude: 43.0
+      minlongitude: -125.0
+      maxlongitude: -114.0
+      minmagnitude: 1.0
+
+volcano:
+  # Official Smithsonian GVP OGC WFS endpoint (found during environment
+  # inspection).  The public website itself is protected by a bot challenge.
+  wfs_url: "https://webservices.volcano.si.edu/geoserver/GVP-VOTW/ows"
+  type_volcanoes: "GVP-VOTW:Smithsonian_VOTW_Holocene_Volcanoes"
+  type_eruptions: "GVP-VOTW:Smithsonian_VOTW_Holocene_Eruptions"
+  page_size: 1000
+  # The GVP GeoServer can return the full layer in one request.  This avoids
+  # aggressive paging and honours the server's rate limiting.
+  single_request_max_records: 20000
+  request_timeout_seconds: 180
+  retries: 5
+  citation: >-
+    Global Volcanism Program, 2026. [Database] Volcanoes of the World
+    (v. 5.4.0; 7 Aug 2026). Smithsonian Institution.
+    https://volcano.si.edu/  Data retrieved via the official
+    webservices.volcano.si.edu GeoServer WFS.
+
+preprocessing:
+  earthquake:
+    allowed_event_types: ["earthquake"]
+    # Missing latitude/longitude/magnitude cannot be analysed and are removed
+    # transparently; missing depth is retained with a quality flag.
+    drop_missing_coordinates: true
+    drop_missing_magnitude: true
+    latitude_range: [-90.0, 90.0]
+    longitude_range: [-180.0, 180.0]
+    depth_range_km: [-10.0, 800.0]
+    grid_size_degrees: 5.0
+    # Secondary, finer grid used by spatial joins and clustering partitions.
+    fine_grid_degrees: 1.0
+  volcano:
+    invalid_latitude_range: [-90.0, 90.0]
+    invalid_longitude_range: [-180.0, 180.0]
+
+hotspots:
+  grid_size_degrees: 5.0
+  windows:
+    - id: "2000-2012"
+      start_year: 2000
+      end_year: 2012
+    - id: "2013-2025"
+      start_year: 2013
+      end_year: 2025
+  min_events: 50
+  mc_bin_width: 0.1
+  mc_correction: 0.2
+  min_b_value_events: 50
+  bootstrap_iterations: 200
+  confidence_level: 0.95
+  # Do not mix magnitude scales blindly: a cell/window is analysed only if one
+  # scale family accounts for at least this share of events, unless
+  # allow_mixed_scales is true (reported as a sensitivity result).
+  magnitude_scale_policy: "dominant_family"
+  min_dominant_scale_share: 0.75
+  allow_mixed_scales: false
+  magnitude_families:
+    moment: ["mw", "mww", "mwc", "mwb", "mwr", "mww"]
+    body: ["mb", "mbag", "mb1", "mb1x", "mb2", "mbs"]
+    surface: ["ms", "ms1", "ms2", "ms_20", "msp"]
+    local: ["ml", "mlr"]
+    duration: ["md", "mh"]
+    other: ["mlg", "mn", "me", "mc", "uk", "unknown"]
+
+clustering:
+  # Seeded parameters are starting points only; sensitivity is measured.
+  spatial_epsilon_km: 50.0
+  temporal_epsilon_days: 7.0
+  min_pts: 10
+  # The distributed partition grid keeps cell width near this value (km).
+  partition_cell_km: 75.0
+  neighbor_rings: 1
+  # For computational tractability, the full ST-DBSCAN run uses a bounded
+  # deterministic sample; sensitivity runs use smaller samples.  The actual
+  # number used is written to results.
+  max_points: 120000
+  driver_memory: "4g"
+  sensitivity:
+    spatial_epsilon_km: [25.0, 50.0, 100.0]
+    temporal_epsilon_days: [3.0, 7.0, 14.0]
+    min_pts: [5, 10, 20]
+  kmeans_clusters: 25
+  evaluation_sample_rows: 30000
+  dbscan_spatial_epsilon_km: 50.0
+  dbscan_min_pts: 10
+  random_seed: 20261119
+
+volcano_association:
+  radii_km: [50.0, 100.0, 200.0]
+  primary_radius_km: 100.0
+  baseline_years: 5
+  pre_days: 90
+  post_days: 180
+  permutations: 499
+  fdr_alpha: 0.05
+  min_baseline_events: 5
+  min_eruption_events: 3
+  min_baseline_days: 365
+  min_date_precision: "month"
+  confirmed_only: true
+  # Only eruptions with a usable start date inside the earthquake observation
+  # period are analysed.
+  analysis_start: "2000-01-01"
+  analysis_end: "2025-12-31"
+
+benchmark:
+  fractions: [0.10, 0.25, 0.50, 1.00]
+  partitions: [8, 16, 32, 64]
+  formats: ["csv", "parquet"]
+  caching: [false, true]
+  repeats: 3
+  warmup_runs: 1
+  clustering_sample_rows: 50000
+  timeout_seconds: 1800
+  # Save raw timings as well as summaries; never hard-code results.
+  results_dir: "results/benchmarks"
+
+dashboard:
+  port: 8501
+  # The dashboard reads only saved results; it does not run Spark jobs.
+  results_dir: "results"
+  map_style: "carto-positron"
+
+logging:
+  config: "config/logging.yaml"
+  level: "INFO"

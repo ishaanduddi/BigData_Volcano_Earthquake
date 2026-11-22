@@ -1,0 +1,17 @@
+{
+  "dataset": "earthquakes_global",
+  "created_at": "2026-11-19T15:21:04+00:00",
+  "rows": 681902,
+  "backend_primary": "hdfs",
+  "partition_by": [
+    "year"
+  ],
+  "compression": "snappy",
+  "hdfs_uri": "hdfs://localhost:9000/earthquake/processed/global",
+  "local_mirror": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\processed\\earthquakes\\global",
+  "hdfs_bytes": 52883193,
+  "local_bytes": 53298165,
+  "verified": true,
+  "hdfs_rows_verified": 681902,
+  "local_files": 182
+}

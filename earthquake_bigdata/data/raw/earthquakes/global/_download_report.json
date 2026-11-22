@@ -1,0 +1,13 @@
+{
+  "dataset": "global",
+  "source": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+  "count_url": "https://earthquake.usgs.gov/fdsnws/event/1/count",
+  "start_date": "2000-01-01",
+  "end_date": "2025-12-31",
+  "region": null,
+  "generated_at": "2026-11-19T15:18:07+00:00",
+  "n_chunks": 312,
+  "total_rows": 689501,
+  "chunks_requested_this_run": 312,
+  "dry_run": false
+}

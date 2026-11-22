@@ -1,0 +1,59 @@
+{
+  "dataset": "global",
+  "backend": "hdfs",
+  "generated_at": "2026-11-19T16:07:53+00:00",
+  "eruptions_analysed": 941,
+  "volcanoes_with_eruptions": 221,
+  "radii_km": [
+    50.0,
+    100.0,
+    200.0
+  ],
+  "primary_radius_km": 100.0,
+  "baseline_years": 5.0,
+  "pre_days": 90.0,
+  "post_days": 180.0,
+  "permutations": 499,
+  "fdr_alpha": 0.05,
+  "date_filter": {
+    "start": "2000-01-01",
+    "end": "2025-12-31",
+    "min_precision": "month",
+    "confirmed_only": true,
+    "excluded_note": "Year-only or unconfirmed eruptions are excluded from the primary rate analysis."
+  },
+  "radius_summary": [
+    {
+      "radius_km": 50.0,
+      "n_eruptions": 941,
+      "n_sufficient_baseline": 413,
+      "n_pairs": 270820,
+      "median_pre_rate_ratio": 1.1467171717171718,
+      "median_post_rate_ratio": 0.8768939393939393,
+      "significant_pre_fdr_0.05": 47,
+      "significant_post_fdr_0.05": 45
+    },
+    {
+      "radius_km": 100.0,
+      "n_eruptions": 941,
+      "n_sufficient_baseline": 569,
+      "n_pairs": 697875,
+      "median_pre_rate_ratio": 1.1783333333333335,
+      "median_post_rate_ratio": 1.0153508771929824,
+      "significant_pre_fdr_0.05": 127,
+      "significant_post_fdr_0.05": 126
+    },
+    {
+      "radius_km": 200.0,
+      "n_eruptions": 941,
+      "n_sufficient_baseline": 626,
+      "n_pairs": 2242340,
+      "median_pre_rate_ratio": 1.1188752460189657,
+      "median_post_rate_ratio": 1.0784552199566173,
+      "significant_pre_fdr_0.05": 235,
+      "significant_post_fdr_0.05": 258
+    }
+  ],
+  "warnings": [],
+  "interpretation": "Observational association only; not eruption prediction and not causation."
+}

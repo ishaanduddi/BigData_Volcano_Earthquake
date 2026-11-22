@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-11-19T13:58:39+00:00",
+  "volcanoes": 1214,
+  "eruptions": 11089,
+  "invalid_volcano_coordinates": 0,
+  "invalid_eruption_coordinates": 0,
+  "eruptions_2000_2025": 1055,
+  "date_precision": {
+    "year": 4068,
+    "day": 6841,
+    "month": 180
+  },
+  "missing_counts": {
+    "start_year": 0,
+    "start_month": 250,
+    "start_day": 251,
+    "start_year_uncertainty": 9042
+  },
+  "storage": {
+    "volcanoes": {
+      "dataset": "volcanoes",
+      "created_at": "2026-11-19T13:58:11+00:00",
+      "rows": 1214,
+      "backend_primary": "hdfs",
+      "partition_by": [],
+      "compression": "snappy",
+      "hdfs_uri": "hdfs://localhost:9000/volcano/processed/volcanoes",
+      "local_mirror": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\processed\\volcanoes\\volcanoes",
+      "hdfs_bytes": 51359,
+      "local_bytes": 51779,
+      "verified": true,
+      "hdfs_rows_verified": 1214,
+      "local_files": 1
+    },
+    "eruptions": {
+      "dataset": "eruptions",
+      "created_at": "2026-11-19T13:58:27+00:00",
+      "rows": 11089,
+      "backend_primary": "hdfs",
+      "partition_by": [],
+      "compression": "snappy",
+      "hdfs_uri": "hdfs://localhost:9000/volcano/processed/eruptions",
+      "local_mirror": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\processed\\volcanoes\\eruptions",
+      "hdfs_bytes": 233640,
+      "local_bytes": 235484,
+      "verified": true,
+      "hdfs_rows_verified": 11089,
+      "local_files": 1
+    }
+  },
+  "source": "Global Volcanism Program, 2026. [Database] Volcanoes of the World (v. 5.4.0; 7 Aug 2026). Smithsonian Institution. https://volcano.si.edu/  Data retrieved via the official webservices.volcano.si.edu GeoServer WFS.",
+  "notes": [
+    "Dates with month/day 0 or null are assigned Jan-1 only for a joinable date column;",
+    "the original precision is stored in date_precision and must be respected in analysis.",
+    "start_year_uncertainty and date modifiers are preserved.",
+    "No missing dates or coordinates were invented."
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "dataset": "volcanoes",
+  "created_at": "2026-11-19T13:58:11+00:00",
+  "rows": 1214,
+  "backend_primary": "hdfs",
+  "partition_by": [],
+  "compression": "snappy",
+  "hdfs_uri": "hdfs://localhost:9000/volcano/processed/volcanoes",
+  "local_mirror": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\processed\\volcanoes\\volcanoes",
+  "hdfs_bytes": 51359,
+  "local_bytes": 51779,
+  "verified": true,
+  "hdfs_rows_verified": 1214,
+  "local_files": 1
+}

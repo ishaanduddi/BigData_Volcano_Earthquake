@@ -1,0 +1,90 @@
+dataset,fraction,rows,operation,engine,format,partitions,cached,repeat,seconds,result,notes,measured_at
+global,0.1,68190,load,pandas,parquet,,False,0,0.063534900007653,68190,,2026-11-19T16:15:46+00:00
+global,0.1,68190,groupby_year,pandas,parquet,,False,0,0.0057322999928146,26,,2026-11-19T16:15:46+00:00
+global,0.1,68190,load,pandas,parquet,,False,1,0.040986599997268,68190,,2026-11-19T16:15:46+00:00
+global,0.1,68190,groupby_year,pandas,parquet,,False,1,0.0052783999999519,26,,2026-11-19T16:15:46+00:00
+global,0.1,68190,load,pandas,parquet,,False,2,0.0432473000109894,68190,,2026-11-19T16:15:46+00:00
+global,0.1,68190,groupby_year,pandas,parquet,,False,2,0.0049737999943317,26,,2026-11-19T16:15:46+00:00
+global,0.1,68190,load,pandas,csv,,False,0,0.3404526000085752,68190,,2026-11-19T16:15:47+00:00
+global,0.1,68190,bvalue_grid,pandas,parquet,,False,0,0.0868380000028992,per-grid b-values,,2026-11-19T16:15:47+00:00
+global,0.1,68190,spatial_join,pandas,parquet,,False,0,0.121378600000753,77155,,2026-11-19T16:15:47+00:00
+global,0.1,68190,load,spark,parquet,,False,0,2.7043198000028497,68190,,2026-11-19T16:15:51+00:00
+global,0.1,68190,groupby_year,spark,parquet,,True,0,1.649459399995976,aggregated,,2026-11-19T16:15:52+00:00
+global,0.1,68190,load,spark,parquet,,False,1,0.1945944000035524,68190,,2026-11-19T16:15:53+00:00
+global,0.1,68190,groupby_year,spark,parquet,,True,1,0.1645368000026792,aggregated,,2026-11-19T16:15:54+00:00
+global,0.1,68190,load,spark,parquet,,False,2,0.1490097000059904,68190,,2026-11-19T16:15:54+00:00
+global,0.1,68190,groupby_year,spark,parquet,,True,2,0.144287200004328,aggregated,,2026-11-19T16:15:54+00:00
+global,0.1,68190,load,spark,csv,,False,0,0.8235256999905687,68190,,2026-11-19T16:15:55+00:00
+global,0.1,68190,groupby_year,spark,csv,,False,0,0.3302647999953478,aggregated,,2026-11-19T16:15:56+00:00
+global,0.1,68190,bvalue_grid,spark,parquet,,True,0,7.132940099996631,per-grid b-values,,2026-11-19T16:16:03+00:00
+global,0.1,68190,spatial_join,spark,parquet,,True,0,4.742611900001066,77155,,2026-11-19T16:16:08+00:00
+global,0.25,170476,load,pandas,parquet,,False,0,0.1351258000067901,170476,,2026-11-19T16:16:08+00:00
+global,0.25,170476,groupby_year,pandas,parquet,,False,0,0.0082827000005636,26,,2026-11-19T16:16:08+00:00
+global,0.25,170476,load,pandas,parquet,,False,1,0.1102475000079721,170476,,2026-11-19T16:16:08+00:00
+global,0.25,170476,groupby_year,pandas,parquet,,False,1,0.0083337999967625,26,,2026-11-19T16:16:08+00:00
+global,0.25,170476,load,pandas,parquet,,False,2,0.1162390000099549,170476,,2026-11-19T16:16:08+00:00
+global,0.25,170476,groupby_year,pandas,parquet,,False,2,0.0086472999973921,26,,2026-11-19T16:16:08+00:00
+global,0.25,170476,load,pandas,csv,,False,0,0.8668722000002163,170476,,2026-11-19T16:16:09+00:00
+global,0.25,170476,bvalue_grid,pandas,parquet,,False,0,0.1693437000067206,per-grid b-values,,2026-11-19T16:16:10+00:00
+global,0.25,170476,spatial_join,pandas,parquet,,False,0,0.2615778000035789,191793,,2026-11-19T16:16:10+00:00
+global,0.25,170476,load,spark,parquet,,False,0,0.1823278000083519,170476,,2026-11-19T16:16:11+00:00
+global,0.25,170476,groupby_year,spark,parquet,,True,0,0.1065456999931484,aggregated,,2026-11-19T16:16:11+00:00
+global,0.25,170476,load,spark,parquet,,False,1,0.1237123999890172,170476,,2026-11-19T16:16:12+00:00
+global,0.25,170476,groupby_year,spark,parquet,,True,1,0.1426877999911084,aggregated,,2026-11-19T16:16:13+00:00
+global,0.25,170476,load,spark,parquet,,False,2,0.1270079000096302,170476,,2026-11-19T16:16:14+00:00
+global,0.25,170476,groupby_year,spark,parquet,,True,2,0.0940968999930191,aggregated,,2026-11-19T16:16:14+00:00
+global,0.25,170476,load,spark,csv,,False,0,0.4947246999945491,170476,,2026-11-19T16:16:14+00:00
+global,0.25,170476,groupby_year,spark,csv,,False,0,0.2119210000091698,aggregated,,2026-11-19T16:16:14+00:00
+global,0.25,170476,bvalue_grid,spark,parquet,,True,0,6.318678900002851,per-grid b-values,,2026-11-19T16:16:22+00:00
+global,0.25,170476,spatial_join,spark,parquet,,True,0,4.146300099993823,191793,,2026-11-19T16:16:26+00:00
+global,0.5,340951,load,pandas,parquet,,False,0,0.2674731000006431,340951,,2026-11-19T16:16:26+00:00
+global,0.5,340951,groupby_year,pandas,parquet,,False,0,0.0206583000108366,26,,2026-11-19T16:16:26+00:00
+global,0.5,340951,load,pandas,parquet,,False,1,0.243960000007064,340951,,2026-11-19T16:16:27+00:00
+global,0.5,340951,groupby_year,pandas,parquet,,False,1,0.0145072999875992,26,,2026-11-19T16:16:27+00:00
+global,0.5,340951,load,pandas,parquet,,False,2,0.2252675000054296,340951,,2026-11-19T16:16:27+00:00
+global,0.5,340951,groupby_year,pandas,parquet,,False,2,0.0157948999985819,26,,2026-11-19T16:16:27+00:00
+global,0.5,340951,load,pandas,csv,,False,0,1.8277367999980925,340951,,2026-11-19T16:16:29+00:00
+global,0.5,340951,bvalue_grid,pandas,parquet,,False,0,0.2565412999974796,per-grid b-values,,2026-11-19T16:16:29+00:00
+global,0.5,340951,spatial_join,pandas,parquet,,False,0,0.519092600006843,384964,,2026-11-19T16:16:30+00:00
+global,0.5,340951,load,spark,parquet,,False,0,0.1699098999961279,340951,,2026-11-19T16:16:32+00:00
+global,0.5,340951,groupby_year,spark,parquet,,True,0,0.1037913000036496,aggregated,,2026-11-19T16:16:32+00:00
+global,0.5,340951,load,spark,parquet,,False,1,0.1007666999939829,340951,,2026-11-19T16:16:33+00:00
+global,0.5,340951,groupby_year,spark,parquet,,True,1,0.1105891999904997,aggregated,,2026-11-19T16:16:34+00:00
+global,0.5,340951,load,spark,parquet,,False,2,0.0968413999944459,340951,,2026-11-19T16:16:35+00:00
+global,0.5,340951,groupby_year,spark,parquet,,True,2,0.1117610999936005,aggregated,,2026-11-19T16:16:35+00:00
+global,0.5,340951,load,spark,csv,,False,0,0.5359381999878678,340951,,2026-11-19T16:16:36+00:00
+global,0.5,340951,groupby_year,spark,csv,,False,0,0.2522293000074569,aggregated,,2026-11-19T16:16:36+00:00
+global,0.5,340951,bvalue_grid,spark,parquet,,True,0,6.656630800003768,per-grid b-values,,2026-11-19T16:16:45+00:00
+global,0.5,340951,spatial_join,spark,parquet,,True,0,4.866993700008607,384964,,2026-11-19T16:16:49+00:00
+global,1.0,681902,load,pandas,parquet,,False,0,0.4972182000055909,681902,,2026-11-19T16:16:50+00:00
+global,1.0,681902,groupby_year,pandas,parquet,,False,0,0.0336141000007046,26,,2026-11-19T16:16:50+00:00
+global,1.0,681902,load,pandas,parquet,,False,1,0.463889199992991,681902,,2026-11-19T16:16:50+00:00
+global,1.0,681902,groupby_year,pandas,parquet,,False,1,0.0278912999929161,26,,2026-11-19T16:16:50+00:00
+global,1.0,681902,load,pandas,parquet,,False,2,0.4319392000033986,681902,,2026-11-19T16:16:51+00:00
+global,1.0,681902,groupby_year,pandas,parquet,,False,2,0.0351512000052025,26,,2026-11-19T16:16:51+00:00
+global,1.0,681902,load,pandas,csv,,False,0,3.533096099999966,681902,,2026-11-19T16:16:54+00:00
+global,1.0,681902,bvalue_grid,pandas,parquet,,False,0,0.32487250000122,per-grid b-values,,2026-11-19T16:16:55+00:00
+global,1.0,681902,spatial_join,pandas,parquet,,False,0,1.1443799000116996,771824,,2026-11-19T16:16:57+00:00
+global,1.0,681902,load,spark,parquet,,False,0,0.1551136999914888,681902,,2026-11-19T16:17:00+00:00
+global,1.0,681902,groupby_year,spark,parquet,,True,0,0.1438123999978415,aggregated,,2026-11-19T16:17:00+00:00
+global,1.0,681902,load,spark,parquet,,False,1,0.1050369000004138,681902,,2026-11-19T16:52:02+00:00
+global,1.0,681902,groupby_year,spark,parquet,,True,1,0.2883412000082899,aggregated,,2026-11-19T16:52:02+00:00
+global,1.0,681902,load,spark,parquet,,False,2,0.1378189999959431,681902,,2026-11-19T16:52:09+00:00
+global,1.0,681902,groupby_year,spark,parquet,,True,2,0.2464380000019446,aggregated,,2026-11-19T16:52:10+00:00
+global,1.0,681902,load,spark,csv,,False,0,1.401910400003544,681902,,2026-11-19T16:52:11+00:00
+global,1.0,681902,groupby_year,spark,csv,,False,0,0.675265700003365,aggregated,,2026-11-19T16:52:12+00:00
+global,1.0,681902,bvalue_grid,spark,parquet,,True,0,10.433282600002713,per-grid b-values,,2026-11-19T16:52:29+00:00
+global,1.0,681902,spatial_join,spark,parquet,,True,0,8.041723300004378,771824,,2026-11-19T16:52:37+00:00
+global,1.0,681902,groupby_year,spark,parquet,8.0,True,0,1.315012699997169,repartitioned,,2026-11-19T16:52:44+00:00
+global,1.0,681902,groupby_year,pandas,parquet,8.0,False,0,0.0115772999924956,single-machine reference,Pandas has no partition parameter; repeated for comparison,2026-11-19T16:52:44+00:00
+global,1.0,681902,groupby_year,spark,parquet,16.0,True,0,1.2814835000026503,repartitioned,,2026-11-19T16:52:45+00:00
+global,1.0,681902,groupby_year,pandas,parquet,16.0,False,0,0.0115772999924956,single-machine reference,Pandas has no partition parameter; repeated for comparison,2026-11-19T16:52:45+00:00
+global,1.0,681902,groupby_year,spark,parquet,32.0,True,0,1.9616196999995736,repartitioned,,2026-11-19T16:52:47+00:00
+global,1.0,681902,groupby_year,pandas,parquet,32.0,False,0,0.0115772999924956,single-machine reference,Pandas has no partition parameter; repeated for comparison,2026-11-19T16:52:47+00:00
+global,1.0,681902,groupby_year,spark,parquet,64.0,True,0,3.4132296000025235,repartitioned,,2026-11-19T16:52:51+00:00
+global,1.0,681902,groupby_year,pandas,parquet,64.0,False,0,0.0115772999924956,single-machine reference,Pandas has no partition parameter; repeated for comparison,2026-11-19T16:52:51+00:00
+global,1.0,681902,groupby_year,spark,parquet,,False,0,0.2454568000102881,uncached,,2026-11-19T16:52:51+00:00
+global,1.0,681902,groupby_year,spark,parquet,,True,0,0.1154621000023325,cached,,2026-11-19T16:52:54+00:00
+global,1.0,50000,st_dbscan_clustering,pandas,parquet,,False,0,1.917415300005814,175,single-machine reference,2026-11-19T16:53:01+00:00
+global,1.0,50000,st_dbscan_clustering,spark,parquet,,False,0,35.72918720000598,167,distributed local clustering + driver merge,2026-11-19T16:53:36+00:00
+global,1.0,681902,groupby_year,pandas,csv,,False,0,0.027991900002234615,26,supplemental pandas CSV group-by measurement,2026-11-19T17:20:38.813661+00:00

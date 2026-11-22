@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-11-19T16:15:22+00:00",
+  "dataset": "global",
+  "hardware": {
+    "timestamp": "2026-11-19T16:15:22+00:00",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+    "cpu_logical": 16,
+    "cpu_physical": 8,
+    "cpu_freq_mhz": 3801.0,
+    "ram_total_bytes": 16435761152,
+    "ram_available_bytes": 5675753472,
+    "python": "3.12.10",
+    "disk_free_bytes": 309759262720
+  },
+  "spark_config": {
+    "master": "local[6]",
+    "driver_memory": "5g",
+    "shuffle_partitions": 32,
+    "ui_enabled": false,
+    "log_level": "WARN",
+    "arrow_enabled": true,
+    "execution_note": "Spark local[*] mode: distributed computation across partitions on one machine, not a multi-machine cluster."
+  },
+  "benchmark_config": {
+    "fractions": [
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "partitions": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "formats": [
+      "csv",
+      "parquet"
+    ],
+    "caching": [
+      false,
+      true
+    ],
+    "repeats": 3,
+    "warmup_runs": 1,
+    "clustering_sample_rows": 50000,
+    "timeout_seconds": 1800,
+    "results_dir": "results/benchmarks"
+  },
+  "execution_note": "Spark local mode on one machine; not a multi-node cluster."
+}

@@ -1,0 +1,5011 @@
+{
+  "chunks": {
+    "2000/2000-01.csv": {
+      "file": "2000/2000-01.csv",
+      "dataset": "global",
+      "count_api": 1307,
+      "rows": 1307,
+      "sha256": "037d30303629149d21a3b4c7ae21851c71f2bc7082cf5421980e5a0afaf100d9",
+      "downloaded_at": "2026-11-19T13:14:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-01-01T00:00:00",
+        "endtime": "2000-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 216122,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2000/2000-01.csv/2000-01.csv"
+    },
+    "2002/2002-01.csv": {
+      "file": "2002/2002-01.csv",
+      "dataset": "global",
+      "count_api": 1838,
+      "rows": 1838,
+      "sha256": "85877313b4b30523c86b950ac81806e713c52075cb9d1065aee493774738764c",
+      "downloaded_at": "2026-11-19T13:15:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-01-01T00:00:00",
+        "endtime": "2002-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 305752,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2002/2002-01.csv"
+    },
+    "2004/2004-01.csv": {
+      "file": "2004/2004-01.csv",
+      "dataset": "global",
+      "count_api": 2117,
+      "rows": 2117,
+      "sha256": "40badeb9715f481c4a8e72a2f735c938068cb05810bfd332c00e1ebdd6d9066c",
+      "downloaded_at": "2026-11-19T13:16:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-01-01T00:00:00",
+        "endtime": "2004-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 363038,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2004/2004-01.csv"
+    },
+    "2006/2006-01.csv": {
+      "file": "2006/2006-01.csv",
+      "dataset": "global",
+      "count_api": 2242,
+      "rows": 2242,
+      "sha256": "f5bffeacb0e8e161cae224d8f1a326f7d9ab523430475c36d546a5ae1a19e4d3",
+      "downloaded_at": "2026-11-19T13:16:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-01-01T00:00:00",
+        "endtime": "2006-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 379825,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2006/2006-01.csv"
+    },
+    "2008/2008-01.csv": {
+      "file": "2008/2008-01.csv",
+      "dataset": "global",
+      "count_api": 2356,
+      "rows": 2356,
+      "sha256": "bf0e6f37a7f00cf7330756ab061cec8b39a5edd0f8cd0e4f04c38b21c8c893a4",
+      "downloaded_at": "2026-11-19T13:16:56+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-01-01T00:00:00",
+        "endtime": "2008-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 397624,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2008/2008-01.csv"
+    },
+    "2010/2010-01.csv": {
+      "file": "2010/2010-01.csv",
+      "dataset": "global",
+      "count_api": 1449,
+      "rows": 1449,
+      "sha256": "68059e65761c1f3f1096fd26e9b0778a15149fa3977b1b32d5338b953d41f645",
+      "downloaded_at": "2026-11-19T13:17:17+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-01-01T00:00:00",
+        "endtime": "2010-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 251168,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2010/2010-01.csv"
+    },
+    "2012/2012-01.csv": {
+      "file": "2012/2012-01.csv",
+      "dataset": "global",
+      "count_api": 1491,
+      "rows": 1491,
+      "sha256": "3b51ab28d0e3a995fce02b297e6e77ef5d02fc5fd2c9cd974111e7c1742aad58",
+      "downloaded_at": "2026-11-19T13:17:37+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-01-01T00:00:00",
+        "endtime": "2012-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 255293,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2012/2012-01.csv"
+    },
+    "2014/2014-01.csv": {
+      "file": "2014/2014-01.csv",
+      "dataset": "global",
+      "count_api": 2415,
+      "rows": 2415,
+      "sha256": "6cab6bf66b44135860e7b33bec7750c51e7c5fd4da5fccb6f25b2083078c30c8",
+      "downloaded_at": "2026-11-19T13:17:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-01-01T00:00:00",
+        "endtime": "2014-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 435528,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2014/2014-01.csv"
+    },
+    "2016/2016-01.csv": {
+      "file": "2016/2016-01.csv",
+      "dataset": "global",
+      "count_api": 2290,
+      "rows": 2290,
+      "sha256": "2ca4fee1b156167abcc67bedf4b2486cb974ff55f2bec5e90dc7e74aa3730f3c",
+      "downloaded_at": "2026-11-19T13:18:16+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-01-01T00:00:00",
+        "endtime": "2016-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 415812,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2016/2016-01.csv"
+    },
+    "2018/2018-01.csv": {
+      "file": "2018/2018-01.csv",
+      "dataset": "global",
+      "count_api": 2928,
+      "rows": 2928,
+      "sha256": "d2b59bce8bfc96263f08793069d724aa744c7b71f4a7e06b3f97771be271f33f",
+      "downloaded_at": "2026-11-19T13:18:35+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-01-01T00:00:00",
+        "endtime": "2018-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 535193,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2018/2018-01.csv"
+    },
+    "2020/2020-01.csv": {
+      "file": "2020/2020-01.csv",
+      "dataset": "global",
+      "count_api": 4277,
+      "rows": 4277,
+      "sha256": "fba63fb08b7ae90b447617b550427c287a8513e0ba27b1bdf40fe9166357b554",
+      "downloaded_at": "2026-11-19T13:18:50+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-01-01T00:00:00",
+        "endtime": "2020-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 793124,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2020/2020-01.csv"
+    },
+    "2022/2022-01.csv": {
+      "file": "2022/2022-01.csv",
+      "dataset": "global",
+      "count_api": 2539,
+      "rows": 2539,
+      "sha256": "7fafd83405b89cc6fa64ebf1712fa9c025dcb2e230e98ba9d8a1d6da70aadb83",
+      "downloaded_at": "2026-11-19T13:19:05+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-01-01T00:00:00",
+        "endtime": "2022-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 467079,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2022/2022-01.csv"
+    },
+    "2024/2024-01.csv": {
+      "file": "2024/2024-01.csv",
+      "dataset": "global",
+      "count_api": 2249,
+      "rows": 2249,
+      "sha256": "d87214a2289abe0329f563249ceecf65d0f60f96b87251e70e6a55b435be277a",
+      "downloaded_at": "2026-11-19T13:19:17+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-01-01T00:00:00",
+        "endtime": "2024-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 427855,
+      "hdfs_uri": "hdfs://localhost:9000/earthquake/raw/global/2024/2024-01.csv"
+    },
+    "2000/2000-02.csv": {
+      "file": "2000/2000-02.csv",
+      "dataset": "global",
+      "count_api": 1182,
+      "rows": 1182,
+      "sha256": "ee007025b4ce4daed37b677746355904c174b3995a5ac34772b3e0d6ad0d60d4",
+      "downloaded_at": "2026-11-19T15:10:58+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-02-01T00:00:00",
+        "endtime": "2000-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 195453
+    },
+    "2000/2000-03.csv": {
+      "file": "2000/2000-03.csv",
+      "dataset": "global",
+      "count_api": 1406,
+      "rows": 1406,
+      "sha256": "59054aa32779b33ddfc20d6e3677ccef1098d74ea53b3d969ffc05c3e030cd2d",
+      "downloaded_at": "2026-11-19T15:10:59+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-03-01T00:00:00",
+        "endtime": "2000-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 232288
+    },
+    "2000/2000-04.csv": {
+      "file": "2000/2000-04.csv",
+      "dataset": "global",
+      "count_api": 1507,
+      "rows": 1507,
+      "sha256": "68829aa225e7db3f9eda23adf34a2cdaa555116f0a35d5ced3ad901d21954f5a",
+      "downloaded_at": "2026-11-19T15:11:01+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-04-01T00:00:00",
+        "endtime": "2000-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 247315
+    },
+    "2000/2000-05.csv": {
+      "file": "2000/2000-05.csv",
+      "dataset": "global",
+      "count_api": 1631,
+      "rows": 1631,
+      "sha256": "c950c4e0abd19e683d86cf1a9f68f38cb3c1b1245a937944eb94d190312f9fe5",
+      "downloaded_at": "2026-11-19T15:11:02+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-05-01T00:00:00",
+        "endtime": "2000-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 269897
+    },
+    "2000/2000-06.csv": {
+      "file": "2000/2000-06.csv",
+      "dataset": "global",
+      "count_api": 1598,
+      "rows": 1598,
+      "sha256": "01549cc1577459f2c2f801fad6cba06fd90fc703bba088cbba184a14316e13a7",
+      "downloaded_at": "2026-11-19T15:11:03+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-06-01T00:00:00",
+        "endtime": "2000-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 265413
+    },
+    "2000/2000-07.csv": {
+      "file": "2000/2000-07.csv",
+      "dataset": "global",
+      "count_api": 1799,
+      "rows": 1799,
+      "sha256": "293b7ab294833f1dd71f9de7b7636193ed8fd5fe104812ed3c49acf09094f1e1",
+      "downloaded_at": "2026-11-19T15:11:04+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-07-01T00:00:00",
+        "endtime": "2000-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 296704
+    },
+    "2000/2000-08.csv": {
+      "file": "2000/2000-08.csv",
+      "dataset": "global",
+      "count_api": 1643,
+      "rows": 1643,
+      "sha256": "d82dd8d172a3fe008bf9cc598e4a6db45d85e20179bf9fd350879d49e896f9f1",
+      "downloaded_at": "2026-11-19T15:11:06+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-08-01T00:00:00",
+        "endtime": "2000-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 270973
+    },
+    "2000/2000-09.csv": {
+      "file": "2000/2000-09.csv",
+      "dataset": "global",
+      "count_api": 1336,
+      "rows": 1336,
+      "sha256": "cda4b3f981d7ac445c4227e642b4dfa02b2ce79c8839bc9042131b5420ecf593",
+      "downloaded_at": "2026-11-19T15:11:07+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-09-01T00:00:00",
+        "endtime": "2000-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 222644
+    },
+    "2000/2000-10.csv": {
+      "file": "2000/2000-10.csv",
+      "dataset": "global",
+      "count_api": 1416,
+      "rows": 1416,
+      "sha256": "5aee49ff86a4099987c742cd1e380b3756ba34943229268e2529f2a95995bed6",
+      "downloaded_at": "2026-11-19T15:11:09+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-10-01T00:00:00",
+        "endtime": "2000-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 234707
+    },
+    "2000/2000-11.csv": {
+      "file": "2000/2000-11.csv",
+      "dataset": "global",
+      "count_api": 1969,
+      "rows": 1969,
+      "sha256": "72c7c71d19aa75f8801a975b97bb364e2e2504bd7b426aaa5356e6972663ac07",
+      "downloaded_at": "2026-11-19T15:11:10+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-11-01T00:00:00",
+        "endtime": "2000-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 328471
+    },
+    "2000/2000-12.csv": {
+      "file": "2000/2000-12.csv",
+      "dataset": "global",
+      "count_api": 1587,
+      "rows": 1587,
+      "sha256": "e993296c300ce235edbdf781226e54a24d9b8686b70aa79afa2772d0a3f6a322",
+      "downloaded_at": "2026-11-19T15:11:11+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2000-12-01T00:00:00",
+        "endtime": "2001-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 263919
+    },
+    "2001/2001-01.csv": {
+      "file": "2001/2001-01.csv",
+      "dataset": "global",
+      "count_api": 1725,
+      "rows": 1725,
+      "sha256": "0a3aee70c238fae9eb0f71f872750289d61776eec50269f31b9e567ca1cb995d",
+      "downloaded_at": "2026-11-19T15:11:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-01-01T00:00:00",
+        "endtime": "2001-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 285658
+    },
+    "2001/2001-02.csv": {
+      "file": "2001/2001-02.csv",
+      "dataset": "global",
+      "count_api": 1636,
+      "rows": 1636,
+      "sha256": "130af810a27987c47ea77ef3709feb43738af473f922429ce02d9666f7cf060d",
+      "downloaded_at": "2026-11-19T15:11:14+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-02-01T00:00:00",
+        "endtime": "2001-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 271021
+    },
+    "2001/2001-03.csv": {
+      "file": "2001/2001-03.csv",
+      "dataset": "global",
+      "count_api": 1607,
+      "rows": 1607,
+      "sha256": "d464f4b60532165559b2c61585fb1bf416e4058a5662679baa4bf5d3d06cc24c",
+      "downloaded_at": "2026-11-19T15:11:15+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-03-01T00:00:00",
+        "endtime": "2001-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 266250
+    },
+    "2001/2001-04.csv": {
+      "file": "2001/2001-04.csv",
+      "dataset": "global",
+      "count_api": 1908,
+      "rows": 1908,
+      "sha256": "c00887fe09d64011548d41740a59ab75effdeb49a69921a881ebd349fec9ed96",
+      "downloaded_at": "2026-11-19T15:11:16+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-04-01T00:00:00",
+        "endtime": "2001-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 316609
+    },
+    "2001/2001-05.csv": {
+      "file": "2001/2001-05.csv",
+      "dataset": "global",
+      "count_api": 1564,
+      "rows": 1564,
+      "sha256": "33e7c8867ad7fbdbebeb0bd29da13a861a467c5ffc6f7e25b4a7c73ae653c0ec",
+      "downloaded_at": "2026-11-19T15:11:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-05-01T00:00:00",
+        "endtime": "2001-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 260463
+    },
+    "2001/2001-06.csv": {
+      "file": "2001/2001-06.csv",
+      "dataset": "global",
+      "count_api": 1821,
+      "rows": 1821,
+      "sha256": "b70b8e6729bb8f904590759919578b140febf43d1cb6b96508407b94beddd82f",
+      "downloaded_at": "2026-11-19T15:11:19+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-06-01T00:00:00",
+        "endtime": "2001-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 299319
+    },
+    "2001/2001-07.csv": {
+      "file": "2001/2001-07.csv",
+      "dataset": "global",
+      "count_api": 1841,
+      "rows": 1841,
+      "sha256": "ed85874c08ddc0a53c7767528a450a5814c240877bc4cb54d6e076b224c1026f",
+      "downloaded_at": "2026-11-19T15:11:20+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-07-01T00:00:00",
+        "endtime": "2001-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 308860
+    },
+    "2001/2001-08.csv": {
+      "file": "2001/2001-08.csv",
+      "dataset": "global",
+      "count_api": 1703,
+      "rows": 1703,
+      "sha256": "0b6a40b8b0d07d352ebb61d640612e63e9d0fa2e2b3e2493e9284d1f3f28ffe8",
+      "downloaded_at": "2026-11-19T15:11:22+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-08-01T00:00:00",
+        "endtime": "2001-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 283163
+    },
+    "2001/2001-09.csv": {
+      "file": "2001/2001-09.csv",
+      "dataset": "global",
+      "count_api": 1581,
+      "rows": 1581,
+      "sha256": "3c78fada267ff0e92262a642a5037de698e3cb082117f4f221496edad3d47993",
+      "downloaded_at": "2026-11-19T15:11:23+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-09-01T00:00:00",
+        "endtime": "2001-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 261869
+    },
+    "2001/2001-10.csv": {
+      "file": "2001/2001-10.csv",
+      "dataset": "global",
+      "count_api": 1771,
+      "rows": 1771,
+      "sha256": "3e340fd54e5eba804682fa5050dce267f652094b8828566632140fcbb4a7d4f3",
+      "downloaded_at": "2026-11-19T15:11:24+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-10-01T00:00:00",
+        "endtime": "2001-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 294973
+    },
+    "2001/2001-11.csv": {
+      "file": "2001/2001-11.csv",
+      "dataset": "global",
+      "count_api": 1676,
+      "rows": 1676,
+      "sha256": "d885f833b1e3d8d4ae943f71b5560d291225ae3b74d1925c8e42f7217bd70f6f",
+      "downloaded_at": "2026-11-19T15:11:25+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-11-01T00:00:00",
+        "endtime": "2001-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 277021
+    },
+    "2001/2001-12.csv": {
+      "file": "2001/2001-12.csv",
+      "dataset": "global",
+      "count_api": 1811,
+      "rows": 1811,
+      "sha256": "122ff60744a2e832a25288226cd72d0bdae00a405055a3bbf4128af12b15b53b",
+      "downloaded_at": "2026-11-19T15:11:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2001-12-01T00:00:00",
+        "endtime": "2002-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 300020
+    },
+    "2002/2002-02.csv": {
+      "file": "2002/2002-02.csv",
+      "dataset": "global",
+      "count_api": 1680,
+      "rows": 1680,
+      "sha256": "226f18fe8c7a9fbd1330222da1353e3b38168663a29243e0efab178e6a946ecb",
+      "downloaded_at": "2026-11-19T15:11:28+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-02-01T00:00:00",
+        "endtime": "2002-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 281262
+    },
+    "2002/2002-03.csv": {
+      "file": "2002/2002-03.csv",
+      "dataset": "global",
+      "count_api": 1935,
+      "rows": 1935,
+      "sha256": "441dc14a2bb7b3b836b8859272de9f6a30f7ae9e6de3b4ff6198aeed80e5d891",
+      "downloaded_at": "2026-11-19T15:11:29+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-03-01T00:00:00",
+        "endtime": "2002-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 321899
+    },
+    "2002/2002-04.csv": {
+      "file": "2002/2002-04.csv",
+      "dataset": "global",
+      "count_api": 1765,
+      "rows": 1765,
+      "sha256": "afed338affbb510eaf36bb92e0c01b812fbd3388de5bff6c198b3cee2dfb8262",
+      "downloaded_at": "2026-11-19T15:11:30+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-04-01T00:00:00",
+        "endtime": "2002-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 290272
+    },
+    "2002/2002-05.csv": {
+      "file": "2002/2002-05.csv",
+      "dataset": "global",
+      "count_api": 1659,
+      "rows": 1659,
+      "sha256": "0aa376772695c1ea53a7d2874d4990619b21fc404310cf663fcf69c46bbb18f2",
+      "downloaded_at": "2026-11-19T15:11:32+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-05-01T00:00:00",
+        "endtime": "2002-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 275343
+    },
+    "2002/2002-06.csv": {
+      "file": "2002/2002-06.csv",
+      "dataset": "global",
+      "count_api": 1776,
+      "rows": 1776,
+      "sha256": "3d55a5ebefcd9fc53af68ee21340e274f1240aef1bc116526b148476d458808d",
+      "downloaded_at": "2026-11-19T15:11:33+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-06-01T00:00:00",
+        "endtime": "2002-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 293627
+    },
+    "2002/2002-07.csv": {
+      "file": "2002/2002-07.csv",
+      "dataset": "global",
+      "count_api": 1632,
+      "rows": 1632,
+      "sha256": "6f0d66d69dedafd976eee3653b9c536a662254608e5c46c16a4bd0117bb2c5f1",
+      "downloaded_at": "2026-11-19T15:11:35+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-07-01T00:00:00",
+        "endtime": "2002-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 269858
+    },
+    "2002/2002-08.csv": {
+      "file": "2002/2002-08.csv",
+      "dataset": "global",
+      "count_api": 1691,
+      "rows": 1691,
+      "sha256": "bfdcecfbacdd3e1b4f904f5102685b138714a3eeac4b883dce7194e3fca10bd4",
+      "downloaded_at": "2026-11-19T15:11:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-08-01T00:00:00",
+        "endtime": "2002-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 277809
+    },
+    "2002/2002-09.csv": {
+      "file": "2002/2002-09.csv",
+      "dataset": "global",
+      "count_api": 2096,
+      "rows": 2096,
+      "sha256": "38aff720998e604b5560822f09925dd0c87eb06f074ad22568c246575ae8e7fc",
+      "downloaded_at": "2026-11-19T15:11:38+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-09-01T00:00:00",
+        "endtime": "2002-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 343105
+    },
+    "2002/2002-10.csv": {
+      "file": "2002/2002-10.csv",
+      "dataset": "global",
+      "count_api": 1948,
+      "rows": 1948,
+      "sha256": "ba4018a27ee67b5993638ffb6d93295e9509fec8a82e48258c4bbec0b71069d7",
+      "downloaded_at": "2026-11-19T15:11:39+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-10-01T00:00:00",
+        "endtime": "2002-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 320429
+    },
+    "2002/2002-11.csv": {
+      "file": "2002/2002-11.csv",
+      "dataset": "global",
+      "count_api": 3589,
+      "rows": 3589,
+      "sha256": "f0a3e7dde3472ccfb81f2f84658bdb7c89e3c684e94d607b621704b313f5b76d",
+      "downloaded_at": "2026-11-19T15:11:41+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-11-01T00:00:00",
+        "endtime": "2002-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 596929
+    },
+    "2002/2002-12.csv": {
+      "file": "2002/2002-12.csv",
+      "dataset": "global",
+      "count_api": 2047,
+      "rows": 2047,
+      "sha256": "7781102a5773a6c27adaeea0835bb32ed87dbf39977267dc41b11aa06800e067",
+      "downloaded_at": "2026-11-19T15:11:42+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2002-12-01T00:00:00",
+        "endtime": "2003-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 337967
+    },
+    "2003/2003-01.csv": {
+      "file": "2003/2003-01.csv",
+      "dataset": "global",
+      "count_api": 1837,
+      "rows": 1837,
+      "sha256": "d6616bb7a0dd22a92b201513167224b1783b738068e25efbbe639ff9ac943283",
+      "downloaded_at": "2026-11-19T15:11:44+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-01-01T00:00:00",
+        "endtime": "2003-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 303842
+    },
+    "2003/2003-02.csv": {
+      "file": "2003/2003-02.csv",
+      "dataset": "global",
+      "count_api": 1770,
+      "rows": 1770,
+      "sha256": "76f212564d84dd6c45bcbb6663116afa6f5f374183c3692b69a39b74ba662de3",
+      "downloaded_at": "2026-11-19T15:11:45+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-02-01T00:00:00",
+        "endtime": "2003-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 293602
+    },
+    "2003/2003-03.csv": {
+      "file": "2003/2003-03.csv",
+      "dataset": "global",
+      "count_api": 2251,
+      "rows": 2251,
+      "sha256": "f1d2ad41a7c6c62d9f2b2fb2261fc706e5b3f61e5c8a4e28f18aa962fbfb6b39",
+      "downloaded_at": "2026-11-19T15:11:47+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-03-01T00:00:00",
+        "endtime": "2003-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 379599
+    },
+    "2003/2003-04.csv": {
+      "file": "2003/2003-04.csv",
+      "dataset": "global",
+      "count_api": 1969,
+      "rows": 1969,
+      "sha256": "96d501924c5abce7ece02ab569a39584bb22871d91f751b18839d7878c557cd3",
+      "downloaded_at": "2026-11-19T15:11:49+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-04-01T00:00:00",
+        "endtime": "2003-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 330904
+    },
+    "2003/2003-05.csv": {
+      "file": "2003/2003-05.csv",
+      "dataset": "global",
+      "count_api": 2050,
+      "rows": 2050,
+      "sha256": "b19996a23c409229704380611456ca4303c830aeccc3b19cbe27f4f0bf0c58f0",
+      "downloaded_at": "2026-11-19T15:11:50+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-05-01T00:00:00",
+        "endtime": "2003-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 344970
+    },
+    "2003/2003-06.csv": {
+      "file": "2003/2003-06.csv",
+      "dataset": "global",
+      "count_api": 2218,
+      "rows": 2218,
+      "sha256": "82f671291470a0e25efb2083876dc7548368ffa91ffef833d6494c840d0dcc77",
+      "downloaded_at": "2026-11-19T15:11:51+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-06-01T00:00:00",
+        "endtime": "2003-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 370472
+    },
+    "2003/2003-07.csv": {
+      "file": "2003/2003-07.csv",
+      "dataset": "global",
+      "count_api": 1989,
+      "rows": 1989,
+      "sha256": "ac17952f0e3edcc994709a331771c21345aeaf0ac3469deedd1e3c4f63423175",
+      "downloaded_at": "2026-11-19T15:11:53+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-07-01T00:00:00",
+        "endtime": "2003-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 332380
+    },
+    "2003/2003-08.csv": {
+      "file": "2003/2003-08.csv",
+      "dataset": "global",
+      "count_api": 2023,
+      "rows": 2023,
+      "sha256": "6d989808378df3731ab4d7773cda85ca288495336021d960e4ce167947291786",
+      "downloaded_at": "2026-11-19T15:11:54+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-08-01T00:00:00",
+        "endtime": "2003-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 336579
+    },
+    "2003/2003-09.csv": {
+      "file": "2003/2003-09.csv",
+      "dataset": "global",
+      "count_api": 1932,
+      "rows": 1932,
+      "sha256": "cdf264f5c90d30f1ae0579232e9ca2a04f885d24999aa61552718ec590d0a6ae",
+      "downloaded_at": "2026-11-19T15:11:56+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-09-01T00:00:00",
+        "endtime": "2003-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 324430
+    },
+    "2003/2003-10.csv": {
+      "file": "2003/2003-10.csv",
+      "dataset": "global",
+      "count_api": 1931,
+      "rows": 1931,
+      "sha256": "75e0bd0dd52e95bc1441e6874ba32b4fe6581895cc8f3c00c9e77d6a3bc6df45",
+      "downloaded_at": "2026-11-19T15:11:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-10-01T00:00:00",
+        "endtime": "2003-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 325291
+    },
+    "2003/2003-11.csv": {
+      "file": "2003/2003-11.csv",
+      "dataset": "global",
+      "count_api": 2086,
+      "rows": 2086,
+      "sha256": "8af1b1e8e51503ceb267661bd1c7ae3abb755268ad152725f55a2570a0247aa6",
+      "downloaded_at": "2026-11-19T15:11:58+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-11-01T00:00:00",
+        "endtime": "2003-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 353109
+    },
+    "2003/2003-12.csv": {
+      "file": "2003/2003-12.csv",
+      "dataset": "global",
+      "count_api": 2530,
+      "rows": 2530,
+      "sha256": "bb249baeb00a76d852234d8827967b2cf38d4d7d19e20274d96cd4178ad73b4f",
+      "downloaded_at": "2026-11-19T15:12:00+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2003-12-01T00:00:00",
+        "endtime": "2004-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 441710
+    },
+    "2004/2004-02.csv": {
+      "file": "2004/2004-02.csv",
+      "dataset": "global",
+      "count_api": 2244,
+      "rows": 2244,
+      "sha256": "860bc3e4b0292530d0e140e46fc20bfe6da88e78ebb5561d25f72dbecceb8bb0",
+      "downloaded_at": "2026-11-19T15:12:02+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-02-01T00:00:00",
+        "endtime": "2004-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 378119
+    },
+    "2004/2004-03.csv": {
+      "file": "2004/2004-03.csv",
+      "dataset": "global",
+      "count_api": 2160,
+      "rows": 2160,
+      "sha256": "937a7441a0e8b1645da80121d832ab6b51e3cba55a295a164370729dca198eb9",
+      "downloaded_at": "2026-11-19T15:12:03+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-03-01T00:00:00",
+        "endtime": "2004-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 365783
+    },
+    "2004/2004-04.csv": {
+      "file": "2004/2004-04.csv",
+      "dataset": "global",
+      "count_api": 1967,
+      "rows": 1967,
+      "sha256": "501b92b16e5aa2c2b145e37798219ec11652c1a41622c3aed02c934ce58c282a",
+      "downloaded_at": "2026-11-19T15:12:05+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-04-01T00:00:00",
+        "endtime": "2004-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 332627
+    },
+    "2004/2004-05.csv": {
+      "file": "2004/2004-05.csv",
+      "dataset": "global",
+      "count_api": 2337,
+      "rows": 2337,
+      "sha256": "3055eb4a789d5cd906bb91b245b232604c20522b580a37e9eb5ec8157c4de5a3",
+      "downloaded_at": "2026-11-19T15:12:07+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-05-01T00:00:00",
+        "endtime": "2004-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 393614
+    },
+    "2004/2004-06.csv": {
+      "file": "2004/2004-06.csv",
+      "dataset": "global",
+      "count_api": 2022,
+      "rows": 2022,
+      "sha256": "a43e2060d07ff723efe27304e92aff1f0a1f0dcc6fa35cf4ed7aee4fd52a813c",
+      "downloaded_at": "2026-11-19T15:12:08+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-06-01T00:00:00",
+        "endtime": "2004-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 341906
+    },
+    "2004/2004-07.csv": {
+      "file": "2004/2004-07.csv",
+      "dataset": "global",
+      "count_api": 1981,
+      "rows": 1981,
+      "sha256": "b2e5a6f17969e2010c5b50eac97bb5a864a61175b93df4b16b8ab082dd94b65c",
+      "downloaded_at": "2026-11-19T15:12:09+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-07-01T00:00:00",
+        "endtime": "2004-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 334941
+    },
+    "2004/2004-08.csv": {
+      "file": "2004/2004-08.csv",
+      "dataset": "global",
+      "count_api": 2229,
+      "rows": 2229,
+      "sha256": "d2c626043af7bcb5738d718b916794e6c1737a4abba0d82aa71f6682f7e7ec55",
+      "downloaded_at": "2026-11-19T15:12:11+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-08-01T00:00:00",
+        "endtime": "2004-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 375485
+    },
+    "2004/2004-09.csv": {
+      "file": "2004/2004-09.csv",
+      "dataset": "global",
+      "count_api": 2621,
+      "rows": 2621,
+      "sha256": "4628369fd114d89a5236c429684828ea8f82d223eee239e2aea7e204d0c2d073",
+      "downloaded_at": "2026-11-19T15:12:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-09-01T00:00:00",
+        "endtime": "2004-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 452379
+    },
+    "2004/2004-10.csv": {
+      "file": "2004/2004-10.csv",
+      "dataset": "global",
+      "count_api": 2674,
+      "rows": 2674,
+      "sha256": "29d0c06fef0a1968de42fbc0f1d7e4bdc7d788b5046c7b51c23788419a37545d",
+      "downloaded_at": "2026-11-19T15:12:14+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-10-01T00:00:00",
+        "endtime": "2004-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 467416
+    },
+    "2004/2004-11.csv": {
+      "file": "2004/2004-11.csv",
+      "dataset": "global",
+      "count_api": 2498,
+      "rows": 2498,
+      "sha256": "a97b3f95d7841abbfb868ef68e7d9d65f3ed786acc215d5ccc4cc3cf5f97396e",
+      "downloaded_at": "2026-11-19T15:12:16+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-11-01T00:00:00",
+        "endtime": "2004-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 423736
+    },
+    "2004/2004-12.csv": {
+      "file": "2004/2004-12.csv",
+      "dataset": "global",
+      "count_api": 2923,
+      "rows": 2923,
+      "sha256": "98d2dc710375293160e1948a3c826228100eae32b1a572299176b238a4af6be2",
+      "downloaded_at": "2026-11-19T15:12:17+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2004-12-01T00:00:00",
+        "endtime": "2005-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 493473
+    },
+    "2005/2005-01.csv": {
+      "file": "2005/2005-01.csv",
+      "dataset": "global",
+      "count_api": 3279,
+      "rows": 3279,
+      "sha256": "7c1727877f23d7b92861934e361bfbbf5481b45e29e93212beb96e3d44a9e289",
+      "downloaded_at": "2026-11-19T15:12:19+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-01-01T00:00:00",
+        "endtime": "2005-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 551395
+    },
+    "2005/2005-02.csv": {
+      "file": "2005/2005-02.csv",
+      "dataset": "global",
+      "count_api": 2136,
+      "rows": 2136,
+      "sha256": "ec1a0593272bd1d9901735f1a44312d20d02be09209f7aada759c4eb7f5ba847",
+      "downloaded_at": "2026-11-19T15:12:20+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-02-01T00:00:00",
+        "endtime": "2005-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 361593
+    },
+    "2005/2005-03.csv": {
+      "file": "2005/2005-03.csv",
+      "dataset": "global",
+      "count_api": 2915,
+      "rows": 2915,
+      "sha256": "9b7dcb0d1a8982a101d9213a06d21514178a495b9cbf9c6b795c153d2c10bd06",
+      "downloaded_at": "2026-11-19T15:12:21+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-03-01T00:00:00",
+        "endtime": "2005-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 492149
+    },
+    "2005/2005-04.csv": {
+      "file": "2005/2005-04.csv",
+      "dataset": "global",
+      "count_api": 3036,
+      "rows": 3036,
+      "sha256": "e951a4b13ea1e26162ce494c840815365f3be934756705f564be58170fbd6c37",
+      "downloaded_at": "2026-11-19T15:12:23+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-04-01T00:00:00",
+        "endtime": "2005-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 511224
+    },
+    "2005/2005-05.csv": {
+      "file": "2005/2005-05.csv",
+      "dataset": "global",
+      "count_api": 2604,
+      "rows": 2604,
+      "sha256": "07967905994e95dcd3ef8924b4c4a65f4a66680e872950fa1edd34cb4f32df5d",
+      "downloaded_at": "2026-11-19T15:12:24+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-05-01T00:00:00",
+        "endtime": "2005-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 439913
+    },
+    "2005/2005-06.csv": {
+      "file": "2005/2005-06.csv",
+      "dataset": "global",
+      "count_api": 2598,
+      "rows": 2598,
+      "sha256": "0761845d2db5e7fcd26f32a5534aa6560dec0d597f2dd54e3776c715cb0364a3",
+      "downloaded_at": "2026-11-19T15:12:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-06-01T00:00:00",
+        "endtime": "2005-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 439412
+    },
+    "2005/2005-07.csv": {
+      "file": "2005/2005-07.csv",
+      "dataset": "global",
+      "count_api": 2439,
+      "rows": 2439,
+      "sha256": "2cda2e10c98907e77753e84d748a8a37592834f584413f8ea5276e58820b7877",
+      "downloaded_at": "2026-11-19T15:12:27+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-07-01T00:00:00",
+        "endtime": "2005-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 413447
+    },
+    "2005/2005-08.csv": {
+      "file": "2005/2005-08.csv",
+      "dataset": "global",
+      "count_api": 2320,
+      "rows": 2320,
+      "sha256": "d7d6f42b91e9e75fab1acda228f25eef5496cb610bf253d9e28d16e1afc27be4",
+      "downloaded_at": "2026-11-19T15:12:29+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-08-01T00:00:00",
+        "endtime": "2005-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 393763
+    },
+    "2005/2005-09.csv": {
+      "file": "2005/2005-09.csv",
+      "dataset": "global",
+      "count_api": 2435,
+      "rows": 2435,
+      "sha256": "c3845eea00bd253a7111f5f68cbf5a7a00236686bcc7975de13ea39663c3dafe",
+      "downloaded_at": "2026-11-19T15:12:30+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-09-01T00:00:00",
+        "endtime": "2005-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 414902
+    },
+    "2005/2005-10.csv": {
+      "file": "2005/2005-10.csv",
+      "dataset": "global",
+      "count_api": 2969,
+      "rows": 2969,
+      "sha256": "63e4182001f7a0dd62203a8ca166a264039c64f8c3af838de93b689c3a35365a",
+      "downloaded_at": "2026-11-19T15:12:31+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-10-01T00:00:00",
+        "endtime": "2005-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 498929
+    },
+    "2005/2005-11.csv": {
+      "file": "2005/2005-11.csv",
+      "dataset": "global",
+      "count_api": 2261,
+      "rows": 2261,
+      "sha256": "20c7428aec6a7f5a2389090e2dc4b5e9fb029384786d97fc483e9e03e32168b3",
+      "downloaded_at": "2026-11-19T15:12:33+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-11-01T00:00:00",
+        "endtime": "2005-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 381017
+    },
+    "2005/2005-12.csv": {
+      "file": "2005/2005-12.csv",
+      "dataset": "global",
+      "count_api": 2348,
+      "rows": 2348,
+      "sha256": "88a1808929534346377fbdb9c4283a8a38e351535f06cf43642220d7ebe168a7",
+      "downloaded_at": "2026-11-19T15:12:34+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2005-12-01T00:00:00",
+        "endtime": "2006-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 396074
+    },
+    "2006/2006-02.csv": {
+      "file": "2006/2006-02.csv",
+      "dataset": "global",
+      "count_api": 2178,
+      "rows": 2178,
+      "sha256": "42fb826e68f051c175a6aceb63a73b7d3bf509e83a2af4eb5f16c28025b063b1",
+      "downloaded_at": "2026-11-19T15:12:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-02-01T00:00:00",
+        "endtime": "2006-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 368261
+    },
+    "2006/2006-03.csv": {
+      "file": "2006/2006-03.csv",
+      "dataset": "global",
+      "count_api": 2709,
+      "rows": 2709,
+      "sha256": "ec561aaecd09b9915989b0d22b35891972e91a371a28afda8cbdaf0ad379ed26",
+      "downloaded_at": "2026-11-19T15:12:38+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-03-01T00:00:00",
+        "endtime": "2006-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 459115
+    },
+    "2006/2006-04.csv": {
+      "file": "2006/2006-04.csv",
+      "dataset": "global",
+      "count_api": 2843,
+      "rows": 2843,
+      "sha256": "b07dac43af81ba0f630686db4157a1a3f4debbea84981339c041c291aaac1b93",
+      "downloaded_at": "2026-11-19T15:12:39+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-04-01T00:00:00",
+        "endtime": "2006-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 477978
+    },
+    "2006/2006-05.csv": {
+      "file": "2006/2006-05.csv",
+      "dataset": "global",
+      "count_api": 2896,
+      "rows": 2896,
+      "sha256": "b6b0c56afd313ef1b6911c255184cd49cb24d48025f9041e34535a92338c92de",
+      "downloaded_at": "2026-11-19T15:12:40+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-05-01T00:00:00",
+        "endtime": "2006-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 488045
+    },
+    "2006/2006-06.csv": {
+      "file": "2006/2006-06.csv",
+      "dataset": "global",
+      "count_api": 3444,
+      "rows": 3444,
+      "sha256": "5f66a1bdb52a77e72cb0a10ed07daa355209a1b63c8f5470923abd491ce89a34",
+      "downloaded_at": "2026-11-19T15:12:42+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-06-01T00:00:00",
+        "endtime": "2006-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 582711
+    },
+    "2006/2006-07.csv": {
+      "file": "2006/2006-07.csv",
+      "dataset": "global",
+      "count_api": 2925,
+      "rows": 2925,
+      "sha256": "99fb5fb94fe56085cec8574b84d09262c1ccbbc913924e3e90f853f12a8b3f36",
+      "downloaded_at": "2026-11-19T15:12:43+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-07-01T00:00:00",
+        "endtime": "2006-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 495236
+    },
+    "2006/2006-08.csv": {
+      "file": "2006/2006-08.csv",
+      "dataset": "global",
+      "count_api": 2671,
+      "rows": 2671,
+      "sha256": "fe8223758246526d60bb6e9ed03d429db58ee7e12a6d44fe5e5adb96ce2e91eb",
+      "downloaded_at": "2026-11-19T15:12:45+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-08-01T00:00:00",
+        "endtime": "2006-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 451644
+    },
+    "2006/2006-09.csv": {
+      "file": "2006/2006-09.csv",
+      "dataset": "global",
+      "count_api": 2346,
+      "rows": 2346,
+      "sha256": "34419bb0b9cec4eae270f7dda0515bf356bfc0ccb21995d296e3dfb1854bdef3",
+      "downloaded_at": "2026-11-19T15:12:47+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-09-01T00:00:00",
+        "endtime": "2006-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 396761
+    },
+    "2006/2006-10.csv": {
+      "file": "2006/2006-10.csv",
+      "dataset": "global",
+      "count_api": 2564,
+      "rows": 2564,
+      "sha256": "389f25b996d91592ebc65dfdb752906912b0758a306094b2f68d07ac72d36f42",
+      "downloaded_at": "2026-11-19T15:12:48+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-10-01T00:00:00",
+        "endtime": "2006-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 431948
+    },
+    "2006/2006-11.csv": {
+      "file": "2006/2006-11.csv",
+      "dataset": "global",
+      "count_api": 3208,
+      "rows": 3208,
+      "sha256": "af67f7ff8655b004b3eaddb218bcd3d3748d9e04786933a271367f59503dc89d",
+      "downloaded_at": "2026-11-19T15:12:49+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-11-01T00:00:00",
+        "endtime": "2006-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 536025
+    },
+    "2006/2006-12.csv": {
+      "file": "2006/2006-12.csv",
+      "dataset": "global",
+      "count_api": 2477,
+      "rows": 2477,
+      "sha256": "8c9377e0e01223f0014e14bd37309841735d7b1b7bab6778d5dfd1657a844486",
+      "downloaded_at": "2026-11-19T15:12:51+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2006-12-01T00:00:00",
+        "endtime": "2007-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 415637
+    },
+    "2007/2007-01.csv": {
+      "file": "2007/2007-01.csv",
+      "dataset": "global",
+      "count_api": 2733,
+      "rows": 2733,
+      "sha256": "d2e1fd75fc610a3f7e538244e24ddb0301b90872ce52713c29a474e712b2806b",
+      "downloaded_at": "2026-11-19T15:12:53+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-01-01T00:00:00",
+        "endtime": "2007-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 460832
+    },
+    "2007/2007-02.csv": {
+      "file": "2007/2007-02.csv",
+      "dataset": "global",
+      "count_api": 1988,
+      "rows": 1988,
+      "sha256": "b45ddc2545e220b8c2051b5852e61b69a1ce9815f0ea2dc5465f98b55d03a168",
+      "downloaded_at": "2026-11-19T15:12:54+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-02-01T00:00:00",
+        "endtime": "2007-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 335482
+    },
+    "2007/2007-03.csv": {
+      "file": "2007/2007-03.csv",
+      "dataset": "global",
+      "count_api": 2468,
+      "rows": 2468,
+      "sha256": "0ba597e44562de9fa37498479cc5cc32f467258c512c0f501f07a8665b4bf9af",
+      "downloaded_at": "2026-11-19T15:12:56+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-03-01T00:00:00",
+        "endtime": "2007-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 414803
+    },
+    "2007/2007-04.csv": {
+      "file": "2007/2007-04.csv",
+      "dataset": "global",
+      "count_api": 3196,
+      "rows": 3196,
+      "sha256": "8962251c9d3d79f785a96de7d84c5650ee33bf20aa7384a133aa5a45ce3364dd",
+      "downloaded_at": "2026-11-19T15:12:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-04-01T00:00:00",
+        "endtime": "2007-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 538075
+    },
+    "2007/2007-05.csv": {
+      "file": "2007/2007-05.csv",
+      "dataset": "global",
+      "count_api": 2420,
+      "rows": 2420,
+      "sha256": "0e748c44a2829a71b56d84073c9d698ef1b37258bb98c1cfab046666d57e41c7",
+      "downloaded_at": "2026-11-19T15:12:59+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-05-01T00:00:00",
+        "endtime": "2007-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 406607
+    },
+    "2007/2007-06.csv": {
+      "file": "2007/2007-06.csv",
+      "dataset": "global",
+      "count_api": 2332,
+      "rows": 2332,
+      "sha256": "b98c1b40e925e01d7cd13074cdc791ca9f5b272ab12acc26f245cc9871c3df9d",
+      "downloaded_at": "2026-11-19T15:13:00+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-06-01T00:00:00",
+        "endtime": "2007-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 395613
+    },
+    "2007/2007-07.csv": {
+      "file": "2007/2007-07.csv",
+      "dataset": "global",
+      "count_api": 2653,
+      "rows": 2653,
+      "sha256": "0c80457db0a9646b25aab65d965d9d46c1bc8af0a9f741899c102d8391d42009",
+      "downloaded_at": "2026-11-19T15:13:01+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-07-01T00:00:00",
+        "endtime": "2007-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 445183
+    },
+    "2007/2007-08.csv": {
+      "file": "2007/2007-08.csv",
+      "dataset": "global",
+      "count_api": 3113,
+      "rows": 3113,
+      "sha256": "773949611fc4787fdc90ddcc5394d70927fb7fce08e62545ca0bbe792f019ccf",
+      "downloaded_at": "2026-11-19T15:13:03+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-08-01T00:00:00",
+        "endtime": "2007-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 522826
+    },
+    "2007/2007-09.csv": {
+      "file": "2007/2007-09.csv",
+      "dataset": "global",
+      "count_api": 2662,
+      "rows": 2662,
+      "sha256": "0732c37e87181013542dd57c5711f5729efbf19c9b8661073e17e8db890c8bc6",
+      "downloaded_at": "2026-11-19T15:13:04+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-09-01T00:00:00",
+        "endtime": "2007-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 451827
+    },
+    "2007/2007-10.csv": {
+      "file": "2007/2007-10.csv",
+      "dataset": "global",
+      "count_api": 2676,
+      "rows": 2676,
+      "sha256": "27108927e60819aad157bebea90a96cc5feddcea79cbfade5981cc96d0b183c9",
+      "downloaded_at": "2026-11-19T15:13:05+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-10-01T00:00:00",
+        "endtime": "2007-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 451222
+    },
+    "2007/2007-11.csv": {
+      "file": "2007/2007-11.csv",
+      "dataset": "global",
+      "count_api": 2202,
+      "rows": 2202,
+      "sha256": "1bcec253f4ca29121ec7268aa309a593f7a04a18c36c9b35cdf114849e17f3f4",
+      "downloaded_at": "2026-11-19T15:13:07+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-11-01T00:00:00",
+        "endtime": "2007-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 371459
+    },
+    "2007/2007-12.csv": {
+      "file": "2007/2007-12.csv",
+      "dataset": "global",
+      "count_api": 2574,
+      "rows": 2574,
+      "sha256": "ecef37eabad6fee78c22df53618a456337d22b62911aec1a1ef52d27438b934a",
+      "downloaded_at": "2026-11-19T15:13:08+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2007-12-01T00:00:00",
+        "endtime": "2008-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 435665
+    },
+    "2008/2008-02.csv": {
+      "file": "2008/2008-02.csv",
+      "dataset": "global",
+      "count_api": 2966,
+      "rows": 2966,
+      "sha256": "f0f7535512d351315913cab0e59f188720676108ae5a4dfba1c65526e34ba47e",
+      "downloaded_at": "2026-11-19T15:13:10+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-02-01T00:00:00",
+        "endtime": "2008-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 505748
+    },
+    "2008/2008-03.csv": {
+      "file": "2008/2008-03.csv",
+      "dataset": "global",
+      "count_api": 2903,
+      "rows": 2903,
+      "sha256": "724dd1165ccb155eded60d6a47b0b40e188bf5401a42435d9f721672ab71f177",
+      "downloaded_at": "2026-11-19T15:13:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-03-01T00:00:00",
+        "endtime": "2008-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 486085
+    },
+    "2008/2008-04.csv": {
+      "file": "2008/2008-04.csv",
+      "dataset": "global",
+      "count_api": 2878,
+      "rows": 2878,
+      "sha256": "4959cf90cb81bee96ebf3fe7f65f2ce9d4d76cb91c0136ddf941fd488722fec9",
+      "downloaded_at": "2026-11-19T15:13:13+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-04-01T00:00:00",
+        "endtime": "2008-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 486151
+    },
+    "2008/2008-05.csv": {
+      "file": "2008/2008-05.csv",
+      "dataset": "global",
+      "count_api": 3381,
+      "rows": 3381,
+      "sha256": "e17c65e18b252875ad4dd6e76a6c9737cd1011ac5f951d42c48b680c2620fddf",
+      "downloaded_at": "2026-11-19T15:13:15+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-05-01T00:00:00",
+        "endtime": "2008-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 567650
+    },
+    "2008/2008-06.csv": {
+      "file": "2008/2008-06.csv",
+      "dataset": "global",
+      "count_api": 3134,
+      "rows": 3134,
+      "sha256": "f1c6138305975740340feed6e6688772e7fedbce1206cd9899e4a2f634ee96ea",
+      "downloaded_at": "2026-11-19T15:13:16+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-06-01T00:00:00",
+        "endtime": "2008-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 526205
+    },
+    "2008/2008-07.csv": {
+      "file": "2008/2008-07.csv",
+      "dataset": "global",
+      "count_api": 2867,
+      "rows": 2867,
+      "sha256": "77cc5d66f1506ba5d4edc356866959a860a6d1e31b9d20035ca78508e8299f5a",
+      "downloaded_at": "2026-11-19T15:13:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-07-01T00:00:00",
+        "endtime": "2008-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 481948
+    },
+    "2008/2008-08.csv": {
+      "file": "2008/2008-08.csv",
+      "dataset": "global",
+      "count_api": 3066,
+      "rows": 3066,
+      "sha256": "65486bfe54df405c7dc918534db55aeb78e7620dda6c4865bb58043871b380a2",
+      "downloaded_at": "2026-11-19T15:13:20+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-08-01T00:00:00",
+        "endtime": "2008-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 513237
+    },
+    "2008/2008-09.csv": {
+      "file": "2008/2008-09.csv",
+      "dataset": "global",
+      "count_api": 2132,
+      "rows": 2132,
+      "sha256": "edd13d0ed237c4c52d619c18ace149a10e787d8d515e80eb81f469207627415e",
+      "downloaded_at": "2026-11-19T15:13:21+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-09-01T00:00:00",
+        "endtime": "2008-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 360791
+    },
+    "2008/2008-10.csv": {
+      "file": "2008/2008-10.csv",
+      "dataset": "global",
+      "count_api": 2688,
+      "rows": 2688,
+      "sha256": "326f7d54f356f025a84382c07d598241eb6f22c7aa12aa2788e9491913c6a780",
+      "downloaded_at": "2026-11-19T15:13:23+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-10-01T00:00:00",
+        "endtime": "2008-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 457030
+    },
+    "2008/2008-11.csv": {
+      "file": "2008/2008-11.csv",
+      "dataset": "global",
+      "count_api": 2389,
+      "rows": 2389,
+      "sha256": "7ed3c4115ffb91bac78de01475a355e35fd0145cb8e4f2b6722331d53040c5bc",
+      "downloaded_at": "2026-11-19T15:13:24+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-11-01T00:00:00",
+        "endtime": "2008-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 406469
+    },
+    "2008/2008-12.csv": {
+      "file": "2008/2008-12.csv",
+      "dataset": "global",
+      "count_api": 2305,
+      "rows": 2305,
+      "sha256": "ea789507e01861ba168b80524393cd0ba9b901f00f547fcfd525d09b2a65d8a8",
+      "downloaded_at": "2026-11-19T15:13:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2008-12-01T00:00:00",
+        "endtime": "2009-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 393240
+    },
+    "2009/2009-01.csv": {
+      "file": "2009/2009-01.csv",
+      "dataset": "global",
+      "count_api": 1603,
+      "rows": 1603,
+      "sha256": "c659a8e8a5ba2a04dd541a84889b9cdedf9822b3b1a09b81f0285e405e0a02f6",
+      "downloaded_at": "2026-11-19T15:13:27+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-01-01T00:00:00",
+        "endtime": "2009-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 276594
+    },
+    "2009/2009-02.csv": {
+      "file": "2009/2009-02.csv",
+      "dataset": "global",
+      "count_api": 1321,
+      "rows": 1321,
+      "sha256": "d5f6f30880d58611cf5c3f5c6c631ec7197e1534df0abc6c5d321c32912f8b8b",
+      "downloaded_at": "2026-11-19T15:13:29+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-02-01T00:00:00",
+        "endtime": "2009-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 227189
+    },
+    "2009/2009-03.csv": {
+      "file": "2009/2009-03.csv",
+      "dataset": "global",
+      "count_api": 1291,
+      "rows": 1291,
+      "sha256": "5e95f19a3cc9cfc7c30ef809984f6d69c9337b0fb149914c15c51c66acf9a1db",
+      "downloaded_at": "2026-11-19T15:13:30+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-03-01T00:00:00",
+        "endtime": "2009-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 222741
+    },
+    "2009/2009-04.csv": {
+      "file": "2009/2009-04.csv",
+      "dataset": "global",
+      "count_api": 1251,
+      "rows": 1251,
+      "sha256": "50c396040eea39231f0a1cfc3c7f577541aa626a5c15a4e78771a57e5f698a3a",
+      "downloaded_at": "2026-11-19T15:13:32+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-04-01T00:00:00",
+        "endtime": "2009-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 216387
+    },
+    "2009/2009-05.csv": {
+      "file": "2009/2009-05.csv",
+      "dataset": "global",
+      "count_api": 1171,
+      "rows": 1171,
+      "sha256": "65ff2d6aa0215775bb2316d28965b2e9847d0622778c2eb5947c117d172f0084",
+      "downloaded_at": "2026-11-19T15:13:33+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-05-01T00:00:00",
+        "endtime": "2009-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 200875
+    },
+    "2009/2009-06.csv": {
+      "file": "2009/2009-06.csv",
+      "dataset": "global",
+      "count_api": 1208,
+      "rows": 1208,
+      "sha256": "bd0a09fbccdc87a6c737e250b42282a222bb6052dd0fdb5ed4dc68dc7b4f7f98",
+      "downloaded_at": "2026-11-19T15:13:34+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-06-01T00:00:00",
+        "endtime": "2009-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 208396
+    },
+    "2009/2009-07.csv": {
+      "file": "2009/2009-07.csv",
+      "dataset": "global",
+      "count_api": 1217,
+      "rows": 1217,
+      "sha256": "007e2ae5170bfe29c7a7fea3893b51be0da1380014338ec6a50ee7d5bdd2eae1",
+      "downloaded_at": "2026-11-19T15:13:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-07-01T00:00:00",
+        "endtime": "2009-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 209084
+    },
+    "2009/2009-08.csv": {
+      "file": "2009/2009-08.csv",
+      "dataset": "global",
+      "count_api": 1390,
+      "rows": 1390,
+      "sha256": "376e20d793814fc6a915b34f579af3380994752110bf566c9b4c82ab79ba6f6c",
+      "downloaded_at": "2026-11-19T15:13:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-08-01T00:00:00",
+        "endtime": "2009-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 237903
+    },
+    "2009/2009-09.csv": {
+      "file": "2009/2009-09.csv",
+      "dataset": "global",
+      "count_api": 1166,
+      "rows": 1166,
+      "sha256": "bfc39a02984605c371ae028eb11fba0e289f300a735370d651ca66052d5481bc",
+      "downloaded_at": "2026-11-19T15:13:37+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-09-01T00:00:00",
+        "endtime": "2009-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 200338
+    },
+    "2009/2009-10.csv": {
+      "file": "2009/2009-10.csv",
+      "dataset": "global",
+      "count_api": 1718,
+      "rows": 1718,
+      "sha256": "d15a6033e5087ef1379a99833e3dd9abb7b7acc50c8ab6ebccca5f2a28a45660",
+      "downloaded_at": "2026-11-19T15:13:38+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-10-01T00:00:00",
+        "endtime": "2009-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 294615
+    },
+    "2009/2009-11.csv": {
+      "file": "2009/2009-11.csv",
+      "dataset": "global",
+      "count_api": 1169,
+      "rows": 1169,
+      "sha256": "759d954ffc4e0c5c014378178977e64d60393355ada8098d1823e8a02861a891",
+      "downloaded_at": "2026-11-19T15:13:40+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-11-01T00:00:00",
+        "endtime": "2009-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 201620
+    },
+    "2009/2009-12.csv": {
+      "file": "2009/2009-12.csv",
+      "dataset": "global",
+      "count_api": 1112,
+      "rows": 1112,
+      "sha256": "bbf90e613578402221875be321d069b65f553c9d0942a17b4531cd4d30710a02",
+      "downloaded_at": "2026-11-19T15:13:41+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2009-12-01T00:00:00",
+        "endtime": "2010-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 191333
+    },
+    "2010/2010-02.csv": {
+      "file": "2010/2010-02.csv",
+      "dataset": "global",
+      "count_api": 1691,
+      "rows": 1691,
+      "sha256": "5b1c2fbf74942be38a389ee4005868f58eec43e518d3f4204e0a02462afab807",
+      "downloaded_at": "2026-11-19T15:13:43+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-02-01T00:00:00",
+        "endtime": "2010-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 289804
+    },
+    "2010/2010-03.csv": {
+      "file": "2010/2010-03.csv",
+      "dataset": "global",
+      "count_api": 2111,
+      "rows": 2111,
+      "sha256": "ca6bb31aabeab23108dc39ef727fce83f0124e91062ecb1f52111bcdd638cb61",
+      "downloaded_at": "2026-11-19T15:13:44+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-03-01T00:00:00",
+        "endtime": "2010-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 361364
+    },
+    "2010/2010-04.csv": {
+      "file": "2010/2010-04.csv",
+      "dataset": "global",
+      "count_api": 3767,
+      "rows": 3767,
+      "sha256": "1360cee55f9dae11ad35276d99a5eab981720b4e9248f2b4c78ccd8e01099fcb",
+      "downloaded_at": "2026-11-19T15:13:46+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-04-01T00:00:00",
+        "endtime": "2010-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 712133
+    },
+    "2010/2010-05.csv": {
+      "file": "2010/2010-05.csv",
+      "dataset": "global",
+      "count_api": 1764,
+      "rows": 1764,
+      "sha256": "e7369b9d758f9b572bd3e8aa80a92ad458a73d23417445000c282b43eb04c89f",
+      "downloaded_at": "2026-11-19T15:13:48+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-05-01T00:00:00",
+        "endtime": "2010-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 315186
+    },
+    "2010/2010-06.csv": {
+      "file": "2010/2010-06.csv",
+      "dataset": "global",
+      "count_api": 1647,
+      "rows": 1647,
+      "sha256": "a8f42e2714bf627ef237efcc17ebd2b9267dde03564ee9d95d757791a47a3377",
+      "downloaded_at": "2026-11-19T15:13:49+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-06-01T00:00:00",
+        "endtime": "2010-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 290865
+    },
+    "2010/2010-07.csv": {
+      "file": "2010/2010-07.csv",
+      "dataset": "global",
+      "count_api": 3213,
+      "rows": 3213,
+      "sha256": "4a3d59518b84b4da78e3146c6ea036a8025e1763fe41e1f15805971fc796f3b8",
+      "downloaded_at": "2026-11-19T15:13:51+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-07-01T00:00:00",
+        "endtime": "2010-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 548293
+    },
+    "2010/2010-08.csv": {
+      "file": "2010/2010-08.csv",
+      "dataset": "global",
+      "count_api": 2036,
+      "rows": 2036,
+      "sha256": "e760e5038e05630621011fc344cc2f4303d10de78e056563c418a4a7555c9787",
+      "downloaded_at": "2026-11-19T15:13:52+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-08-01T00:00:00",
+        "endtime": "2010-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 349435
+    },
+    "2010/2010-09.csv": {
+      "file": "2010/2010-09.csv",
+      "dataset": "global",
+      "count_api": 1677,
+      "rows": 1677,
+      "sha256": "f1541e46ad666cb76abfad1289ec29e28943e4b0b49eaa0fc99bfcf918afe684",
+      "downloaded_at": "2026-11-19T15:13:53+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-09-01T00:00:00",
+        "endtime": "2010-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 288392
+    },
+    "2010/2010-10.csv": {
+      "file": "2010/2010-10.csv",
+      "dataset": "global",
+      "count_api": 1672,
+      "rows": 1672,
+      "sha256": "074461fea0a3ba18850c9eb235f544ac695ac4431b7a1c1901b29ef58c748233",
+      "downloaded_at": "2026-11-19T15:13:55+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-10-01T00:00:00",
+        "endtime": "2010-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 287835
+    },
+    "2010/2010-11.csv": {
+      "file": "2010/2010-11.csv",
+      "dataset": "global",
+      "count_api": 1747,
+      "rows": 1747,
+      "sha256": "826e9e92238add445ee3bd7b7cf292b141f03b077ee25c3e4dbd4f74fddd65e1",
+      "downloaded_at": "2026-11-19T15:13:56+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-11-01T00:00:00",
+        "endtime": "2010-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 299389
+    },
+    "2010/2010-12.csv": {
+      "file": "2010/2010-12.csv",
+      "dataset": "global",
+      "count_api": 2290,
+      "rows": 2290,
+      "sha256": "fcdc0d9abd3dc757fbe276c2c669a360814598b5d7077c4f94b51474100b80f5",
+      "downloaded_at": "2026-11-19T15:13:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2010-12-01T00:00:00",
+        "endtime": "2011-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 388639
+    },
+    "2011/2011-01.csv": {
+      "file": "2011/2011-01.csv",
+      "dataset": "global",
+      "count_api": 1783,
+      "rows": 1783,
+      "sha256": "be586b47e932c7f98f4da29692293b0e027b111910bc0216abe634eb2c118da1",
+      "downloaded_at": "2026-11-19T15:13:58+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-01-01T00:00:00",
+        "endtime": "2011-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 305675
+    },
+    "2011/2011-02.csv": {
+      "file": "2011/2011-02.csv",
+      "dataset": "global",
+      "count_api": 1481,
+      "rows": 1481,
+      "sha256": "ebcf7dfbddf4658147bbb8ce8af948a5e0aef064cdf70e9cf656a8777147a116",
+      "downloaded_at": "2026-11-19T15:13:59+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-02-01T00:00:00",
+        "endtime": "2011-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 255381
+    },
+    "2011/2011-03.csv": {
+      "file": "2011/2011-03.csv",
+      "dataset": "global",
+      "count_api": 4272,
+      "rows": 4272,
+      "sha256": "19e9e922b9ad1e540b7a40eb4fe2c3405d0157e35813512c73f94f453f25d403",
+      "downloaded_at": "2026-11-19T15:14:01+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-03-01T00:00:00",
+        "endtime": "2011-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 726687
+    },
+    "2011/2011-04.csv": {
+      "file": "2011/2011-04.csv",
+      "dataset": "global",
+      "count_api": 2088,
+      "rows": 2088,
+      "sha256": "fa6a0c4dffefc1013915ec05a48d14c4ce7a59b08bfe89b8e307b8661a89646a",
+      "downloaded_at": "2026-11-19T15:14:03+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-04-01T00:00:00",
+        "endtime": "2011-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 359359
+    },
+    "2011/2011-05.csv": {
+      "file": "2011/2011-05.csv",
+      "dataset": "global",
+      "count_api": 1912,
+      "rows": 1912,
+      "sha256": "2601b6062b2deabb58fb722fcef304e5a00629827f25715b4f9d423283873939",
+      "downloaded_at": "2026-11-19T15:14:04+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-05-01T00:00:00",
+        "endtime": "2011-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 327665
+    },
+    "2011/2011-06.csv": {
+      "file": "2011/2011-06.csv",
+      "dataset": "global",
+      "count_api": 1722,
+      "rows": 1722,
+      "sha256": "e9586d0fe074581990de566d91aad0f5a512813ce5f5126a2331652b5183b899",
+      "downloaded_at": "2026-11-19T15:14:06+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-06-01T00:00:00",
+        "endtime": "2011-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 293393
+    },
+    "2011/2011-07.csv": {
+      "file": "2011/2011-07.csv",
+      "dataset": "global",
+      "count_api": 2032,
+      "rows": 2032,
+      "sha256": "89fcdd68d6f5ddefda21aaa9f62608f4944b9ea72e4a5f0bc619b64ac85e48e9",
+      "downloaded_at": "2026-11-19T15:14:07+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-07-01T00:00:00",
+        "endtime": "2011-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 347171
+    },
+    "2011/2011-08.csv": {
+      "file": "2011/2011-08.csv",
+      "dataset": "global",
+      "count_api": 1765,
+      "rows": 1765,
+      "sha256": "bcbbcce3c972de675a86cac51ff628256256c25b521f0e6afd807e6e72662795",
+      "downloaded_at": "2026-11-19T15:14:09+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-08-01T00:00:00",
+        "endtime": "2011-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 302319
+    },
+    "2011/2011-09.csv": {
+      "file": "2011/2011-09.csv",
+      "dataset": "global",
+      "count_api": 1632,
+      "rows": 1632,
+      "sha256": "d9a3ae824a5db28dfa822427f69992d21ec25b7383ca1a624a7311d598dc6a54",
+      "downloaded_at": "2026-11-19T15:14:10+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-09-01T00:00:00",
+        "endtime": "2011-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 277483
+    },
+    "2011/2011-10.csv": {
+      "file": "2011/2011-10.csv",
+      "dataset": "global",
+      "count_api": 1572,
+      "rows": 1572,
+      "sha256": "1c2187211dbf5c19edd3b19e8acbb37dc766d1c71e0198c1e845e71715dbe5e9",
+      "downloaded_at": "2026-11-19T15:14:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-10-01T00:00:00",
+        "endtime": "2011-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 267589
+    },
+    "2011/2011-11.csv": {
+      "file": "2011/2011-11.csv",
+      "dataset": "global",
+      "count_api": 1651,
+      "rows": 1651,
+      "sha256": "b4d2b17fdc0eee3660411de7470ce961b059b90ccfca15cff2123844a7f19b64",
+      "downloaded_at": "2026-11-19T15:14:13+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-11-01T00:00:00",
+        "endtime": "2011-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 283006
+    },
+    "2011/2011-12.csv": {
+      "file": "2011/2011-12.csv",
+      "dataset": "global",
+      "count_api": 1386,
+      "rows": 1386,
+      "sha256": "96b2942f6cff41f64034f2a110692f840eb0204c03760031cc0724f93535970a",
+      "downloaded_at": "2026-11-19T15:14:15+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2011-12-01T00:00:00",
+        "endtime": "2012-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 236826
+    },
+    "2012/2012-02.csv": {
+      "file": "2012/2012-02.csv",
+      "dataset": "global",
+      "count_api": 1587,
+      "rows": 1587,
+      "sha256": "b8896e79d93a2c79d83d75541e01780c7def8bd7fd47241233c30dad751b49de",
+      "downloaded_at": "2026-11-19T15:14:17+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-02-01T00:00:00",
+        "endtime": "2012-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 272236
+    },
+    "2012/2012-03.csv": {
+      "file": "2012/2012-03.csv",
+      "dataset": "global",
+      "count_api": 1610,
+      "rows": 1610,
+      "sha256": "d90cbad03b55b76b78926b87cc127adfb183a4d42b89c4cdc8d88d864860a060",
+      "downloaded_at": "2026-11-19T15:14:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-03-01T00:00:00",
+        "endtime": "2012-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 275793
+    },
+    "2012/2012-04.csv": {
+      "file": "2012/2012-04.csv",
+      "dataset": "global",
+      "count_api": 1938,
+      "rows": 1938,
+      "sha256": "58c659ed32692fd37b928e20a968fe7807c27320e24be22cca87fb26a0b3675e",
+      "downloaded_at": "2026-11-19T15:14:19+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-04-01T00:00:00",
+        "endtime": "2012-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 330642
+    },
+    "2012/2012-05.csv": {
+      "file": "2012/2012-05.csv",
+      "dataset": "global",
+      "count_api": 1547,
+      "rows": 1547,
+      "sha256": "8fb4470e6f7d73dcfc3234cb70e1efff1d86ec4f9ab494656572495e4f8fb082",
+      "downloaded_at": "2026-11-19T15:14:20+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-05-01T00:00:00",
+        "endtime": "2012-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 264935
+    },
+    "2012/2012-06.csv": {
+      "file": "2012/2012-06.csv",
+      "dataset": "global",
+      "count_api": 1396,
+      "rows": 1396,
+      "sha256": "32988144b324653ce3baf4f79c87894744feb301663e5639b2782fd45fc8974f",
+      "downloaded_at": "2026-11-19T15:14:22+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-06-01T00:00:00",
+        "endtime": "2012-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 240729
+    },
+    "2012/2012-07.csv": {
+      "file": "2012/2012-07.csv",
+      "dataset": "global",
+      "count_api": 1421,
+      "rows": 1421,
+      "sha256": "f1550dbf69139fa838cbb2eea77905332fbe1f937c614079ba08ae6ad85efdb5",
+      "downloaded_at": "2026-11-19T15:14:23+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-07-01T00:00:00",
+        "endtime": "2012-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 245519
+    },
+    "2012/2012-08.csv": {
+      "file": "2012/2012-08.csv",
+      "dataset": "global",
+      "count_api": 1885,
+      "rows": 1885,
+      "sha256": "1b78edb7009cbdd06a2cb5039cbb09c0650208cdd985866ed896cf778feb18dd",
+      "downloaded_at": "2026-11-19T15:14:24+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-08-01T00:00:00",
+        "endtime": "2012-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 327767
+    },
+    "2012/2012-09.csv": {
+      "file": "2012/2012-09.csv",
+      "dataset": "global",
+      "count_api": 2215,
+      "rows": 2215,
+      "sha256": "80d9d0cf3ec44289135475fc953e60c2b263c8571310e5a58307490a6002c5f7",
+      "downloaded_at": "2026-11-19T15:14:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-09-01T00:00:00",
+        "endtime": "2012-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 383476
+    },
+    "2012/2012-10.csv": {
+      "file": "2012/2012-10.csv",
+      "dataset": "global",
+      "count_api": 1719,
+      "rows": 1719,
+      "sha256": "30c02158623b1e0d3e5529840f7566f0720b6e356aecc548ef7f087205ecb4be",
+      "downloaded_at": "2026-11-19T15:14:27+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-10-01T00:00:00",
+        "endtime": "2012-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 296608
+    },
+    "2012/2012-11.csv": {
+      "file": "2012/2012-11.csv",
+      "dataset": "global",
+      "count_api": 1610,
+      "rows": 1610,
+      "sha256": "34d5e5ff8d9301dae57beab2b8e86a6a3577bec4ecb82331e049590dbfbf389d",
+      "downloaded_at": "2026-11-19T15:14:29+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-11-01T00:00:00",
+        "endtime": "2012-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 277252
+    },
+    "2012/2012-12.csv": {
+      "file": "2012/2012-12.csv",
+      "dataset": "global",
+      "count_api": 1548,
+      "rows": 1548,
+      "sha256": "4957642d0b3e8bd6ce0230cbf259e5cff31d39062c47f185fa24c2e029b79d8d",
+      "downloaded_at": "2026-11-19T15:14:30+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2012-12-01T00:00:00",
+        "endtime": "2013-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 265297
+    },
+    "2013/2013-01.csv": {
+      "file": "2013/2013-01.csv",
+      "dataset": "global",
+      "count_api": 1758,
+      "rows": 1758,
+      "sha256": "bfe4431b758bff431fc3139b08ae40b65576185cb986482243806c500047567f",
+      "downloaded_at": "2026-11-19T15:14:31+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-01-01T00:00:00",
+        "endtime": "2013-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 301526
+    },
+    "2013/2013-02.csv": {
+      "file": "2013/2013-02.csv",
+      "dataset": "global",
+      "count_api": 1962,
+      "rows": 1962,
+      "sha256": "d7082d0e53b559e069f1f6c88067432ba539f6fcd679ed322a8e1b319db1ef3d",
+      "downloaded_at": "2026-11-19T15:14:32+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-02-01T00:00:00",
+        "endtime": "2013-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 338489
+    },
+    "2013/2013-03.csv": {
+      "file": "2013/2013-03.csv",
+      "dataset": "global",
+      "count_api": 1382,
+      "rows": 1382,
+      "sha256": "01f9c06257df1ced55b92adb5f1705622692522afa7ed49c0d764ad7b6b9b053",
+      "downloaded_at": "2026-11-19T15:14:34+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-03-01T00:00:00",
+        "endtime": "2013-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 239804
+    },
+    "2013/2013-04.csv": {
+      "file": "2013/2013-04.csv",
+      "dataset": "global",
+      "count_api": 1619,
+      "rows": 1619,
+      "sha256": "f6f9113b639546f85f8df503c94f85caa17e41b9cbc412b5d2566bdb24b837e8",
+      "downloaded_at": "2026-11-19T15:14:35+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-04-01T00:00:00",
+        "endtime": "2013-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 278224
+    },
+    "2013/2013-05.csv": {
+      "file": "2013/2013-05.csv",
+      "dataset": "global",
+      "count_api": 1781,
+      "rows": 1781,
+      "sha256": "e9cac3b5d3b4827498b1181b4b9b9fb6a96ae5e0d8452317d30648c861ddd354",
+      "downloaded_at": "2026-11-19T15:14:37+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-05-01T00:00:00",
+        "endtime": "2013-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 312807
+    },
+    "2013/2013-06.csv": {
+      "file": "2013/2013-06.csv",
+      "dataset": "global",
+      "count_api": 1457,
+      "rows": 1457,
+      "sha256": "c76e219132283f993904d5d77c40c2ae1fe460057b22bc3da19aeebc04fff4ec",
+      "downloaded_at": "2026-11-19T15:14:39+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-06-01T00:00:00",
+        "endtime": "2013-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 253952
+    },
+    "2013/2013-07.csv": {
+      "file": "2013/2013-07.csv",
+      "dataset": "global",
+      "count_api": 1575,
+      "rows": 1575,
+      "sha256": "cea3b0a1056d77161b04404cb7f1880c7eb79e9c057ff119c8a8780c35700fb4",
+      "downloaded_at": "2026-11-19T15:14:40+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-07-01T00:00:00",
+        "endtime": "2013-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 272808
+    },
+    "2013/2013-08.csv": {
+      "file": "2013/2013-08.csv",
+      "dataset": "global",
+      "count_api": 1695,
+      "rows": 1695,
+      "sha256": "c93100b908f1d7ffcc894e499d92eb1c673492cd8e4fecad5964b47cd38e88b3",
+      "downloaded_at": "2026-11-19T15:14:41+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-08-01T00:00:00",
+        "endtime": "2013-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 301737
+    },
+    "2013/2013-09.csv": {
+      "file": "2013/2013-09.csv",
+      "dataset": "global",
+      "count_api": 1725,
+      "rows": 1725,
+      "sha256": "0d1692c5bb8f86d87479ed69ba80fab732865e11c31691dea30cbda8c9ced0bd",
+      "downloaded_at": "2026-11-19T15:14:42+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-09-01T00:00:00",
+        "endtime": "2013-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 308043
+    },
+    "2013/2013-10.csv": {
+      "file": "2013/2013-10.csv",
+      "dataset": "global",
+      "count_api": 1687,
+      "rows": 1687,
+      "sha256": "69e97bdd752f58496f8b9a9aef05fc7e188b0175c76354e09aa069621b33ed1c",
+      "downloaded_at": "2026-11-19T15:14:44+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-10-01T00:00:00",
+        "endtime": "2013-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 302627
+    },
+    "2013/2013-11.csv": {
+      "file": "2013/2013-11.csv",
+      "dataset": "global",
+      "count_api": 2095,
+      "rows": 2095,
+      "sha256": "580e36dda57ccf190d2ed8b359a90e67f8a29406dbf72cca3192717f2ba30c71",
+      "downloaded_at": "2026-11-19T15:14:46+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-11-01T00:00:00",
+        "endtime": "2013-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 368397
+    },
+    "2013/2013-12.csv": {
+      "file": "2013/2013-12.csv",
+      "dataset": "global",
+      "count_api": 1895,
+      "rows": 1895,
+      "sha256": "7e51e04a4740c7f6b2eb7d76f1a1795d84f07403cf47d9c11def2902353ca992",
+      "downloaded_at": "2026-11-19T15:14:47+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2013-12-01T00:00:00",
+        "endtime": "2014-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 338008
+    },
+    "2014/2014-02.csv": {
+      "file": "2014/2014-02.csv",
+      "dataset": "global",
+      "count_api": 1827,
+      "rows": 1827,
+      "sha256": "33efd440d89cac4ed33ef210c893a2fb9928e7895f7f3c7752f48367d626b4f8",
+      "downloaded_at": "2026-11-19T15:14:49+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-02-01T00:00:00",
+        "endtime": "2014-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 326789
+    },
+    "2014/2014-03.csv": {
+      "file": "2014/2014-03.csv",
+      "dataset": "global",
+      "count_api": 2350,
+      "rows": 2350,
+      "sha256": "3a3cbf5c617a7aaae45e6f5340163afe7420dd4804f45e2f8a29dc1f1d51e78d",
+      "downloaded_at": "2026-11-19T15:14:51+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-03-01T00:00:00",
+        "endtime": "2014-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 422519
+    },
+    "2014/2014-04.csv": {
+      "file": "2014/2014-04.csv",
+      "dataset": "global",
+      "count_api": 2889,
+      "rows": 2889,
+      "sha256": "a542a5986526c57f1a6222076fc163fa1196f1a0623d1605b801bb01a18fa18a",
+      "downloaded_at": "2026-11-19T15:14:52+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-04-01T00:00:00",
+        "endtime": "2014-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 520311
+    },
+    "2014/2014-05.csv": {
+      "file": "2014/2014-05.csv",
+      "dataset": "global",
+      "count_api": 2305,
+      "rows": 2305,
+      "sha256": "605bd9347be6137ac4efe56799e91e805513f8237de4d0bb7fed627d006cf677",
+      "downloaded_at": "2026-11-19T15:14:54+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-05-01T00:00:00",
+        "endtime": "2014-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 413172
+    },
+    "2014/2014-06.csv": {
+      "file": "2014/2014-06.csv",
+      "dataset": "global",
+      "count_api": 2854,
+      "rows": 2854,
+      "sha256": "71638356524c84167da7fc48284b98801c279c45b730ba69d87db4e7b25534e7",
+      "downloaded_at": "2026-11-19T15:14:56+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-06-01T00:00:00",
+        "endtime": "2014-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 510419
+    },
+    "2014/2014-07.csv": {
+      "file": "2014/2014-07.csv",
+      "dataset": "global",
+      "count_api": 2426,
+      "rows": 2426,
+      "sha256": "1a699276337fcfb1fcf8346e07509391d9537e2e4cf1bedbcc2c65249ce96f28",
+      "downloaded_at": "2026-11-19T15:14:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-07-01T00:00:00",
+        "endtime": "2014-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 433599
+    },
+    "2014/2014-08.csv": {
+      "file": "2014/2014-08.csv",
+      "dataset": "global",
+      "count_api": 2215,
+      "rows": 2215,
+      "sha256": "77a1abc42f666478d7e488363907b5977e1b85e6f68d64aa9962acea3e8be601",
+      "downloaded_at": "2026-11-19T15:14:59+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-08-01T00:00:00",
+        "endtime": "2014-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 397267
+    },
+    "2014/2014-09.csv": {
+      "file": "2014/2014-09.csv",
+      "dataset": "global",
+      "count_api": 2099,
+      "rows": 2099,
+      "sha256": "ee7f98bdffcac7c3152e61bcda5e8c0d1760499c89a5cc586ac6ee2e5e8f76c8",
+      "downloaded_at": "2026-11-19T15:15:00+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-09-01T00:00:00",
+        "endtime": "2014-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 382532
+    },
+    "2014/2014-10.csv": {
+      "file": "2014/2014-10.csv",
+      "dataset": "global",
+      "count_api": 2397,
+      "rows": 2397,
+      "sha256": "068cd38d04a96882bad6360d5a1373ca67eb60bdfce4f426efcb5cff36c4edde",
+      "downloaded_at": "2026-11-19T15:15:02+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-10-01T00:00:00",
+        "endtime": "2014-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 435078
+    },
+    "2014/2014-11.csv": {
+      "file": "2014/2014-11.csv",
+      "dataset": "global",
+      "count_api": 2675,
+      "rows": 2675,
+      "sha256": "ffeee85b76385e79d61b0694e13a8ad916b1101efab4d430aa199c2a52268193",
+      "downloaded_at": "2026-11-19T15:15:04+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-11-01T00:00:00",
+        "endtime": "2014-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 485672
+    },
+    "2014/2014-12.csv": {
+      "file": "2014/2014-12.csv",
+      "dataset": "global",
+      "count_api": 2169,
+      "rows": 2169,
+      "sha256": "a7d21f4aa677eb9b0c1ce6c79f4ea4e34cc6153726882277f93d61899d7add1b",
+      "downloaded_at": "2026-11-19T15:15:05+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2014-12-01T00:00:00",
+        "endtime": "2015-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 393320
+    },
+    "2015/2015-01.csv": {
+      "file": "2015/2015-01.csv",
+      "dataset": "global",
+      "count_api": 2220,
+      "rows": 2220,
+      "sha256": "4a93d2f08d1c0e96b220102f2189eaa837e96f2ef12eefd385fb63f6a69c0415",
+      "downloaded_at": "2026-11-19T15:15:06+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-01-01T00:00:00",
+        "endtime": "2015-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 402103
+    },
+    "2015/2015-02.csv": {
+      "file": "2015/2015-02.csv",
+      "dataset": "global",
+      "count_api": 1946,
+      "rows": 1946,
+      "sha256": "8a9b55aa5d86a1656b6115a9ef40991590fde26a81dca20335eaeda9f2d40087",
+      "downloaded_at": "2026-11-19T15:15:07+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-02-01T00:00:00",
+        "endtime": "2015-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 353318
+    },
+    "2015/2015-03.csv": {
+      "file": "2015/2015-03.csv",
+      "dataset": "global",
+      "count_api": 2116,
+      "rows": 2116,
+      "sha256": "ab26ba76f226c3fb22c503a1f4eb4b8bda9f881ff031a4bbf21ff580b2e292c3",
+      "downloaded_at": "2026-11-19T15:15:09+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-03-01T00:00:00",
+        "endtime": "2015-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 382252
+    },
+    "2015/2015-04.csv": {
+      "file": "2015/2015-04.csv",
+      "dataset": "global",
+      "count_api": 2012,
+      "rows": 2012,
+      "sha256": "b9b306a8a3e6711aabc1e5367f341ea0c31637b73d1fdde1cf4c037fe960a772",
+      "downloaded_at": "2026-11-19T15:15:10+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-04-01T00:00:00",
+        "endtime": "2015-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 362904
+    },
+    "2015/2015-05.csv": {
+      "file": "2015/2015-05.csv",
+      "dataset": "global",
+      "count_api": 2439,
+      "rows": 2439,
+      "sha256": "d245e86be03501e1d953751c342e01d4bd8a82e3a35f98da84b5bcd7da3781d7",
+      "downloaded_at": "2026-11-19T15:15:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-05-01T00:00:00",
+        "endtime": "2015-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 445037
+    },
+    "2015/2015-06.csv": {
+      "file": "2015/2015-06.csv",
+      "dataset": "global",
+      "count_api": 1948,
+      "rows": 1948,
+      "sha256": "45fe82f30be927dbcf3eb49e97e8344da75c9f6e202eed1975cd45a7f143a8fc",
+      "downloaded_at": "2026-11-19T15:15:13+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-06-01T00:00:00",
+        "endtime": "2015-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 353352
+    },
+    "2015/2015-07.csv": {
+      "file": "2015/2015-07.csv",
+      "dataset": "global",
+      "count_api": 2573,
+      "rows": 2573,
+      "sha256": "c628aff12f89eb77c58a4a5601a6ad179e7c5b55ee91d58e9611d8cee6f3eea6",
+      "downloaded_at": "2026-11-19T15:15:15+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-07-01T00:00:00",
+        "endtime": "2015-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 468931
+    },
+    "2015/2015-08.csv": {
+      "file": "2015/2015-08.csv",
+      "dataset": "global",
+      "count_api": 2285,
+      "rows": 2285,
+      "sha256": "18f5677c702d976ed2e4e42fc27f869b1cbe2a0e51113062e5f9ecd0b83c033d",
+      "downloaded_at": "2026-11-19T15:15:16+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-08-01T00:00:00",
+        "endtime": "2015-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 416429
+    },
+    "2015/2015-09.csv": {
+      "file": "2015/2015-09.csv",
+      "dataset": "global",
+      "count_api": 2975,
+      "rows": 2975,
+      "sha256": "6b0fed3c4714fc9e6be874c5f2ef952eb3eaabc474839ca1e223e0ca2be0890c",
+      "downloaded_at": "2026-11-19T15:15:17+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-09-01T00:00:00",
+        "endtime": "2015-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 540589
+    },
+    "2015/2015-10.csv": {
+      "file": "2015/2015-10.csv",
+      "dataset": "global",
+      "count_api": 2138,
+      "rows": 2138,
+      "sha256": "63a0861ae8f7e3af802d37c52c5501833f748c57e7b3e32fe5314deb2aa4b804",
+      "downloaded_at": "2026-11-19T15:15:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-10-01T00:00:00",
+        "endtime": "2015-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 388947
+    },
+    "2015/2015-11.csv": {
+      "file": "2015/2015-11.csv",
+      "dataset": "global",
+      "count_api": 2341,
+      "rows": 2341,
+      "sha256": "ad09880b7ecb4bafc4d901a685143af7cdd44c4ff99d06f77267b0015a16eab6",
+      "downloaded_at": "2026-11-19T15:15:20+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-11-01T00:00:00",
+        "endtime": "2015-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 423311
+    },
+    "2015/2015-12.csv": {
+      "file": "2015/2015-12.csv",
+      "dataset": "global",
+      "count_api": 2061,
+      "rows": 2061,
+      "sha256": "e84d6977d63c283b0a0efdcff86efe187c53ad17b9a836e217479b301499a129",
+      "downloaded_at": "2026-11-19T15:15:21+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2015-12-01T00:00:00",
+        "endtime": "2016-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 374961
+    },
+    "2016/2016-02.csv": {
+      "file": "2016/2016-02.csv",
+      "dataset": "global",
+      "count_api": 2008,
+      "rows": 2008,
+      "sha256": "5ae6e8a5bf5930f6b0b583b54e7ad1e626ac1d30cdc7be157ca993d2dbe52754",
+      "downloaded_at": "2026-11-19T15:15:23+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-02-01T00:00:00",
+        "endtime": "2016-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 365089
+    },
+    "2016/2016-03.csv": {
+      "file": "2016/2016-03.csv",
+      "dataset": "global",
+      "count_api": 1894,
+      "rows": 1894,
+      "sha256": "71aa1ab0c77d64b4501ca15e777a34a5259a4e62a57dd7378e5ff769ff2d965e",
+      "downloaded_at": "2026-11-19T15:15:25+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-03-01T00:00:00",
+        "endtime": "2016-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 343336
+    },
+    "2016/2016-04.csv": {
+      "file": "2016/2016-04.csv",
+      "dataset": "global",
+      "count_api": 2378,
+      "rows": 2378,
+      "sha256": "a8a4db54e3390abfd98b7e70e30f14d93953dfc1f304f91de921130f699452c0",
+      "downloaded_at": "2026-11-19T15:15:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-04-01T00:00:00",
+        "endtime": "2016-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 429776
+    },
+    "2016/2016-05.csv": {
+      "file": "2016/2016-05.csv",
+      "dataset": "global",
+      "count_api": 1979,
+      "rows": 1979,
+      "sha256": "26ef1173f4c8e1e30e858dedb32955c6a4268bf01c2aa129d3f7b3640b253600",
+      "downloaded_at": "2026-11-19T15:15:28+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-05-01T00:00:00",
+        "endtime": "2016-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 360021
+    },
+    "2016/2016-06.csv": {
+      "file": "2016/2016-06.csv",
+      "dataset": "global",
+      "count_api": 1984,
+      "rows": 1984,
+      "sha256": "4f063b289dadcd0b3b8f2cd8de899565da22d47fd6d2b72e79e80c6d31db79b4",
+      "downloaded_at": "2026-11-19T15:15:30+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-06-01T00:00:00",
+        "endtime": "2016-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 361227
+    },
+    "2016/2016-07.csv": {
+      "file": "2016/2016-07.csv",
+      "dataset": "global",
+      "count_api": 1917,
+      "rows": 1917,
+      "sha256": "e4bf142398f954aa77fdbf3c3e54761ee1e788c36bc50d8a04be9d8d659c6384",
+      "downloaded_at": "2026-11-19T15:15:31+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-07-01T00:00:00",
+        "endtime": "2016-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 348980
+    },
+    "2016/2016-08.csv": {
+      "file": "2016/2016-08.csv",
+      "dataset": "global",
+      "count_api": 2105,
+      "rows": 2105,
+      "sha256": "b6ef27ba59f8262c4c15e42366dc8bbfab423cccfb2457ca082378476b65d7e1",
+      "downloaded_at": "2026-11-19T15:15:33+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-08-01T00:00:00",
+        "endtime": "2016-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 384961
+    },
+    "2016/2016-09.csv": {
+      "file": "2016/2016-09.csv",
+      "dataset": "global",
+      "count_api": 2337,
+      "rows": 2337,
+      "sha256": "0bee3a07300c478409764f5e280852732b5bb9f181b7dbfabb6014f8b82ebe7f",
+      "downloaded_at": "2026-11-19T15:15:34+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-09-01T00:00:00",
+        "endtime": "2016-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 425417
+    },
+    "2016/2016-10.csv": {
+      "file": "2016/2016-10.csv",
+      "dataset": "global",
+      "count_api": 1826,
+      "rows": 1826,
+      "sha256": "319f45e1e0eb488584045aebc1ecdeafc069a5360375d8efe19b8fcb340ffe3e",
+      "downloaded_at": "2026-11-19T15:15:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-10-01T00:00:00",
+        "endtime": "2016-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 331942
+    },
+    "2016/2016-11.csv": {
+      "file": "2016/2016-11.csv",
+      "dataset": "global",
+      "count_api": 2179,
+      "rows": 2179,
+      "sha256": "f2f0c4073a6bd207431c8c3140b9f16a30d8715b5ab6f0af7ac68d906ffc6887",
+      "downloaded_at": "2026-11-19T15:15:37+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-11-01T00:00:00",
+        "endtime": "2016-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 397771
+    },
+    "2016/2016-12.csv": {
+      "file": "2016/2016-12.csv",
+      "dataset": "global",
+      "count_api": 2354,
+      "rows": 2354,
+      "sha256": "2b4b04e17a28db6cc147810c645e341a2755eef52d3b821b312b47feab08a97f",
+      "downloaded_at": "2026-11-19T15:15:39+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2016-12-01T00:00:00",
+        "endtime": "2017-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 434007
+    },
+    "2017/2017-01.csv": {
+      "file": "2017/2017-01.csv",
+      "dataset": "global",
+      "count_api": 1827,
+      "rows": 1827,
+      "sha256": "4c7bdbd2f33f29385e514d74780ea371b3c9bbe86acde24824482977b71c4a38",
+      "downloaded_at": "2026-11-19T15:15:40+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-01-01T00:00:00",
+        "endtime": "2017-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 333738
+    },
+    "2017/2017-02.csv": {
+      "file": "2017/2017-02.csv",
+      "dataset": "global",
+      "count_api": 1418,
+      "rows": 1418,
+      "sha256": "0112146bda24314a4b8d89d06a21c3432e60aad3031a579aae58c1ee46e36007",
+      "downloaded_at": "2026-11-19T15:15:41+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-02-01T00:00:00",
+        "endtime": "2017-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 260256
+    },
+    "2017/2017-03.csv": {
+      "file": "2017/2017-03.csv",
+      "dataset": "global",
+      "count_api": 1687,
+      "rows": 1687,
+      "sha256": "97104191b74d6537773971969d79db90aa27f86879c0d968a84a1450b641721b",
+      "downloaded_at": "2026-11-19T15:15:42+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-03-01T00:00:00",
+        "endtime": "2017-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 309603
+    },
+    "2017/2017-04.csv": {
+      "file": "2017/2017-04.csv",
+      "dataset": "global",
+      "count_api": 1913,
+      "rows": 1913,
+      "sha256": "bcdbe4519092810eddc9726359cae73c76b35e4e391ab14dae1812640dfece2a",
+      "downloaded_at": "2026-11-19T15:15:44+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-04-01T00:00:00",
+        "endtime": "2017-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 351501
+    },
+    "2017/2017-05.csv": {
+      "file": "2017/2017-05.csv",
+      "dataset": "global",
+      "count_api": 2882,
+      "rows": 2882,
+      "sha256": "cc2c08333f184fa02a0196958862726de2359b772f94ac07c2c6a55c54670488",
+      "downloaded_at": "2026-11-19T15:15:45+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-05-01T00:00:00",
+        "endtime": "2017-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 516737
+    },
+    "2017/2017-06.csv": {
+      "file": "2017/2017-06.csv",
+      "dataset": "global",
+      "count_api": 1713,
+      "rows": 1713,
+      "sha256": "7346a782f65c407db719ee2d96a9a095fdc76bbb49199184eda12e0a0f9771ac",
+      "downloaded_at": "2026-11-19T15:15:47+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-06-01T00:00:00",
+        "endtime": "2017-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 313424
+    },
+    "2017/2017-07.csv": {
+      "file": "2017/2017-07.csv",
+      "dataset": "global",
+      "count_api": 2020,
+      "rows": 2020,
+      "sha256": "4019eaa3411d5ff1fc6ee20f87b5a3d7ba49a55f8a796922c7c24411e5322c7e",
+      "downloaded_at": "2026-11-19T15:15:48+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-07-01T00:00:00",
+        "endtime": "2017-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 372213
+    },
+    "2017/2017-08.csv": {
+      "file": "2017/2017-08.csv",
+      "dataset": "global",
+      "count_api": 1731,
+      "rows": 1731,
+      "sha256": "24508f911ba3bc6ada72445ada49756de445be9663e75115a0a1c92b724e232c",
+      "downloaded_at": "2026-11-19T15:15:50+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-08-01T00:00:00",
+        "endtime": "2017-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 318526
+    },
+    "2017/2017-09.csv": {
+      "file": "2017/2017-09.csv",
+      "dataset": "global",
+      "count_api": 2505,
+      "rows": 2505,
+      "sha256": "ad7aa1e4444cbcb2e83b4b9af54eeabd3dd5b60541668a8a81da2bd2de98b134",
+      "downloaded_at": "2026-11-19T15:15:52+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-09-01T00:00:00",
+        "endtime": "2017-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 464503
+    },
+    "2017/2017-10.csv": {
+      "file": "2017/2017-10.csv",
+      "dataset": "global",
+      "count_api": 1606,
+      "rows": 1606,
+      "sha256": "998b8f7bcd40441f521489982c9e39f0acb96d0f39eaf8bf9fc7c728a7faef2b",
+      "downloaded_at": "2026-11-19T15:15:53+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-10-01T00:00:00",
+        "endtime": "2017-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 294107
+    },
+    "2017/2017-11.csv": {
+      "file": "2017/2017-11.csv",
+      "dataset": "global",
+      "count_api": 1896,
+      "rows": 1896,
+      "sha256": "d080418cc7851d8273ec92f271e8bad6bcf2d0fff8316211d9392290d038b238",
+      "downloaded_at": "2026-11-19T15:15:54+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-11-01T00:00:00",
+        "endtime": "2017-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 347663
+    },
+    "2017/2017-12.csv": {
+      "file": "2017/2017-12.csv",
+      "dataset": "global",
+      "count_api": 1682,
+      "rows": 1682,
+      "sha256": "97c86c2a6a370b6b6a977ce63d9dceb4274db2b1aaea0d6999e43aea33a386ff",
+      "downloaded_at": "2026-11-19T15:15:55+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2017-12-01T00:00:00",
+        "endtime": "2018-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 306833
+    },
+    "2018/2018-02.csv": {
+      "file": "2018/2018-02.csv",
+      "dataset": "global",
+      "count_api": 2698,
+      "rows": 2698,
+      "sha256": "6464883293f33fb77adc50a42519d790358404b9b5c21d1bace63c96e9e37810",
+      "downloaded_at": "2026-11-19T15:15:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-02-01T00:00:00",
+        "endtime": "2018-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 495693
+    },
+    "2018/2018-03.csv": {
+      "file": "2018/2018-03.csv",
+      "dataset": "global",
+      "count_api": 2426,
+      "rows": 2426,
+      "sha256": "b4499bb2e16ba82a74454ab626f222042ef068ee1cd0d7e48ff38596e410e7d2",
+      "downloaded_at": "2026-11-19T15:15:59+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-03-01T00:00:00",
+        "endtime": "2018-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 446082
+    },
+    "2018/2018-04.csv": {
+      "file": "2018/2018-04.csv",
+      "dataset": "global",
+      "count_api": 2111,
+      "rows": 2111,
+      "sha256": "63af33ffda494497fd475945b430e55cc9676faf24bdff20c0c1a63abf1b95c2",
+      "downloaded_at": "2026-11-19T15:16:00+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-04-01T00:00:00",
+        "endtime": "2018-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 387162
+    },
+    "2018/2018-05.csv": {
+      "file": "2018/2018-05.csv",
+      "dataset": "global",
+      "count_api": 3320,
+      "rows": 3320,
+      "sha256": "c82924d2bb26b65f209194cab3b63b6e4bc7d44ec47af52190076173dc3479ac",
+      "downloaded_at": "2026-11-19T15:16:02+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-05-01T00:00:00",
+        "endtime": "2018-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 628383
+    },
+    "2018/2018-06.csv": {
+      "file": "2018/2018-06.csv",
+      "dataset": "global",
+      "count_api": 6903,
+      "rows": 6903,
+      "sha256": "018f432e563a645e30223e79a24c22e4792fe776c686deee2db9953b682f2de3",
+      "downloaded_at": "2026-11-19T15:16:04+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-06-01T00:00:00",
+        "endtime": "2018-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 1359308
+    },
+    "2018/2018-07.csv": {
+      "file": "2018/2018-07.csv",
+      "dataset": "global",
+      "count_api": 7683,
+      "rows": 7683,
+      "sha256": "eb2863238bf1498d190fae4da8f4a071693eb403a6458c1206c8d206c28ebfa8",
+      "downloaded_at": "2026-11-19T15:16:06+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-07-01T00:00:00",
+        "endtime": "2018-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 1509677
+    },
+    "2018/2018-08.csv": {
+      "file": "2018/2018-08.csv",
+      "dataset": "global",
+      "count_api": 3744,
+      "rows": 3744,
+      "sha256": "a46e0921ba827bdff6782c8d76bea989609f8be02d2d6a7a61f93fcdbe33a4fa",
+      "downloaded_at": "2026-11-19T15:16:08+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-08-01T00:00:00",
+        "endtime": "2018-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 680839
+    },
+    "2018/2018-09.csv": {
+      "file": "2018/2018-09.csv",
+      "dataset": "global",
+      "count_api": 2413,
+      "rows": 2413,
+      "sha256": "454f9f3c5db1edec0cca3e0ca4b8702c28fbcd242a8ba5c9f83617fb9cb9d3d7",
+      "downloaded_at": "2026-11-19T15:16:09+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-09-01T00:00:00",
+        "endtime": "2018-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 437415
+    },
+    "2018/2018-10.csv": {
+      "file": "2018/2018-10.csv",
+      "dataset": "global",
+      "count_api": 2341,
+      "rows": 2341,
+      "sha256": "ad308a44d95b4b9c968c1cc08eff265f147f5b7e3e2a93d19232894f9dd76585",
+      "downloaded_at": "2026-11-19T15:16:11+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-10-01T00:00:00",
+        "endtime": "2018-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 427220
+    },
+    "2018/2018-11.csv": {
+      "file": "2018/2018-11.csv",
+      "dataset": "global",
+      "count_api": 2176,
+      "rows": 2176,
+      "sha256": "158f5acf1aa19eba3f227e43a3ce7367115cf0a6e9f3f7aa94ff24067a9ed26c",
+      "downloaded_at": "2026-11-19T15:16:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-11-01T00:00:00",
+        "endtime": "2018-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 395015
+    },
+    "2018/2018-12.csv": {
+      "file": "2018/2018-12.csv",
+      "dataset": "global",
+      "count_api": 2779,
+      "rows": 2779,
+      "sha256": "e8cad7d2240b2f55bbbd6c31a1eb5002427fdcd3e86cb2995f13a67816d12213",
+      "downloaded_at": "2026-11-19T15:16:14+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2018-12-01T00:00:00",
+        "endtime": "2019-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 503754
+    },
+    "2019/2019-01.csv": {
+      "file": "2019/2019-01.csv",
+      "dataset": "global",
+      "count_api": 2118,
+      "rows": 2118,
+      "sha256": "8cc2faf027a466d3dff574fd82715002b1a08a0b3f032bd89a2efe6d6f2f7b6f",
+      "downloaded_at": "2026-11-19T15:16:15+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-01-01T00:00:00",
+        "endtime": "2019-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 388716
+    },
+    "2019/2019-02.csv": {
+      "file": "2019/2019-02.csv",
+      "dataset": "global",
+      "count_api": 1899,
+      "rows": 1899,
+      "sha256": "861dd54cbc2ff6d93ec2bb1431dc0050e856cade409e696b789c598ab9c7a3e0",
+      "downloaded_at": "2026-11-19T15:16:17+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-02-01T00:00:00",
+        "endtime": "2019-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 350082
+    },
+    "2019/2019-03.csv": {
+      "file": "2019/2019-03.csv",
+      "dataset": "global",
+      "count_api": 2085,
+      "rows": 2085,
+      "sha256": "4ecc1ea04bbb11e1c99b7844734d18f1230caf5a183e14143ee61113ee6701f0",
+      "downloaded_at": "2026-11-19T15:16:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-03-01T00:00:00",
+        "endtime": "2019-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 380475
+    },
+    "2019/2019-04.csv": {
+      "file": "2019/2019-04.csv",
+      "dataset": "global",
+      "count_api": 1998,
+      "rows": 1998,
+      "sha256": "43de0bf7e8c8cb191d7535f417f69b2816a0aef5241ab5493b61b58d9ce2a888",
+      "downloaded_at": "2026-11-19T15:16:19+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-04-01T00:00:00",
+        "endtime": "2019-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 365239
+    },
+    "2019/2019-05.csv": {
+      "file": "2019/2019-05.csv",
+      "dataset": "global",
+      "count_api": 1802,
+      "rows": 1802,
+      "sha256": "99bd021df14514e87bc21783d19a7f40a05f223bfc5be0b002c6db3dab7647db",
+      "downloaded_at": "2026-11-19T15:16:21+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-05-01T00:00:00",
+        "endtime": "2019-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 331855
+    },
+    "2019/2019-06.csv": {
+      "file": "2019/2019-06.csv",
+      "dataset": "global",
+      "count_api": 1911,
+      "rows": 1911,
+      "sha256": "cca60af9d33d34d0fe737272a0b58e21c47e6cb5dd06e61b3118f28faac63d96",
+      "downloaded_at": "2026-11-19T15:16:22+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-06-01T00:00:00",
+        "endtime": "2019-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 351749
+    },
+    "2019/2019-07.csv": {
+      "file": "2019/2019-07.csv",
+      "dataset": "global",
+      "count_api": 4387,
+      "rows": 4387,
+      "sha256": "bd97703a68df5b8d76e6c0dbe941eab66bfd40832bfe0af7d178dd93a1ab367e",
+      "downloaded_at": "2026-11-19T15:16:24+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-07-01T00:00:00",
+        "endtime": "2019-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 824028
+    },
+    "2019/2019-08.csv": {
+      "file": "2019/2019-08.csv",
+      "dataset": "global",
+      "count_api": 1780,
+      "rows": 1780,
+      "sha256": "ec21bb9dfc08d3daae95d971a1e95f56403f78c81e7cd2bd3ed2d5eb3d94ccaf",
+      "downloaded_at": "2026-11-19T15:16:26+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-08-01T00:00:00",
+        "endtime": "2019-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 327901
+    },
+    "2019/2019-09.csv": {
+      "file": "2019/2019-09.csv",
+      "dataset": "global",
+      "count_api": 2160,
+      "rows": 2160,
+      "sha256": "c41b5fe8b345f2c42fb52aae69e96a6717a4c678c4a87de927e176ca0d3965da",
+      "downloaded_at": "2026-11-19T15:16:27+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-09-01T00:00:00",
+        "endtime": "2019-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 400737
+    },
+    "2019/2019-10.csv": {
+      "file": "2019/2019-10.csv",
+      "dataset": "global",
+      "count_api": 2121,
+      "rows": 2121,
+      "sha256": "633b7a77c4328ac990cc6aec8e0405d09728fbf23406dd274e19082f04b80a11",
+      "downloaded_at": "2026-11-19T15:16:28+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-10-01T00:00:00",
+        "endtime": "2019-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 391651
+    },
+    "2019/2019-11.csv": {
+      "file": "2019/2019-11.csv",
+      "dataset": "global",
+      "count_api": 2076,
+      "rows": 2076,
+      "sha256": "1f69dd4f3a17fd15b840b960054b31feaae612e4bba4c261d51bc64f18447fe5",
+      "downloaded_at": "2026-11-19T15:16:30+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-11-01T00:00:00",
+        "endtime": "2019-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 381782
+    },
+    "2019/2019-12.csv": {
+      "file": "2019/2019-12.csv",
+      "dataset": "global",
+      "count_api": 2378,
+      "rows": 2378,
+      "sha256": "5b7731860cefb976ad31b57e0bff7edc0cec5a6d7081417be011ad7ed2a74a3e",
+      "downloaded_at": "2026-11-19T15:16:31+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2019-12-01T00:00:00",
+        "endtime": "2020-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 439712
+    },
+    "2020/2020-02.csv": {
+      "file": "2020/2020-02.csv",
+      "dataset": "global",
+      "count_api": 2347,
+      "rows": 2347,
+      "sha256": "52eaaefc572494e90dd07fc499c90a27453c1e1e1375060839d7e95d00624d83",
+      "downloaded_at": "2026-11-19T15:16:33+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-02-01T00:00:00",
+        "endtime": "2020-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 434700
+    },
+    "2020/2020-03.csv": {
+      "file": "2020/2020-03.csv",
+      "dataset": "global",
+      "count_api": 2322,
+      "rows": 2322,
+      "sha256": "893aa5d87d4861a4664a3fcfd31d05a8d6c123fe1e2bea55ccff359b6ca76216",
+      "downloaded_at": "2026-11-19T15:16:35+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-03-01T00:00:00",
+        "endtime": "2020-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 428681
+    },
+    "2020/2020-04.csv": {
+      "file": "2020/2020-04.csv",
+      "dataset": "global",
+      "count_api": 2752,
+      "rows": 2752,
+      "sha256": "fe6416b1341e01fdf1cd89697af308e51abd64151da683487bed6958476d8c5c",
+      "downloaded_at": "2026-11-19T15:16:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-04-01T00:00:00",
+        "endtime": "2020-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 505415
+    },
+    "2020/2020-05.csv": {
+      "file": "2020/2020-05.csv",
+      "dataset": "global",
+      "count_api": 3255,
+      "rows": 3255,
+      "sha256": "89bc5bf001d06ddcb8768ef1f3c94dc83cb09c764cdb2d42ffb6ddb198e61671",
+      "downloaded_at": "2026-11-19T15:16:38+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-05-01T00:00:00",
+        "endtime": "2020-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 596738
+    },
+    "2020/2020-06.csv": {
+      "file": "2020/2020-06.csv",
+      "dataset": "global",
+      "count_api": 2558,
+      "rows": 2558,
+      "sha256": "1d33914681dec1a300c90c24894d55659a9488e5dc68e063890572b9b251a94b",
+      "downloaded_at": "2026-11-19T15:16:39+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-06-01T00:00:00",
+        "endtime": "2020-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 470637
+    },
+    "2020/2020-07.csv": {
+      "file": "2020/2020-07.csv",
+      "dataset": "global",
+      "count_api": 2715,
+      "rows": 2715,
+      "sha256": "4a89da44e6caa7ea9f45de475c4b67b64fd17a4c334e4f4c632a7ff31e66728d",
+      "downloaded_at": "2026-11-19T15:16:41+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-07-01T00:00:00",
+        "endtime": "2020-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 497366
+    },
+    "2020/2020-08.csv": {
+      "file": "2020/2020-08.csv",
+      "dataset": "global",
+      "count_api": 2271,
+      "rows": 2271,
+      "sha256": "ecd7038f39f35996cabf0657f3b2730c640e9f5c45a719238ddd886f56254fab",
+      "downloaded_at": "2026-11-19T15:16:42+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-08-01T00:00:00",
+        "endtime": "2020-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 417771
+    },
+    "2020/2020-09.csv": {
+      "file": "2020/2020-09.csv",
+      "dataset": "global",
+      "count_api": 2048,
+      "rows": 2048,
+      "sha256": "f77cd940cf19513c58cd6138befd6460b29e8e1c0bbf9ddc508deab0bb914dbb",
+      "downloaded_at": "2026-11-19T15:16:44+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-09-01T00:00:00",
+        "endtime": "2020-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 376802
+    },
+    "2020/2020-10.csv": {
+      "file": "2020/2020-10.csv",
+      "dataset": "global",
+      "count_api": 3131,
+      "rows": 3131,
+      "sha256": "29a833ebcb2f07eb3e2ff31cbc13420a0e7d07c6178c81ffe194267cf7a7e7ee",
+      "downloaded_at": "2026-11-19T15:16:45+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-10-01T00:00:00",
+        "endtime": "2020-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 579380
+    },
+    "2020/2020-11.csv": {
+      "file": "2020/2020-11.csv",
+      "dataset": "global",
+      "count_api": 2282,
+      "rows": 2282,
+      "sha256": "40cbbfe560c4f28d8658a57745ff69aec9572cbd1ea7c02d5fe959723e47e9e3",
+      "downloaded_at": "2026-11-19T15:16:47+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-11-01T00:00:00",
+        "endtime": "2020-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 420532
+    },
+    "2020/2020-12.csv": {
+      "file": "2020/2020-12.csv",
+      "dataset": "global",
+      "count_api": 2387,
+      "rows": 2387,
+      "sha256": "103672b0dd2ff2d2284660b8bdfcea6c7a3a7a2f2f2e289f5002bbc8898f3cd4",
+      "downloaded_at": "2026-11-19T15:16:48+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2020-12-01T00:00:00",
+        "endtime": "2021-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 440616
+    },
+    "2021/2021-01.csv": {
+      "file": "2021/2021-01.csv",
+      "dataset": "global",
+      "count_api": 2446,
+      "rows": 2446,
+      "sha256": "b2175055eb6da61d4172aa2156a974e1b3894194c8cec043b12b122dfd49c979",
+      "downloaded_at": "2026-11-19T15:16:50+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-01-01T00:00:00",
+        "endtime": "2021-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 453337
+    },
+    "2021/2021-02.csv": {
+      "file": "2021/2021-02.csv",
+      "dataset": "global",
+      "count_api": 2333,
+      "rows": 2333,
+      "sha256": "13a6bd3efc68ff1ca7f9dcf88bba23268647806d316ccb90f6fbe6ca0ebae85c",
+      "downloaded_at": "2026-11-19T15:16:51+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-02-01T00:00:00",
+        "endtime": "2021-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 430617
+    },
+    "2021/2021-03.csv": {
+      "file": "2021/2021-03.csv",
+      "dataset": "global",
+      "count_api": 2922,
+      "rows": 2922,
+      "sha256": "224827c2f860acadf287b6c771e4bb5c548506db2812369e7c8bdb74ab11b6cc",
+      "downloaded_at": "2026-11-19T15:16:52+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-03-01T00:00:00",
+        "endtime": "2021-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 536523
+    },
+    "2021/2021-04.csv": {
+      "file": "2021/2021-04.csv",
+      "dataset": "global",
+      "count_api": 2075,
+      "rows": 2075,
+      "sha256": "2dbebfcd7898f3a50ad8aaaad3d818a4dd6f99b4d52ce8d11d46d91dfba901cb",
+      "downloaded_at": "2026-11-19T15:16:53+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-04-01T00:00:00",
+        "endtime": "2021-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 382515
+    },
+    "2021/2021-05.csv": {
+      "file": "2021/2021-05.csv",
+      "dataset": "global",
+      "count_api": 2041,
+      "rows": 2041,
+      "sha256": "145890b8b8886f5b41e87c7e0ac44fcece86329ee52ae9e540af2a417578da97",
+      "downloaded_at": "2026-11-19T15:16:54+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-05-01T00:00:00",
+        "endtime": "2021-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 375864
+    },
+    "2021/2021-06.csv": {
+      "file": "2021/2021-06.csv",
+      "dataset": "global",
+      "count_api": 2171,
+      "rows": 2171,
+      "sha256": "8ff64aee1692c86629fd5bbedb6e71da3acc3df7f87e214f01adda6fd1972474",
+      "downloaded_at": "2026-11-19T15:16:55+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-06-01T00:00:00",
+        "endtime": "2021-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 404327
+    },
+    "2021/2021-07.csv": {
+      "file": "2021/2021-07.csv",
+      "dataset": "global",
+      "count_api": 2635,
+      "rows": 2635,
+      "sha256": "57156e10097e3154ef6fd1ce2d40ef8de0c49b8bc67aec82af980a4ac20e4e60",
+      "downloaded_at": "2026-11-19T15:16:57+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-07-01T00:00:00",
+        "endtime": "2021-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 480537
+    },
+    "2021/2021-08.csv": {
+      "file": "2021/2021-08.csv",
+      "dataset": "global",
+      "count_api": 3392,
+      "rows": 3392,
+      "sha256": "7aefc1119eee4fba307937db161545a461bb69e015bf962bc9880edf06422e94",
+      "downloaded_at": "2026-11-19T15:16:58+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-08-01T00:00:00",
+        "endtime": "2021-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 621159
+    },
+    "2021/2021-09.csv": {
+      "file": "2021/2021-09.csv",
+      "dataset": "global",
+      "count_api": 2245,
+      "rows": 2245,
+      "sha256": "c4a83882ed0aa03c7fbffce310c01240295e1636a9bc0a85a012f3d4cad4c2f4",
+      "downloaded_at": "2026-11-19T15:16:59+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-09-01T00:00:00",
+        "endtime": "2021-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 413667
+    },
+    "2021/2021-10.csv": {
+      "file": "2021/2021-10.csv",
+      "dataset": "global",
+      "count_api": 2062,
+      "rows": 2062,
+      "sha256": "70535be4cd24c5e1b65a479a321736e6fc602041e37ef0bde0531fee09e8fd74",
+      "downloaded_at": "2026-11-19T15:17:00+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-10-01T00:00:00",
+        "endtime": "2021-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 381081
+    },
+    "2021/2021-11.csv": {
+      "file": "2021/2021-11.csv",
+      "dataset": "global",
+      "count_api": 2066,
+      "rows": 2066,
+      "sha256": "27c0deef140e927ccc5f8efe72fe73c738651084fbc677d17086a53e3a7e8cb9",
+      "downloaded_at": "2026-11-19T15:17:02+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-11-01T00:00:00",
+        "endtime": "2021-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 381532
+    },
+    "2021/2021-12.csv": {
+      "file": "2021/2021-12.csv",
+      "dataset": "global",
+      "count_api": 2508,
+      "rows": 2508,
+      "sha256": "0aafd45b64e1d518674586aaffbf2ad9d407c60594f5a585575e31ba2568edd4",
+      "downloaded_at": "2026-11-19T15:17:03+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2021-12-01T00:00:00",
+        "endtime": "2022-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 461942
+    },
+    "2022/2022-02.csv": {
+      "file": "2022/2022-02.csv",
+      "dataset": "global",
+      "count_api": 2116,
+      "rows": 2116,
+      "sha256": "e79014c1f5e1ff91c9a216ea38f9d905f7d323db2db6f1e357be6e8b54d57a45",
+      "downloaded_at": "2026-11-19T15:17:05+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-02-01T00:00:00",
+        "endtime": "2022-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 392151
+    },
+    "2022/2022-03.csv": {
+      "file": "2022/2022-03.csv",
+      "dataset": "global",
+      "count_api": 2436,
+      "rows": 2436,
+      "sha256": "7f4b61671bccb042d36ff49bbff35c42e580872456e432229c23cf8827312f5b",
+      "downloaded_at": "2026-11-19T15:17:07+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-03-01T00:00:00",
+        "endtime": "2022-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 452174
+    },
+    "2022/2022-04.csv": {
+      "file": "2022/2022-04.csv",
+      "dataset": "global",
+      "count_api": 2173,
+      "rows": 2173,
+      "sha256": "53b0e004a5c80c15e45d2dfd54513f95a215f4016a43f5d3b10d96b5b007db68",
+      "downloaded_at": "2026-11-19T15:17:08+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-04-01T00:00:00",
+        "endtime": "2022-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 403376
+    },
+    "2022/2022-05.csv": {
+      "file": "2022/2022-05.csv",
+      "dataset": "global",
+      "count_api": 2037,
+      "rows": 2037,
+      "sha256": "9f0dd618d9cbcf2888344288ae2e3e87f2203cd21d3c0c5b654fb54f02be693d",
+      "downloaded_at": "2026-11-19T15:17:09+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-05-01T00:00:00",
+        "endtime": "2022-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 381671
+    },
+    "2022/2022-06.csv": {
+      "file": "2022/2022-06.csv",
+      "dataset": "global",
+      "count_api": 2081,
+      "rows": 2081,
+      "sha256": "27dcd82d4bc296fbbee1c3a16aeb7d1ed43ce249370a1aa50e43796f030eadbe",
+      "downloaded_at": "2026-11-19T15:17:10+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-06-01T00:00:00",
+        "endtime": "2022-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 393374
+    },
+    "2022/2022-07.csv": {
+      "file": "2022/2022-07.csv",
+      "dataset": "global",
+      "count_api": 2279,
+      "rows": 2279,
+      "sha256": "f6c413150a6298f416465f4b185e569704335f0d24a8cb59975fe4c507377cd2",
+      "downloaded_at": "2026-11-19T15:17:11+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-07-01T00:00:00",
+        "endtime": "2022-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 432109
+    },
+    "2022/2022-08.csv": {
+      "file": "2022/2022-08.csv",
+      "dataset": "global",
+      "count_api": 2340,
+      "rows": 2340,
+      "sha256": "e9cf8785cdc9bf85fa15aef70e7754d51d8a78966ce4fa5811676d8dbaa43b16",
+      "downloaded_at": "2026-11-19T15:17:12+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-08-01T00:00:00",
+        "endtime": "2022-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 445563
+    },
+    "2022/2022-09.csv": {
+      "file": "2022/2022-09.csv",
+      "dataset": "global",
+      "count_api": 2408,
+      "rows": 2408,
+      "sha256": "4bc03090013a5a118cbd7e7512f305606688e1d4665b2ddb277b95147a9ae92d",
+      "downloaded_at": "2026-11-19T15:17:14+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-09-01T00:00:00",
+        "endtime": "2022-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 453499
+    },
+    "2022/2022-10.csv": {
+      "file": "2022/2022-10.csv",
+      "dataset": "global",
+      "count_api": 2147,
+      "rows": 2147,
+      "sha256": "e33435745323188bd678bdd4a030cfa5319210a5d5bde5664ab07421c2c4ae83",
+      "downloaded_at": "2026-11-19T15:17:15+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-10-01T00:00:00",
+        "endtime": "2022-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 407692
+    },
+    "2022/2022-11.csv": {
+      "file": "2022/2022-11.csv",
+      "dataset": "global",
+      "count_api": 2232,
+      "rows": 2232,
+      "sha256": "f440d248f15754ef378f07b866f82a18444e33694439f5f7da22e3baf9af7c2b",
+      "downloaded_at": "2026-11-19T15:17:16+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-11-01T00:00:00",
+        "endtime": "2022-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 425561
+    },
+    "2022/2022-12.csv": {
+      "file": "2022/2022-12.csv",
+      "dataset": "global",
+      "count_api": 2123,
+      "rows": 2123,
+      "sha256": "1f88c8d88970bb896bd2e236cdde9c20945b4a5f840ca782072dbfd0e4e6fd94",
+      "downloaded_at": "2026-11-19T15:17:18+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2022-12-01T00:00:00",
+        "endtime": "2023-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 404103
+    },
+    "2023/2023-01.csv": {
+      "file": "2023/2023-01.csv",
+      "dataset": "global",
+      "count_api": 2320,
+      "rows": 2320,
+      "sha256": "e893f62dcb0b945e42cca98b40cbcc91b25c0b9497fe6c040aa7bb4110cc0635",
+      "downloaded_at": "2026-11-19T15:17:19+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-01-01T00:00:00",
+        "endtime": "2023-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 439734
+    },
+    "2023/2023-02.csv": {
+      "file": "2023/2023-02.csv",
+      "dataset": "global",
+      "count_api": 2317,
+      "rows": 2317,
+      "sha256": "cbe751cc9b3328dbf9e179f327f2c7373e4dfd938ca2977d9346580f6b1f86c3",
+      "downloaded_at": "2026-11-19T15:17:20+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-02-01T00:00:00",
+        "endtime": "2023-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 436968
+    },
+    "2023/2023-03.csv": {
+      "file": "2023/2023-03.csv",
+      "dataset": "global",
+      "count_api": 2267,
+      "rows": 2267,
+      "sha256": "8dfed7c38e583d3be4c307174f83791ef3debad7eae22980747c01f0ddc41098",
+      "downloaded_at": "2026-11-19T15:17:22+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-03-01T00:00:00",
+        "endtime": "2023-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 429452
+    },
+    "2023/2023-04.csv": {
+      "file": "2023/2023-04.csv",
+      "dataset": "global",
+      "count_api": 2095,
+      "rows": 2095,
+      "sha256": "d6c8de867d0e54dbbbb7afcf03fc0d85576c920cd3964d6d7d9be9db79bc7457",
+      "downloaded_at": "2026-11-19T15:17:23+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-04-01T00:00:00",
+        "endtime": "2023-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 399107
+    },
+    "2023/2023-05.csv": {
+      "file": "2023/2023-05.csv",
+      "dataset": "global",
+      "count_api": 2383,
+      "rows": 2383,
+      "sha256": "2818b90506235529d83aaffa4935c207faa1d40c9ee96ac225d87f581e3f5caa",
+      "downloaded_at": "2026-11-19T15:17:24+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-05-01T00:00:00",
+        "endtime": "2023-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 454216
+    },
+    "2023/2023-06.csv": {
+      "file": "2023/2023-06.csv",
+      "dataset": "global",
+      "count_api": 2144,
+      "rows": 2144,
+      "sha256": "38f22d6f071e59dda470e00689467c264e4f5ad49ee21813e6cc8c84fdcccd31",
+      "downloaded_at": "2026-11-19T15:17:25+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-06-01T00:00:00",
+        "endtime": "2023-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 405501
+    },
+    "2023/2023-07.csv": {
+      "file": "2023/2023-07.csv",
+      "dataset": "global",
+      "count_api": 2118,
+      "rows": 2118,
+      "sha256": "6d1f54fcbb9150b7e7a0704fe650020b8edf5acd2a895d9c34e44525aaf013be",
+      "downloaded_at": "2026-11-19T15:17:27+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-07-01T00:00:00",
+        "endtime": "2023-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 402189
+    },
+    "2023/2023-08.csv": {
+      "file": "2023/2023-08.csv",
+      "dataset": "global",
+      "count_api": 2074,
+      "rows": 2074,
+      "sha256": "89caf5c9dfa7ab169792271a1082c95dd4516527afd746493ef6be7164e6e050",
+      "downloaded_at": "2026-11-19T15:17:28+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-08-01T00:00:00",
+        "endtime": "2023-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 394109
+    },
+    "2023/2023-09.csv": {
+      "file": "2023/2023-09.csv",
+      "dataset": "global",
+      "count_api": 2002,
+      "rows": 2002,
+      "sha256": "4f62ec83a85ceef5559da43d3aa6d76b26711425f3c546ae978d6b0378e441ca",
+      "downloaded_at": "2026-11-19T15:17:29+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-09-01T00:00:00",
+        "endtime": "2023-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 381446
+    },
+    "2023/2023-10.csv": {
+      "file": "2023/2023-10.csv",
+      "dataset": "global",
+      "count_api": 2302,
+      "rows": 2302,
+      "sha256": "58dc6a5780abb4a099d2583a272464570e65f191bc91d1fdfd9ccd44e6a27586",
+      "downloaded_at": "2026-11-19T15:17:31+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-10-01T00:00:00",
+        "endtime": "2023-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 437327
+    },
+    "2023/2023-11.csv": {
+      "file": "2023/2023-11.csv",
+      "dataset": "global",
+      "count_api": 2254,
+      "rows": 2254,
+      "sha256": "ac8dc6e525167cf346a41bada2f33fbc42e331015a5f4c38f4546a0c844e9e1f",
+      "downloaded_at": "2026-11-19T15:17:32+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-11-01T00:00:00",
+        "endtime": "2023-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 427161
+    },
+    "2023/2023-12.csv": {
+      "file": "2023/2023-12.csv",
+      "dataset": "global",
+      "count_api": 3025,
+      "rows": 3025,
+      "sha256": "923ded0b06cc764c3fb7a965f6a0456d96f9e2f50e65c691501fa684fd8b983a",
+      "downloaded_at": "2026-11-19T15:17:33+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2023-12-01T00:00:00",
+        "endtime": "2024-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 577081
+    },
+    "2024/2024-02.csv": {
+      "file": "2024/2024-02.csv",
+      "dataset": "global",
+      "count_api": 2161,
+      "rows": 2161,
+      "sha256": "f19826805f2f17f21269165e067199d0853f6eafbbc38cb55c7df00fe52cc8b5",
+      "downloaded_at": "2026-11-19T15:17:36+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-02-01T00:00:00",
+        "endtime": "2024-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 417118
+    },
+    "2024/2024-03.csv": {
+      "file": "2024/2024-03.csv",
+      "dataset": "global",
+      "count_api": 1918,
+      "rows": 1918,
+      "sha256": "7697aa3cdc0f2dadedbe51a9f53c44a587c29a9f6a10ebda8df37afc99d69133",
+      "downloaded_at": "2026-11-19T15:17:37+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-03-01T00:00:00",
+        "endtime": "2024-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 364945
+    },
+    "2024/2024-04.csv": {
+      "file": "2024/2024-04.csv",
+      "dataset": "global",
+      "count_api": 2279,
+      "rows": 2279,
+      "sha256": "3c0cf3fae0b790490da4fcfb085ea64465c6f84ff1e5a1033cdc020b68d003e6",
+      "downloaded_at": "2026-11-19T15:17:38+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-04-01T00:00:00",
+        "endtime": "2024-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 433399
+    },
+    "2024/2024-05.csv": {
+      "file": "2024/2024-05.csv",
+      "dataset": "global",
+      "count_api": 2159,
+      "rows": 2159,
+      "sha256": "ec7c5aca02d0ca65d30f6c68b9a3f8a507f32d7f7633a23228775f2d0875e779",
+      "downloaded_at": "2026-11-19T15:17:40+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-05-01T00:00:00",
+        "endtime": "2024-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 411470
+    },
+    "2024/2024-06.csv": {
+      "file": "2024/2024-06.csv",
+      "dataset": "global",
+      "count_api": 1990,
+      "rows": 1990,
+      "sha256": "2af5272b55672c604f7b7f15aca42f280bb650602fc9ad5542ac95961b73c201",
+      "downloaded_at": "2026-11-19T15:17:41+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-06-01T00:00:00",
+        "endtime": "2024-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 382007
+    },
+    "2024/2024-07.csv": {
+      "file": "2024/2024-07.csv",
+      "dataset": "global",
+      "count_api": 2061,
+      "rows": 2061,
+      "sha256": "630353179d07e08630d89b8ecbdbada987a9e44be7d70383841a100e9cd41929",
+      "downloaded_at": "2026-11-19T15:17:42+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-07-01T00:00:00",
+        "endtime": "2024-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 395209
+    },
+    "2024/2024-08.csv": {
+      "file": "2024/2024-08.csv",
+      "dataset": "global",
+      "count_api": 2015,
+      "rows": 2015,
+      "sha256": "59de3e0ea6df71321f9df3877d54ef37a2999865f29a4587fc1b4fab892628f6",
+      "downloaded_at": "2026-11-19T15:17:44+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-08-01T00:00:00",
+        "endtime": "2024-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 385713
+    },
+    "2024/2024-09.csv": {
+      "file": "2024/2024-09.csv",
+      "dataset": "global",
+      "count_api": 1817,
+      "rows": 1817,
+      "sha256": "3fc049ad2e3e80ef88d6aa2441925f3921d3d7e9c5bd5393622ffa850f1916d7",
+      "downloaded_at": "2026-11-19T15:17:45+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-09-01T00:00:00",
+        "endtime": "2024-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 347823
+    },
+    "2024/2024-10.csv": {
+      "file": "2024/2024-10.csv",
+      "dataset": "global",
+      "count_api": 2073,
+      "rows": 2073,
+      "sha256": "39a4c6e3823105510182267337f82a5fa6e09a527283306b4759ebeb198e7a9a",
+      "downloaded_at": "2026-11-19T15:17:46+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-10-01T00:00:00",
+        "endtime": "2024-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 393141
+    },
+    "2024/2024-11.csv": {
+      "file": "2024/2024-11.csv",
+      "dataset": "global",
+      "count_api": 1838,
+      "rows": 1838,
+      "sha256": "da2662785885fcb7e09ed08666f2a010eaa3b9922bc2d43c690aa04c01045245",
+      "downloaded_at": "2026-11-19T15:17:48+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-11-01T00:00:00",
+        "endtime": "2024-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 352043
+    },
+    "2024/2024-12.csv": {
+      "file": "2024/2024-12.csv",
+      "dataset": "global",
+      "count_api": 2593,
+      "rows": 2593,
+      "sha256": "142393e433ba8e8f4b8c02b7d916422fc1658b81403eb11296195ee3d927fccd",
+      "downloaded_at": "2026-11-19T15:17:49+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2024-12-01T00:00:00",
+        "endtime": "2025-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 497101
+    },
+    "2025/2025-01.csv": {
+      "file": "2025/2025-01.csv",
+      "dataset": "global",
+      "count_api": 2258,
+      "rows": 2258,
+      "sha256": "e0676849274d88661ad39807c6b7b4ad9a19a4948e5e0e456e7c5874602a6a00",
+      "downloaded_at": "2026-11-19T15:17:50+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-01-01T00:00:00",
+        "endtime": "2025-02-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 426750
+    },
+    "2025/2025-02.csv": {
+      "file": "2025/2025-02.csv",
+      "dataset": "global",
+      "count_api": 2186,
+      "rows": 2186,
+      "sha256": "fd74374f30e8364470f25068a18201decda9242c7cb07d5d5699aef9d216fb99",
+      "downloaded_at": "2026-11-19T15:17:52+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-02-01T00:00:00",
+        "endtime": "2025-03-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 413182
+    },
+    "2025/2025-03.csv": {
+      "file": "2025/2025-03.csv",
+      "dataset": "global",
+      "count_api": 2238,
+      "rows": 2238,
+      "sha256": "736e8151350b0116a92088019597e5cd20438e146fd1a9442d37fda07d1afb52",
+      "downloaded_at": "2026-11-19T15:17:54+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-03-01T00:00:00",
+        "endtime": "2025-04-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 425198
+    },
+    "2025/2025-04.csv": {
+      "file": "2025/2025-04.csv",
+      "dataset": "global",
+      "count_api": 2141,
+      "rows": 2141,
+      "sha256": "067c574fae0ac27bfaa5dec63220c20b36973b3e58ff6e916754d1280d029f3a",
+      "downloaded_at": "2026-11-19T15:17:55+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-04-01T00:00:00",
+        "endtime": "2025-05-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 408740
+    },
+    "2025/2025-05.csv": {
+      "file": "2025/2025-05.csv",
+      "dataset": "global",
+      "count_api": 2022,
+      "rows": 2022,
+      "sha256": "e4843fbbe42dc43f87ce462756aea83c8fc91016845c99c908f190a04a4c8ed3",
+      "downloaded_at": "2026-11-19T15:17:56+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-05-01T00:00:00",
+        "endtime": "2025-06-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 385448
+    },
+    "2025/2025-06.csv": {
+      "file": "2025/2025-06.csv",
+      "dataset": "global",
+      "count_api": 2010,
+      "rows": 2010,
+      "sha256": "f09825d13b58ce48608292e078ba7002635c04c2bb4f29f87dac68977b0c4054",
+      "downloaded_at": "2026-11-19T15:17:58+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-06-01T00:00:00",
+        "endtime": "2025-07-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 383786
+    },
+    "2025/2025-07.csv": {
+      "file": "2025/2025-07.csv",
+      "dataset": "global",
+      "count_api": 4181,
+      "rows": 4181,
+      "sha256": "84cb375410e4b4f3dffe8b1a034f38726d96f4eee82fd0f22251eafcd5278cfb",
+      "downloaded_at": "2026-11-19T15:18:00+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-07-01T00:00:00",
+        "endtime": "2025-08-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 806593
+    },
+    "2025/2025-08.csv": {
+      "file": "2025/2025-08.csv",
+      "dataset": "global",
+      "count_api": 3082,
+      "rows": 3082,
+      "sha256": "7267f6d0ae4feda99f0993e2f72bb7074a0bf840a4b833bf757cceb3a1b9e260",
+      "downloaded_at": "2026-11-19T15:18:01+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-08-01T00:00:00",
+        "endtime": "2025-09-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 593723
+    },
+    "2025/2025-09.csv": {
+      "file": "2025/2025-09.csv",
+      "dataset": "global",
+      "count_api": 2340,
+      "rows": 2340,
+      "sha256": "7055e914217d42967e847a0f48361267037dff2656e67614e7549b053ffb9437",
+      "downloaded_at": "2026-11-19T15:18:03+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-09-01T00:00:00",
+        "endtime": "2025-10-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 449826
+    },
+    "2025/2025-10.csv": {
+      "file": "2025/2025-10.csv",
+      "dataset": "global",
+      "count_api": 2016,
+      "rows": 2016,
+      "sha256": "3bc0e81de690a02a3a702c9807880563a84eca88dcc78e4999fe9e91055b3eaa",
+      "downloaded_at": "2026-11-19T15:18:04+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-10-01T00:00:00",
+        "endtime": "2025-11-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 386706
+    },
+    "2025/2025-11.csv": {
+      "file": "2025/2025-11.csv",
+      "dataset": "global",
+      "count_api": 1948,
+      "rows": 1948,
+      "sha256": "9ddc69ea7f81cfe37e305930805e1caeb182ef2d613c5e7c96eb4eb1d5a8dac9",
+      "downloaded_at": "2026-11-19T15:18:05+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-11-01T00:00:00",
+        "endtime": "2025-12-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 378167
+    },
+    "2025/2025-12.csv": {
+      "file": "2025/2025-12.csv",
+      "dataset": "global",
+      "count_api": 2890,
+      "rows": 2890,
+      "sha256": "2d2f1dba51b0b5ce9752f6160cf3f778ed8c6044e7bff1bd9e3589aa7dbdc6a8",
+      "downloaded_at": "2026-11-19T15:18:06+00:00",
+      "status": "complete",
+      "url_params": {
+        "starttime": "2025-12-01T00:00:00",
+        "endtime": "2026-01-01T00:00:00",
+        "minmagnitude": 2.5,
+        "orderby": "time-asc"
+      },
+      "bytes": 546103
+    }
+  },
+  "created_at": "2026-11-19T13:14:25+00:00",
+  "updated_at": "2026-11-19T15:18:06+00:00"
+}

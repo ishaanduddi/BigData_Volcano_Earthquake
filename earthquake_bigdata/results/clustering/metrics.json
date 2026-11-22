@@ -1,0 +1,63 @@
+{
+  "dataset": "global",
+  "backend": "hdfs",
+  "generated_at": "2026-11-19T16:04:48+00:00",
+  "sample_rows": 119765,
+  "sample_note": "deterministic random sample fraction=0.175978, capped at 120000",
+  "evaluation_rows": 30000,
+  "params": {
+    "eps_km": 50.0,
+    "eps_time_days": 7.0,
+    "min_pts": 10,
+    "partition_cell_km": 75.0,
+    "neighbor_rings": 1
+  },
+  "partition_diagnostics": {
+    "partition_cell_km": 75.0,
+    "neighbor_rings": 1,
+    "rows_with_halo": 1077885,
+    "base_rows": 119765,
+    "spark_partitions": 1,
+    "local_clusters": 4586,
+    "merged_global_clusters": 494,
+    "events_in_clusters": 21182,
+    "noise_events": 98583
+  },
+  "distributed_runtime_seconds": 154.04293170000892,
+  "reference_runtime_seconds": 24.651097499998286,
+  "dbscan_runtime_seconds": 12.793686099990737,
+  "kmeans_runtime_seconds": 1.0013570000010077,
+  "distributed_vs_reference": {
+    "adjusted_rand_index": 0.9999914952049039,
+    "identical_partition": false,
+    "core_point_adjusted_rand_index": 0.9987281030050639,
+    "core_points_compared": 18370,
+    "note": "ARI on all evaluated events; core-point ARI isolates border-assignment ambiguity. Border points reachable from two clusters may legitimately receive different labels."
+  },
+  "f1_st_dbscan_vs_window_reference": {
+    "precision": 0.7698117880138683,
+    "recall": 0.27433589268378783,
+    "f1": 0.4045155833170668,
+    "matched_events": 6217
+  },
+  "f1_dbscan_vs_window_reference": {
+    "precision": 0.2975077222527821,
+    "recall": 0.31025505251081104,
+    "f1": 0.30374770493573816,
+    "matched_events": 7031
+  },
+  "reference_declustering_note": "Simplified magnitude-window reference (Gardner–Knopoff-style L(M), T(M)); it is not the full published GK algorithm and its labels are not ground truth.",
+  "algorithm_comparison_file": "algorithm_comparison.csv",
+  "parameter_sensitivity_file": "parameter_sensitivity.csv",
+  "environment": {
+    "spark_master": "local[6]",
+    "spark_version": "4.2.0",
+    "note": "Spark local mode on one machine, not a multi-node cluster."
+  },
+  "limitations": [
+    "Cluster labels are arbitrary; ARI compares partitions, not semantic identities.",
+    "The distributed merge is driver-side Union–Find over local cluster links.",
+    "K-Means ignores time and uses 3-D unit vectors; it is not a space–time method.",
+    "Parameter sensitivity is computed with the single-machine reference on a bounded sample."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "dataset": "global",
+  "backend": "hdfs",
+  "generated_at": "2026-11-19T15:26:58+00:00",
+  "input_rows": 681902,
+  "groups": 2442,
+  "cells": 1407,
+  "windows": [
+    "2000-2012",
+    "2013-2025"
+  ],
+  "ranking_eligible_groups": 586,
+  "scale_policy_excluded_groups": 494,
+  "insufficient_groups": 1699,
+  "median_mc": 4.549999999999999,
+  "median_b_value": 0.9867726649547246,
+  "parameters": {
+    "grid_size_degrees": 5.0,
+    "windows": [
+      {
+        "id": "2000-2012",
+        "start_year": 2000,
+        "end_year": 2012
+      },
+      {
+        "id": "2013-2025",
+        "start_year": 2013,
+        "end_year": 2025
+      }
+    ],
+    "min_events": 50,
+    "mc_bin_width": 0.1,
+    "mc_correction": 0.2,
+    "min_b_value_events": 50,
+    "bootstrap_iterations": 200,
+    "confidence_level": 0.95,
+    "magnitude_scale_policy": "dominant_family",
+    "min_dominant_scale_share": 0.75,
+    "allow_mixed_scales": false,
+    "magnitude_families": {
+      "moment": [
+        "mw",
+        "mww",
+        "mwc",
+        "mwb",
+        "mwr",
+        "mww"
+      ],
+      "body": [
+        "mb",
+        "mbag",
+        "mb1",
+        "mb1x",
+        "mb2",
+        "mbs"
+      ],
+      "surface": [
+        "ms",
+        "ms1",
+        "ms2",
+        "ms_20",
+        "msp"
+      ],
+      "local": [
+        "ml",
+        "mlr"
+      ],
+      "duration": [
+        "md",
+        "mh"
+      ],
+      "other": [
+        "mlg",
+        "mn",
+        "me",
+        "mc",
+        "uk",
+        "unknown"
+      ]
+    }
+  },
+  "growth_comparison_rows": 198,
+  "growth_classes": {
+    "apparent_growth_persists": 96,
+    "decline_persists": 53,
+    "apparent_growth_disappears_after_correction": 44,
+    "apparent_decline_reverses_after_correction": 5
+  },
+  "notes": [
+    "Mc = maximum-curvature mode + 0.2 correction; uncertainty is a bootstrap percentile interval.",
+    "b = Aki-Utsu MLE with Utsu binning correction; uncertainty is the Shi-Bolt approximation.",
+    "Rates are normalised by spherical cell area and window duration, per 1000 km2 per year.",
+    "Cells failing the dominant magnitude-scale policy or minimum sample size are not ranked.",
+    "Corrected rates are an approximation, not a direct measurement of true seismic activity."
+  ]
+}

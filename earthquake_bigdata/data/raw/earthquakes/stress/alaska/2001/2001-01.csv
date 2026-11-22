@@ -1,0 +1,380 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2001-01-01T00:52:17.661Z,55.5611,-159.7006,57.1,3.3,ml,,,,0.65,ak,ak0011nuj3a,2020-02-20T20:36:59.947Z,"40 km SSW of Ivanof Bay, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-01T03:42:03.935Z,65.097,-149.8386,17.3,2.3,ml,,,,0.9,ak,ak0011pknop,2020-02-20T20:36:56.257Z,"23 km WSW of Minto, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-01T04:01:08.816Z,62.7557,-149.0255,60.7,2.3,ml,,,,0.65,ak,ak0011pxbb5,2020-02-20T20:36:59.611Z,"64 km ENE of Chase, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-01T07:03:36.283Z,66.1794,-149.3074,8,2.3,ml,,,,0.94,ak,ak0011rq3oc,2020-02-20T20:36:55.877Z,"21 km NNW of Stevens Village, Alaska",earthquake,,15.8,,,reviewed,ak,ak
+2001-01-01T09:28:23.036Z,60.1443,-152.1463,65.4,1.6,ml,,,,0.71,ak,ak0011t2arj,2020-02-20T20:36:59.281Z,"28 km WNW of Ninilchik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-01T10:22:32.519Z,62.3398,-150.3954,63.9,2.5,ml,,,,0.63,ak,ak0011tmgsz,2020-02-20T20:36:58.938Z,"8 km WNW of Trapper Creek, Alaska",earthquake,,2.3,,,reviewed,ak,ak
+2001-01-01T12:18:03.385Z,62.8028,-150.9177,94.8,2.1,ml,,,,0.58,ak,ak0011usewi,2020-02-20T20:36:58.597Z,"35 km NNW of Petersville, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-01T19:13:43.184Z,63.8992,-150.0418,13.4,1.8,ml,,,,1.02,ak,ak0011yxgmm,2020-02-20T20:36:55.563Z,"47 km WSW of Ferry, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-01T19:37:04.605Z,62.9006,-149.2891,70.7,2.8,ml,,,,0.8,ak,ak0011z2iu4,2020-02-20T20:36:58.209Z,"57 km SSW of Cantwell, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-01T19:45:10.667Z,62.8061,-148.2289,60.2,2.9,ml,,,,0.62,ak,ak0011z4916,2020-02-20T20:36:57.812Z,"74 km SSE of Cantwell, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-01T19:49:48.570Z,60.8932,-147.6501,22.2,1.4,ml,,,,0.56,ak,ak0011z56tl,2020-02-20T20:36:57.321Z,"52 km W of Tatitlek, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-01T20:50:38.171Z,64.4572,-148.4327,10,1.7,ml,,,,0.89,ak,ak0011zqtc9,2020-02-20T20:36:55.251Z,"33 km ESE of Nenana, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-01T22:52:58.362Z,61.4181,-149.6484,33.6,1.7,ml,,,,0.7,ak,ak00120y5jg,2020-02-20T20:36:56.942Z,"6 km SE of Knik, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-01T23:41:18.337Z,61.422,-150.962,71.7,1.8,ml,,,,0.54,ak,ak00121h56h,2020-02-20T20:36:56.617Z,"27 km WSW of Susitna, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-02T00:45:20.212Z,59.9862,-147.9088,18.7,1.9,ml,,,,0.86,ak,ak0013bcdrp,2020-02-20T20:36:51.546Z,"10 km SSE of Chenega, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-02T01:09:11.313Z,60.7236,-150.6331,52,1.2,ml,,,,0.75,ak,ak0013bq2wr,2020-02-20T20:36:52.193Z,"21 km NNE of Sterling, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-02T01:30:36.542Z,61.4522,-141.0551,23.2,1.7,ml,,,,1.18,ak,ak0013bumw6,2020-02-20T20:36:53.210Z,"99 km E of McCarthy, Alaska",earthquake,,6.8,,,reviewed,ak,ak
+2001-01-02T01:56:35.180Z,60.7272,-150.637,42.4,1.8,ml,,,,0.45,ak,ak0013c07em,2020-02-20T20:36:52.882Z,"22 km S of Point Possession, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-02T02:58:49.041Z,63.4749,-148.8395,12.1,1.9,ml,,,,0.98,ak,ak0013cm3ig,2020-02-20T20:36:52.524Z,"10 km NNE of Cantwell, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-02T04:36:50.727Z,60.6341,-142.6224,5.6,1.6,ml,,,,0.83,ak,ak0013do93k,2020-02-20T20:36:51.876Z,"90 km S of McCarthy, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-02T05:53:38.668Z,59.9332,-153.4182,132.2,1.9,ml,,,,0.4,ak,ak0013eday2,2020-02-20T20:36:54.941Z,"41 km ENE of Pedro Bay, Alaska",earthquake,,2,,,reviewed,ak,ak
+2001-01-02T06:10:34.017Z,61.1403,-151.5177,80.9,1.4,ml,,,,0.61,ak,ak0013epieh,2020-02-20T20:36:51.220Z,"22 km WNW of Tyonek, Alaska",earthquake,,2.5,,,reviewed,ak,ak
+2001-01-02T11:14:37.714Z,62.0556,-148.9163,33.5,1.4,ml,,,,0.58,ak,ak0013hpjkr,2020-02-20T20:36:54.499Z,"31 km NNW of Sutton-Alpine, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-02T14:26:46.098Z,61.6206,-148.1502,13.3,1.3,ml,,,,0.64,ak,ak0013jkfmp,2020-02-20T20:36:54.176Z,"25 km SE of Chickaloon, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-02T17:54:50.725Z,60.1403,-151.6196,43.2,1.1,ml,,,,0.56,ak,ak0013liquo,2020-02-20T20:36:49.965Z,"10 km NNE of Ninilchik, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-02T18:20:55.842Z,61.4842,-150.6597,66.2,1.9,ml,,,,0.53,ak,ak0013lwwi8,2020-02-20T20:36:49.617Z,"10 km SW of Susitna, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2001-01-02T19:05:38.228Z,60.7181,-151.5385,68.2,1.4,ml,,,,0.61,ak,ak0013mf30e,2020-02-20T20:36:49.304Z,"13 km WNW of Nikiski, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-02T21:53:16.208Z,62.2598,-151.0492,68.1,2.3,ml,,,,0.66,ak,ak0013nw6w4,2020-02-20T20:36:53.842Z,"30 km SSW of Petersville, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-02T22:22:05.567Z,60.0578,-152.4876,99.4,1.9,ml,,,,0.67,ak,ak0013oayh8,2020-02-20T20:36:53.507Z,"43 km WNW of Happy Valley, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-03T02:51:56.848Z,62.2742,-149.3129,41.6,1.9,ml,,,,0.52,ak,ak001503ylg,2020-02-20T20:36:48.774Z,"30 km ENE of Susitna North, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-03T03:29:13.280Z,63.5535,-150.9993,13.1,2.1,ml,,,,0.96,ak,ak00150kl34,2020-02-20T20:36:47.802Z,"36 km E of Denali National Park, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-03T04:35:13.169Z,63.9487,-149.9924,17.9,1.3,ml,,,,0.81,ak,ak001517az8,2020-02-20T20:36:47.504Z,"43 km W of Ferry, Alaska",earthquake,,2.9,,,reviewed,ak,ak
+2001-01-03T04:44:38.777Z,60.6311,-151.7695,64.9,2.3,ml,,,,0.52,ak,ak001519aed,2020-02-20T20:36:47.149Z,"24 km W of Salamatof, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-03T11:44:52.118Z,61.6834,-151.8268,85.8,2.4,ml,,,,0.8,ak,ak00155fcnv,2020-02-20T20:36:48.436Z,"40 km SSW of Skwentna, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-03T23:03:06.645Z,61.6497,-150.9856,66.5,1.9,ml,,,,0.36,ak,ak0015cbo20,2020-02-20T20:36:48.129Z,"27 km WNW of Susitna, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-04T02:01:36.718Z,59.859,-153.5031,125.8,2.5,ml,,,,0.45,ak,ak0016ncjqf,2020-02-20T20:36:46.790Z,"34 km ENE of Pedro Bay, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-04T02:36:27.018Z,59.8522,-152.7437,78.8,2.3,ml,,,,0.3,ak,ak0016nk11p,2020-02-20T20:34:50.525Z,"51 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-04T12:59:42.279Z,62.3942,-148.1151,2.6,2.2,ml,,,,0.82,ak,ak0016tnbqr,2020-02-20T20:36:46.428Z,"69 km NNE of Chickaloon, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-04T14:36:48.240Z,50.507,-174.885,33,4.2,mb,8,,,1.27,us,usp000a74q,2014-11-07T01:11:51.655Z,"193 km SSW of Atka, Alaska",earthquake,,,,6,reviewed,us,us
+2001-01-04T15:01:59.095Z,59.5691,-146.3591,10,3,ml,,,,0.55,ak,ak0016v38bp,2020-02-20T20:36:46.097Z,"108 km ESE of Chenega, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-04T17:27:27.270Z,63.1599,-151.5309,6.3,3.9,ml,,,,0.83,ak,ak0016wflp3,2020-02-20T20:36:45.733Z,"43 km SSE of Denali National Park, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-04T19:46:41.978Z,61.7923,-149.7349,48.1,2,ml,,,,0.74,ak,ak0016xqkn9,2020-02-20T20:36:45.426Z,"16 km ENE of Willow, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-04T22:16:58.408Z,60.382,-152.5636,92.8,2.3,ml,,,,0.61,ak,ak0016zch8w,2020-02-20T20:36:45.076Z,"61 km NW of Ninilchik, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-05T00:21:22.851Z,62.2914,-149.5158,45.2,2.7,ml,,,,0.62,ak,ak00189ta9p,2020-02-20T20:36:44.733Z,"22 km NE of Susitna North, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-05T03:07:04.871Z,65.1079,-148.5813,8.3,1.9,ml,,,,0.55,ak,ak0018bijo7,2020-02-20T20:36:42.454Z,"36 km E of Minto, Alaska",earthquake,,2.7,,,reviewed,ak,ak
+2001-01-05T03:14:19.971Z,63.5291,-150.953,3.3,1.8,ml,,,,0.68,ak,ak0018bk2ul,2020-02-20T20:36:42.148Z,"38 km E of Denali National Park, Alaska",earthquake,,2.8,,,reviewed,ak,ak
+2001-01-05T09:12:23.479Z,60.8704,-147.1184,24.3,1.5,ml,,,,0.29,ak,ak0018f49bf,2020-02-20T20:36:44.430Z,"23 km W of Tatitlek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-05T10:11:22.609Z,55.4469,-161.798,14.9,1.7,ml,,,,0.53,ak,ak0018fph50,2020-02-20T20:36:44.133Z,"54 km NE of King Cove, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-05T12:49:32.648Z,62.4846,-151.2349,95.3,2.3,ml,,,,0.38,ak,ak0018h4ic0,2020-02-20T20:36:43.791Z,"24 km W of Petersville, Alaska",earthquake,,3.5,,,reviewed,ak,ak
+2001-01-05T15:06:27.970Z,63.8326,-150.3118,3.7,1.6,ml,,,,1.28,ak,ak0018inkzx,2020-02-20T20:36:41.832Z,"62 km WSW of Ferry, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-05T17:51:10.645Z,54.4578,-160.9955,9,3,ml,,,,0.77,ak,ak0018k423c,2020-02-20T20:36:43.480Z,"102 km SSW of Sand Point, Alaska",earthquake,,2.3,,,reviewed,ak,ak
+2001-01-05T19:18:33.756Z,59.8121,-152.4578,76.1,2.5,ml,,,,0.69,ak,ak0018l3wgf,2020-02-20T20:36:43.117Z,"35 km W of Anchor Point, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-05T22:56:13.498Z,64.8867,-149.7076,19.1,1.9,ml,,,,0.95,ak,ak0018n4ax1,2020-02-20T20:36:41.547Z,"33 km SSW of Minto, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-05T23:27:49.277Z,59.6994,-152.9495,95.4,2.3,ml,,,,0.45,ak,ak0018njlin,2020-02-20T20:36:42.752Z,"63 km W of Anchor Point, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-06T00:52:23.604Z,65.1346,-149.9722,19.7,2.4,ml,,,,0.54,ak,ak0019xja0o,2020-02-20T20:36:39.072Z,"29 km W of Minto, Alaska",earthquake,,23.4,,,reviewed,ak,ak
+2001-01-06T03:47:32.105Z,60.1117,-152.425,97.6,2,ml,,,,0.34,ak,ak0019zaiwq,2020-02-20T20:36:41.196Z,"42 km W of Ninilchik, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-06T07:54:39.698Z,62.3234,-149.3019,40.3,2.5,ml,,,,0.73,ak,ak001a1prxd,2020-02-20T20:36:40.841Z,"33 km ENE of Susitna North, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-06T09:25:36.880Z,51.372,-174.93,33,4.7,mb,92,,,1.04,us,usp000a772,2014-11-07T01:11:52.558Z,"104 km SSW of Atka, Alaska",earthquake,,,,42,reviewed,us,us
+2001-01-06T09:38:03.110Z,51.327,-174.836,33,4.5,mb,41,,,0.99,us,usp000a774,2014-11-07T01:11:52.577Z,"106 km SSW of Atka, Alaska",earthquake,,,,24,reviewed,us,us
+2001-01-06T10:13:49.522Z,61.8015,-147.9842,31,1.8,ml,,,,0.45,ak,ak001a39b54,2020-02-20T20:36:40.532Z,"17 km W of Glacier View, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-06T14:49:39.656Z,61.5836,-152.072,98.9,2.5,ml,,,,0.69,ak,ak001a5uqkt,2020-02-20T20:36:40.198Z,"57 km SW of Skwentna, Alaska",earthquake,,2.8,,,reviewed,ak,ak
+2001-01-06T15:07:49.374Z,63.974,-150.168,8.9,1.7,ml,,,,0.81,ak,ak001a676ux,2020-02-20T20:36:38.768Z,"51 km W of Ferry, Alaska",earthquake,,19.1,,,reviewed,ak,ak
+2001-01-06T17:21:23.742Z,63.9434,-150.3721,14.7,2.6,ml,,,,1.24,ak,ak001a7h046,2020-02-20T20:36:38.444Z,"62 km W of Ferry, Alaska",earthquake,,12.7,,,reviewed,ak,ak
+2001-01-06T17:38:03.369Z,61.1969,-149.857,35.8,2.9,ml,,,,0.59,ak,ak001a7klps,2020-02-20T20:36:39.811Z,"3 km SE of Anchorage, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-06T20:54:48.179Z,57.9827,-156.1369,137.8,3.2,ml,,,,0.72,ak,ak001a9gfg1,2020-02-20T20:36:39.377Z,"77 km ESE of Egegik, Alaska",earthquake,,8,,,reviewed,ak,ak
+2001-01-07T00:01:01.842Z,64.8721,-148.484,18.6,2,ml,,,,0.77,ak,ak001bkrnbc,2020-02-20T20:36:36.766Z,"22 km W of Ester, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-07T01:43:30.556Z,64.6209,-147.5601,12,1.6,ml,,,,0.82,ak,ak001blm57j,2020-02-20T20:36:36.471Z,"17 km SW of North Pole, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-07T02:18:25.717Z,61.8963,-149.1396,33.8,1.9,ml,,,,0.51,ak,ak001bm27jf,2020-02-20T20:36:38.123Z,"17 km NNE of Fishhook, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-07T03:06:10.081Z,60.9962,-146.5426,5.8,2,ml,,,,1.16,ak,ak001bml1cg,2020-02-20T20:36:37.064Z,"16 km NNE of Tatitlek, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-07T03:37:32.833Z,61.7643,-151.7458,97.2,3.7,mb,,,,0.65,ak,ak001bmrqar,2020-02-20T20:36:37.707Z,"31 km SW of Skwentna, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-07T08:08:45.686Z,63.5867,-150.5337,24.4,2.2,ml,,,,0.58,ak,ak001bpkpjs,2020-02-20T20:36:36.157Z,"59 km E of Denali National Park, Alaska",earthquake,,1.5,,,reviewed,ak,ak
+2001-01-07T08:43:45.414Z,65.0137,-147.4662,11.8,1.5,ml,,,,0.5,ak,ak001bps7l9,2020-02-20T20:36:35.854Z,"9 km NE of Fox, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-07T17:57:37.916Z,60.5938,-148.6922,12.1,2.4,ml,,,,0.46,ak,ak001bv83hb,2020-02-20T20:36:37.388Z,"20 km S of Whittier, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-08T01:44:05.663Z,61.2685,-147.6984,26.3,1.6,ml,,,,0.53,ak,ak001d95nhy,2020-02-20T20:36:35.552Z,"60 km S of Glacier View, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-08T03:50:38.955Z,63.3418,-149.8834,102.4,2.4,ml,,,,0.62,ak,ak001dadvkn,2020-02-20T20:36:35.220Z,"46 km W of Cantwell, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-08T04:01:31.724Z,63.5419,-150.4606,16.4,2.4,ml,,,,1.03,ak,ak001daosj8,2020-02-20T20:36:32.532Z,"62 km E of Denali National Park, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-08T05:44:56.270Z,60.0367,-152.6225,93.9,2.6,ml,,,,0.5,ak,ak001dbjhtn,2020-02-20T20:36:34.837Z,"50 km W of Happy Valley, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-08T06:49:15.059Z,63.8972,-150.1469,10.9,1.9,ml,,,,0.95,ak,ak001dc5wtt,2020-02-20T20:36:32.216Z,"52 km WSW of Ferry, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-08T07:19:25.210Z,51.071,-177.811,33,4.5,mb,25,,,0.98,us,usp000a7ag,2014-11-07T01:11:53.202Z,"121 km SW of Adak, Alaska",earthquake,,,,11,reviewed,us,us
+2001-01-08T07:33:07.110Z,51.174,-177.996,33,4.3,mb,21,,,0.79,us,usp000a7ah,2014-11-07T01:11:53.206Z,"122 km SW of Adak, Alaska",earthquake,,,,7,reviewed,us,us
+2001-01-08T10:45:53.418Z,61.4042,-147.2025,40,1.5,ml,,,,0.22,ak,ak001deivcd,2020-02-20T20:36:34.531Z,"50 km SSE of Glacier View, Alaska",earthquake,,1.5,,,reviewed,ak,ak
+2001-01-08T11:56:03.010Z,62.9257,-151.1608,116.6,2.1,ml,,,,0.46,ak,ak001df6jxp,2020-02-20T20:36:31.880Z,"51 km NNW of Petersville, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-08T13:45:07.390Z,52.612,-167.88,33,4.3,mb,13,,,0.95,us,usp000a7aw,2020-02-20T20:34:49.895Z,"75 km ESE of Nikolski, Alaska",earthquake,,,,2,reviewed,us,us
+2001-01-08T15:40:40.415Z,61.8725,-150.9822,7.5,2.8,ml,,,,0.33,ak,ak001dhgxs9,2020-02-20T20:36:34.227Z,"25 km ESE of Skwentna, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-08T16:29:21.095Z,60.9624,-148.9745,16.5,1.3,ml,,,,0.52,ak,ak001dhzz0t,2020-02-20T20:36:33.913Z,"10 km ENE of Girdwood, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-08T21:30:39.413Z,61.4849,-150.911,56.9,2.1,ml,,,,0.49,ak,ak001dkze6d,2020-02-20T20:36:33.597Z,"22 km WSW of Susitna, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-08T21:39:07.626Z,59.8435,-152.8135,92,2.6,ml,,,,0.49,ak,ak001dl1962,2020-02-20T20:36:33.245Z,"55 km W of Anchor Point, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-08T22:51:52.900Z,52.54,-169.128,33,4.6,mb,69,,,0.85,us,usp000a7bd,2020-02-20T20:34:50.203Z,"47 km SSW of Nikolski, Alaska",earthquake,,,,27,reviewed,us,us
+2001-01-08T23:01:32.831Z,58.5278,-154.5898,98.3,2.6,ml,,,,0.46,ak,ak001dm0143,2020-02-20T20:36:32.866Z,"102 km S of Kokhanok, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-09T08:51:10.241Z,59.613,-138.8932,11.5,2.9,ml,,,,1.12,ak,ak001f0wjlc,2020-02-20T20:36:30.441Z,"47 km E of Yakutat, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-09T12:27:40.445Z,61.9416,-147.7924,34.9,1.4,ml,,,,0.83,ak,ak001f3575o,2020-02-20T20:36:31.558Z,"16 km NNW of Glacier View, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-09T16:28:39.143Z,61.2554,-149.6285,33.2,3.2,ml,,,,0.9,ak,ak001f5j56y,2020-02-20T20:36:31.133Z,"0 km SE of Elmendorf Air Force Base, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-09T21:39:27.836Z,60.5357,-147.1657,2.1,2.8,ml,,,,0.92,ak,ak001f8kn7z,2020-02-20T20:36:30.768Z,"45 km SW of Tatitlek, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-10T01:09:28.595Z,61.0446,-146.8304,24.3,1.4,ml,,,,0.3,ak,ak001gk0w6z,2020-02-20T20:36:30.133Z,"21 km NNW of Tatitlek, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-10T01:55:27.345Z,61.6989,-150.8603,78.7,1.6,ml,,,,0.3,ak,ak001gkar1a,2020-02-20T20:36:29.821Z,"25 km NW of Susitna, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-10T07:37:06.641Z,60.7701,-147.1348,23.1,1.7,ml,,,,0.5,ak,ak001gnrg6g,2020-02-20T20:36:29.513Z,"26 km WSW of Tatitlek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-10T08:09:40.451Z,60.1918,-153.163,141.9,2.1,ml,,,,0.51,ak,ak001go6ycd,2020-02-20T20:36:29.196Z,"63 km E of Port Alsworth, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2001-01-10T12:03:31.301Z,59.5857,-151.3393,1,2.5,ml,,,,1.01,ak,ak001gqjdre,2020-02-20T20:36:26.898Z,"Kenai Peninsula, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-10T12:40:37.815Z,62.8572,-149.3955,75.7,2.5,ml,,,,0.79,ak,ak001gqrbr9,2020-02-20T20:36:28.849Z,"58 km NE of Chase, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-10T16:02:42.638Z,56.7744,-153.281,36.4,6.9,mw,,,,1.66,ak,ak001gswxc7,2022-07-12T20:24:06.845Z,"47 km S of Old Harbor, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-10T16:09:48.773Z,56.7411,-153.4449,17.1,3.8,ml,,,,0.7,ak,ak001gsyftp,2020-02-20T20:36:26.564Z,"49 km ESE of Akhiok, Alaska",earthquake,,12.3,,,reviewed,ak,ak
+2001-01-10T16:11:55.116Z,56.7904,-153.3944,1.3,5,mb,,,,0.59,ak,ak001gsyvqv,2020-02-20T20:36:26.219Z,"46 km S of Old Harbor, Alaska",earthquake,,8.9,,,reviewed,ak,ak
+2001-01-10T16:18:29.210Z,58.1785,-155.3411,1,1.2,ml,,,,0.1,ak,ak001gt0brd,2020-02-20T20:36:25.918Z,"85 km NW of Karluk, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-10T16:19:35.642Z,56.499,-152.8112,37.5,2.8,ml,,,,0.68,ak,ak001gt0jz0,2020-02-20T20:36:25.601Z,"84 km SSE of Old Harbor, Alaska",earthquake,,341.2,,,reviewed,ak,ak
+2001-01-10T16:42:04.384Z,56.7299,-153.5507,34,2.3,ml,,,,0.44,ak,ak001gt5f12,2020-02-20T20:36:25.298Z,"44 km ESE of Akhiok, Alaska",earthquake,,44.8,,,reviewed,ak,ak
+2001-01-10T16:57:15.021Z,58.2436,-155.172,3.4,1.5,ml,,,,0.52,ak,ak001gt8nla,2020-02-20T20:36:23.469Z,"86 km NNW of Karluk, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-10T17:14:32.889Z,56.9233,-153.4225,21.5,2.3,ml,,,,0.65,ak,ak001gtkws8,2020-02-20T20:36:24.092Z,"31 km SSW of Old Harbor, Alaska",earthquake,,22.7,,,reviewed,ak,ak
+2001-01-10T17:21:35.613Z,56.7173,-153.5517,17,3.1,ml,,,,0.96,ak,ak001gtmf09,2020-02-20T20:36:22.837Z,"45 km SE of Akhiok, Alaska",earthquake,,6.7,,,reviewed,ak,ak
+2001-01-10T17:27:32.358Z,56.5496,-153.4095,20.4,2.5,ml,,,,1.64,ak,ak001gtnp1v,2020-02-20T20:36:22.532Z,"64 km SE of Akhiok, Alaska",earthquake,,54.7,,,reviewed,ak,ak
+2001-01-10T17:32:17.115Z,56.8225,-153.0149,51.6,2.3,ml,,,,0.46,ak,ak001gtoqgf,2020-02-20T20:36:21.363Z,"45 km SSE of Old Harbor, Alaska",earthquake,,64.8,,,reviewed,ak,ak
+2001-01-10T17:50:47.477Z,56.8039,-153.461,20.2,2.3,ml,,,,0.81,ak,ak001gtsnor,2020-02-20T20:36:21.945Z,"45 km SSW of Old Harbor, Alaska",earthquake,,57.8,,,reviewed,ak,ak
+2001-01-10T18:31:37.373Z,58.2114,-154.0679,77.9,2,ml,,,,0.3,ak,ak001gu9zwp,2020-02-20T20:36:20.455Z,"70 km WNW of Aleneva, Alaska",earthquake,,3.1,,,reviewed,ak,ak
+2001-01-10T19:12:52.280Z,65.741,-155.19,10,4.4,ml,10,,,0.97,us,usp000a7fd,2014-11-07T01:11:54.361Z,"54 km SW of Hughes, Alaska",earthquake,,,,,reviewed,us,pmr
+2001-01-10T20:12:23.132Z,56.7024,-153.3684,31.8,5.3,mb,,,,0.77,ak,ak001gvcrex,2020-02-20T20:36:27.943Z,"55 km S of Old Harbor, Alaska",earthquake,,18.9,,,reviewed,ak,ak
+2001-01-10T20:19:10.848Z,56.9227,-153.4565,38.6,4.9,mb,,,,0.69,ak,ak001gve8h8,2020-02-20T20:36:27.550Z,"32 km SSW of Old Harbor, Alaska",earthquake,,3.8,,,reviewed,ak,ak
+2001-01-10T20:25:54.578Z,56.9077,-153.4976,36.4,4.1,mb,,,,0.76,ak,ak001gvfm5d,2020-02-20T20:36:19.826Z,"34 km SSW of Old Harbor, Alaska",earthquake,,32.5,,,reviewed,ak,ak
+2001-01-10T23:31:57.721Z,56.4745,-153.0219,45.9,3,ml,,,,1.05,ak,ak001gx97i4,2020-02-20T20:36:19.208Z,"82 km SSE of Old Harbor, Alaska",earthquake,,5.1,,,reviewed,ak,ak
+2001-01-10T23:54:50.896Z,56.6766,-153.6118,19.9,2.4,ml,,,,0.6,ak,ak001gxe4g1,2020-02-20T20:36:18.898Z,"45 km SE of Akhiok, Alaska",earthquake,,11.2,,,reviewed,ak,ak
+2001-01-11T02:34:52.991Z,63.5356,-151.0876,10,2.9,ml,,,,0.8,ak,ak001i8b32r,2020-02-20T20:36:16.501Z,"31 km E of Denali National Park, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-11T03:29:04.083Z,56.5525,-153.2337,42.2,4.9,mb,,,,1.17,ak,ak001i8vcbs,2020-02-20T20:36:18.468Z,"72 km SE of Akhiok, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-11T03:51:00.055Z,54.4101,-161.2051,25.7,3,ml,,,,1.33,ak,ak001i901rp,2020-02-20T20:36:18.151Z,"101 km SE of King Cove, Alaska",earthquake,,26.3,,,reviewed,ak,ak
+2001-01-11T04:19:51.064Z,62.079,-147.437,32.2,1.8,ml,,,,0.65,ak,ak001i9eqea,2020-02-20T20:36:17.827Z,"21 km NW of Eureka Roadhouse, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-11T12:38:25.108Z,62.3427,-148.5348,27.5,2.6,ml,,,,0.82,ak,ak001iea7u6,2020-02-20T20:36:17.443Z,"60 km N of Chickaloon, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-11T15:28:52.661Z,62.1203,-149.4278,3.3,1.9,ml,,,,0.88,ak,ak001ig0fma,2020-02-20T20:36:17.118Z,"22 km ESE of Susitna North, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-11T17:10:49.710Z,67.053,-143.518,33,3.7,ml,7,,,1.07,us,usp000a7h9,2014-11-07T01:11:55.130Z,"45 km NNE of Chalkyitsik, Alaska",earthquake,,,,,reviewed,us,pmr
+2001-01-11T22:19:40.630Z,63.57,-150.833,10,2.8,ml,8,,,1.49,us,usp000a7hr,2014-11-07T01:11:55.180Z,"44 km E of Denali National Park, Alaska",earthquake,,,,,reviewed,us,pmr
+2001-01-12T00:46:18.246Z,61.6471,-150.2631,13.4,2.6,ml,,,,0.92,ak,ak001juq29s,2020-02-20T20:36:16.179Z,"16 km SW of Willow, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-12T01:10:41.085Z,59.0051,-153.1545,70,2.1,ml,,,,1.28,ak,ak001jv3tv0,2020-02-20T20:36:14.317Z,"80 km WSW of Nanwalek, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-12T04:04:17.518Z,60.8216,-151.0141,32.6,1.1,ml,,,,0.25,ak,ak001jwusk7,2020-02-20T20:36:14.610Z,"20 km NE of Nikiski, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-12T04:32:00.274Z,60.0502,-148.4467,4.5,2,ml,,,,0.38,ak,ak001jx0ra3,2020-02-20T20:36:15.873Z,"24 km W of Chenega, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-12T07:17:05.332Z,61.2781,-146.7683,33.2,1.2,ml,,,,0.55,ak,ak001jypuqt,2020-02-20T20:36:15.562Z,"27 km NW of Valdez, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-12T07:21:49.246Z,58.8561,-153.7881,91.6,2.1,ml,,,,0.98,ak,ak001jyqszw,2020-02-20T20:36:14.017Z,"86 km SE of Kokhanok, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-12T07:41:57.927Z,62.55,-151.0085,86.3,2.8,ml,,,,0.35,ak,ak001jyv3zk,2020-02-20T20:36:15.262Z,"13 km WNW of Petersville, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-12T08:11:49.937Z,60.0729,-153.0839,123.7,2.9,ml,,,,0.75,ak,ak001jza3ht,2020-02-20T20:36:14.907Z,"65 km ENE of Pedro Bay, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-12T21:13:20.813Z,58.1505,-153.7663,40.1,1.6,ml,,,,0.88,ak,ak001k713jl,2020-02-20T20:36:12.800Z,"51 km W of Aleneva, Alaska",earthquake,,3.8,,,reviewed,ak,ak
+2001-01-12T23:17:21.561Z,59.4001,-152.9485,75.5,2.4,ml,,,,0.5,ak,ak001k88toc,2020-02-20T20:36:11.868Z,"58 km W of Nanwalek, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-12T23:48:41.095Z,56.9463,-153.2873,10,2.5,ml,,,,0.65,ak,ak001k8fidp,2020-02-20T20:36:12.195Z,"28 km S of Old Harbor, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-13T01:12:37.558Z,61.5848,-147.2298,22.3,1.8,ml,,,,0.47,ak,ak001linlij,2020-02-20T20:36:11.574Z,"33 km SE of Glacier View, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-13T11:23:15.002Z,60.6451,-150.7326,43.6,3.1,mb,,,,0.78,ak,ak001loo8p8,2020-02-20T20:36:11.113Z,"12 km N of Sterling, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-13T12:33:57.611Z,60.9977,-147.8001,9.9,2.9,ml,,,,0.96,ak,ak001lpbwr5,2020-02-20T20:36:10.742Z,"54 km ENE of Whittier, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-13T15:34:25.786Z,60.4563,-147.8042,5.3,2.6,ml,,,,0.85,ak,ak001lr4ctu,2020-02-20T20:36:10.365Z,"44 km NNE of Chenega, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-13T20:36:50.791Z,62.0192,-151.3409,78.1,3.4,ml,,,,0.79,ak,ak001lu407r,2020-02-20T20:36:09.921Z,"4 km NE of Skwentna, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-14T05:51:30.712Z,58.2797,-154.9702,1,1.4,ml,,,,0.29,ak,ak001n8t0tr,2020-02-20T20:36:08.925Z,"84 km NNW of Karluk, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-14T08:49:45.115Z,59.0526,-154.0482,112.1,2.4,ml,,,,0.43,ak,ak001nakxbj,2020-02-20T20:36:07.921Z,"59 km SE of Kokhanok, Alaska",earthquake,,59.7,,,reviewed,ak,ak
+2001-01-14T09:07:40.692Z,58.1845,-156.0865,106.4,2.3,ml,,,,0.42,ak,ak001naxcid,2020-02-20T20:36:07.624Z,"65 km SSE of King Salmon, Alaska",earthquake,,777.7,,,reviewed,ak,ak
+2001-01-14T11:51:02.309Z,61.2483,-148.7773,21,2.5,ml,,,,0.72,ak,ak001ncdk9i,2020-02-20T20:36:08.549Z,"24 km SSE of Knik River, Alaska",earthquake,,1.8,,,reviewed,ak,ak
+2001-01-14T14:21:06.090Z,58.2046,-155.289,3.2,1.5,ml,,,,0.24,ak,ak001ndzfw1,2020-02-20T20:36:09.630Z,"86 km NW of Karluk, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-14T14:21:29.684Z,61.7858,-149.2439,18.4,1.4,ml,,,,0.1,ak,ak001ndzhpk,2020-02-20T20:36:08.267Z,"4 km N of Fishhook, Alaska",earthquake,,66.1,,,reviewed,ak,ak
+2001-01-14T14:57:33.035Z,56.6677,-153.4143,43.1,3.4,ml,,,,0.63,ak,ak001ne77qv,2020-02-20T20:36:07.296Z,"55 km SE of Akhiok, Alaska",earthquake,,220.8,,,reviewed,ak,ak
+2001-01-14T22:46:34.836Z,59.5761,-152.1813,46.2,2.5,ml,,,,0.6,ak,ak001niwbuj,2020-02-20T20:36:09.252Z,"28 km NNW of Nanwalek, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-15T09:05:54.308Z,59.3677,-152.9363,79.7,2.9,ml,,,,0.57,ak,ak001oygame,2020-02-20T20:36:06.597Z,"57 km W of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-15T10:03:32.840Z,59.4886,-152.6414,83.4,2.6,ml,,,,0.73,ak,ak001oz1950,2020-02-20T20:36:06.222Z,"43 km WNW of Nanwalek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-15T10:14:08.265Z,61.5676,-149.8329,31,2.3,ml,,,,0.9,ak,ak001oz3k4a,2020-02-20T20:36:05.906Z,"7 km S of Houston, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-15T11:24:14.435Z,62.4987,-151.022,84.9,2.8,ml,,,,0.73,ak,ak001ozr5cz,2020-02-20T20:36:05.544Z,"13 km W of Petersville, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-15T16:52:27.410Z,59.566,-146.3663,10,2.7,ml,,,,0.65,ak,ak001p2wcfp,2020-02-20T20:36:05.216Z,"107 km ESE of Chenega, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-15T19:01:05.036Z,59.5584,-146.3225,10,3,mb,,,,0.44,ak,ak001p4do07,2020-02-20T20:36:04.881Z,"110 km ESE of Chenega, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-16T00:48:31.099Z,60.0167,-152.8371,92.1,1.7,ml,,,,0.47,ak,ak001qgvwo5,2020-02-20T20:36:03.878Z,"62 km W of Happy Valley, Alaska",earthquake,,10.8,,,reviewed,ak,ak
+2001-01-16T05:52:05.866Z,60.0808,-153.1329,120.3,2.6,ml,,,,0.74,ak,ak001qjvvm2,2020-02-20T20:36:03.194Z,"63 km ENE of Pedro Bay, Alaska",earthquake,,6.6,,,reviewed,ak,ak
+2001-01-16T05:56:51.339Z,60.0586,-151.3077,44.9,2.5,ml,,,,0.6,ak,ak001qjwtzh,2020-02-20T20:36:03.531Z,"19 km SSE of Clam Gulch, Alaska",earthquake,,4.9,,,reviewed,ak,ak
+2001-01-16T08:57:11.454Z,62.4538,-148.1279,23.1,1.2,ml,,,,0.59,ak,ak001qlp9ft,2020-02-20T20:36:01.935Z,"75 km NNE of Chickaloon, Alaska",earthquake,,2.3,,,reviewed,ak,ak
+2001-01-16T09:52:25.524Z,64.0314,-148.1139,102.9,2.1,ml,,,,0.71,ak,ak001qm9njs,2020-02-20T20:36:02.536Z,"46 km ENE of Healy, Alaska",earthquake,,5.9,,,reviewed,ak,ak
+2001-01-16T13:49:49.976Z,61.6122,-149.8232,52.7,1.5,ml,,,,0.44,ak,ak001qomsph,2020-02-20T20:36:02.231Z,"2 km S of Houston, Alaska",earthquake,,4.8,,,reviewed,ak,ak
+2001-01-16T15:48:59.914Z,61.8941,-149.1014,37.3,2.1,ml,,,,0.75,ak,ak001qptgyv,2020-02-20T20:36:02.870Z,"18 km NNE of Fishhook, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-16T16:04:58.657Z,61.2603,-152.0072,93,2.2,ml,,,,0.69,ak,ak001qq5gyx,2020-02-20T20:36:01.291Z,"51 km WNW of Beluga, Alaska",earthquake,,4.7,,,reviewed,ak,ak
+2001-01-16T18:58:05.409Z,61.1861,-149.6328,39.3,1.9,ml,,,,0.4,ak,ak001qrnsqk,2020-02-20T20:36:00.985Z,"7 km S of Elmendorf Air Force Base, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-16T19:22:07.841Z,60.3514,-151.0831,51.6,2.2,ml,,,,0.41,ak,ak001qs1ir4,2020-02-20T20:36:04.532Z,"10 km E of Kasilof, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-16T21:18:41.356Z,59.7259,-153.2925,106.6,1.9,ml,,,,0.5,ak,ak001qt7lon,2020-02-20T20:36:00.663Z,"46 km E of Pedro Bay, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-16T22:24:58.173Z,56.8328,-153.5973,37.7,3.4,ml,,,,1.19,ak,ak001qtucvt,2020-02-20T20:36:04.194Z,"37 km ESE of Akhiok, Alaska",earthquake,,2.9,,,reviewed,ak,ak
+2001-01-17T03:11:38.756Z,59.5648,-153.0934,89.5,1.9,ml,,,,0.56,ak,ak001s5zn2r,2020-02-20T20:35:59.338Z,"62 km ESE of Pedro Bay, Alaska",earthquake,,4,,,reviewed,ak,ak
+2001-01-17T04:39:13.683Z,60.6456,-143.1085,12.6,1.6,ml,,,,0.67,ak,ak001s6r0so,2020-02-20T20:35:59.031Z,"88 km S of McCarthy, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2001-01-17T07:08:17.145Z,61.5341,-150.892,67,2.2,ml,,,,0.6,ak,ak001s8cooi,2020-02-20T20:35:58.700Z,"20 km W of Susitna, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-17T12:48:45.278Z,59.0261,-152.5932,64.8,2.4,ml,,,,0.68,ak,ak001sbkhin,2020-02-20T20:36:00.327Z,"53 km SW of Nanwalek, AK",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-17T14:24:36.466Z,64.5475,-149.2458,7.8,1.7,ml,,,,1.01,ak,ak001scm6v2,2020-02-20T20:35:58.377Z,"Central Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-17T15:02:10.476Z,62.5189,-151.4124,0.2,2,ml,,,,0.93,ak,ak001sd2upj,2020-02-20T20:35:57.734Z,"33 km W of Petersville, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-17T15:04:48.069Z,59.9917,-152.9238,102,1.9,ml,,,,0.53,ak,ak001sd3d1i,2020-02-20T20:35:58.053Z,"65 km WNW of Anchor Point, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2001-01-17T16:27:24.993Z,61.5263,-146.326,37.7,1.2,ml,,,,0.44,ak,ak001sdtoc3,2020-02-20T20:35:57.436Z,"44 km N of Valdez, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-17T17:50:19.857Z,61.9838,-151.5322,72.3,2,ml,,,,0.57,ak,ak001sek10h,2020-02-20T20:36:00.018Z,"7 km W of Skwentna, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-17T18:23:26.000Z,50.51,-130.36,10,3.4,ml,8,,,,us,usp000a7w7,2014-11-07T01:11:57.028Z,"232 km W of Port McNeill, Canada",earthquake,,,,,reviewed,pgc,pgc
+2001-01-17T19:40:52.178Z,54.8856,-160.9023,46.3,2.6,ml,,,,0.45,ak,ak001sfotk1,2020-02-20T20:35:57.121Z,"56 km SSW of Sand Point, Alaska",earthquake,,2.7,,,reviewed,ak,ak
+2001-01-17T20:31:59.520Z,59.9281,-151.4948,54.8,1.8,ml,,,,0.36,ak,ak001sg8ca8,2020-02-20T20:35:56.808Z,"13 km E of Happy Valley, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-17T22:10:55.700Z,64.8417,-148.0126,23,1.7,ml,,,,0.71,ak,ak001shap5u,2020-02-20T20:35:56.493Z,"0 km S of Ester, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-17T23:01:15.882Z,62.2626,-150.801,70.8,2.8,ml,,,,0.59,ak,ak001shu490,2020-02-20T20:35:59.653Z,"26 km S of Petersville, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-17T23:40:18.544Z,60.3737,-143.1807,20.7,2.6,ml,,,,0.63,ak,ak001si2hdq,2020-02-20T20:35:56.184Z,"118 km S of McCarthy, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-18T01:35:27.835Z,63.5133,-150.5836,11,1.7,ml,,,,0.71,ak,ak001tsh8pb,2020-02-20T20:35:53.263Z,"56 km E of Denali National Park, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-18T02:12:07.102Z,62.8256,-150.9894,93.8,1.8,ml,,,,0.6,ak,ak001tsxp8m,2020-02-20T20:35:53.563Z,"38 km NNW of Petersville, Alaska",earthquake,,12.3,,,reviewed,ak,ak
+2001-01-18T03:11:25.004Z,62.9783,-151.5635,6.9,1.9,ml,,,,0.66,ak,ak001ttiyic,2020-02-20T20:35:53.873Z,"63 km S of Denali National Park, Alaska",earthquake,,7.8,,,reviewed,ak,ak
+2001-01-18T03:57:15.915Z,63.2308,-151.0905,5.8,2.1,ml,,,,0.84,ak,ak001ttssqv,2020-02-20T20:35:52.612Z,"46 km SE of Denali National Park, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-18T07:35:54.292Z,61.0959,-151.4197,71.3,1.7,ml,,,,0.49,ak,ak001tw1wdh,2020-02-20T20:35:52.937Z,"15 km WNW of Tyonek, Alaska",earthquake,,2.3,,,reviewed,ak,ak
+2001-01-18T13:00:40.775Z,63.1994,-150.9665,11.7,1.5,ml,,,,1.43,ak,ak001tzeywd,2020-02-20T20:35:54.189Z,"53 km SE of Denali National Park, Alaska",earthquake,,2.7,,,reviewed,ak,ak
+2001-01-18T14:36:55.925Z,60.1617,-152.7144,108.1,2.7,ml,,,,0.62,ak,ak001u085g8,2020-02-20T20:35:55.771Z,"59 km WNW of Ninilchik, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-18T16:06:56.302Z,61.6359,-150.4285,58.3,2.5,ml,,,,0.48,ak,ak001u18l7i,2020-02-20T20:35:55.406Z,"11 km NNE of Susitna, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-18T21:24:28.117Z,62.387,-151.4493,92.3,2.7,ml,,,,0.6,ak,ak001u4bjy3,2020-02-20T20:35:54.995Z,"37 km WSW of Petersville, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-18T22:14:37.526Z,59.8533,-151.6162,67.7,3,ml,,,,0.83,ak,ak001u4uv48,2020-02-20T20:35:54.505Z,"4 km N of Nikolaevsk, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-19T01:19:36.021Z,63.9203,-148.9917,1,2.5,ml,,,,0.75,ak,ak001vfx6de,2020-02-20T20:35:51.612Z,"7 km N of Healy, Alaska",explosion,,0,,,reviewed,ak,ak
+2001-01-19T06:43:38.119Z,60.1882,-152.5031,83.9,2.6,ml,,,,0.46,ak,ak001vj1hqr,2020-02-20T20:35:52.253Z,"48 km WNW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-19T08:38:47.969Z,62.9907,-149.1793,80.9,3.1,ml,,,,0.73,ak,ak001vk7b4s,2020-02-20T20:35:51.250Z,"46 km SSW of Cantwell, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-19T09:32:07.955Z,57.407,-154.3385,7.1,2.3,ml,,,,0.33,ak,ak001vkrdcr,2020-02-20T20:35:50.926Z,"19 km SSE of Karluk, Alaska",earthquake,,15.8,,,reviewed,ak,ak
+2001-01-19T12:03:03.001Z,60.0166,-152.6457,89.7,2.2,ml,,,,0.78,ak,ak001vmdg0s,2020-02-20T20:35:50.609Z,"51 km W of Happy Valley, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-19T13:19:14.165Z,60.3219,-143.1865,10,1.9,ml,,,,1.33,ak,ak001vn2by0,2020-02-20T20:35:50.306Z,"124 km S of McCarthy, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-19T22:34:40.824Z,60.9702,-146.9387,20.8,1.3,ml,,,,0.78,ak,ak001vsii6q,2020-02-20T20:35:51.936Z,"18 km NW of Tatitlek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-19T23:57:33.730Z,64.0647,-147.4469,2.6,1.4,ml,,,,0.62,ak,ak001vt8upp,2020-02-20T20:35:50.003Z,"53 km SW of Harding-Birch Lakes, Alaska",earthquake,,5,,,reviewed,ak,ak
+2001-01-20T00:14:23.000Z,50.49,-130.35,10,5.4,mwc,187,,,,us,usp000a80q,2025-12-19T22:34:42.052Z,"231 km W of Port McNeill, Canada",earthquake,,,,,reviewed,pgc,hrv
+2001-01-20T02:05:17.185Z,60.5262,-150.2299,38.2,2.7,ml,,,,0.69,ak,ak001x3ywzq,2020-02-20T20:35:49.628Z,"22 km W of Cooper Landing, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-20T04:49:07.700Z,62.5447,-152.4598,155.1,2.2,ml,,,,0.63,ak,ak001x5f6z6,2020-02-20T20:35:45.515Z,"82 km NW of Skwentna, Alaska",earthquake,,7.3,,,reviewed,ak,ak
+2001-01-20T07:12:19.350Z,62.3296,-151.502,78.3,1.7,ml,,,,0.49,ak,ak001x6zl73,2020-02-20T20:35:45.873Z,"38 km N of Skwentna, Alaska",earthquake,,3.8,,,reviewed,ak,ak
+2001-01-20T09:17:45.712Z,60.5039,-152.064,82.5,2.2,ml,,,,0.39,ak,ak001x87l0r,2020-02-20T20:35:49.280Z,"42 km WSW of Salamatof, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2001-01-20T09:19:31.572Z,59.873,-151.7358,52.3,2.4,ml,,,,0.99,ak,ak001x87zd1,2020-02-20T20:35:48.919Z,"8 km S of Happy Valley, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-20T09:39:17.897Z,61.8553,-151.8443,107.5,2.4,ml,,,,0.58,ak,ak001x8c8ml,2020-02-20T20:35:46.202Z,"27 km WSW of Skwentna, Alaska",earthquake,,3.1,,,reviewed,ak,ak
+2001-01-20T09:57:52.489Z,62.3317,-149.7477,4.6,1.4,ml,,,,1.05,ak,ak001x8g66o,2020-02-20T20:35:46.555Z,"18 km E of Talkeetna, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-20T11:01:37.849Z,61.0004,-147.2937,15.1,3,ml,,,,0.74,ak,ak001x9b060,2020-02-20T20:35:48.523Z,"36 km WNW of Tatitlek, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-20T12:55:59.956Z,60.8131,-152.6629,8.1,1.9,ml,,,,0.54,ak,ak001xa8257,2020-02-20T20:35:46.859Z,"76 km W of Nikiski, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-20T14:47:23.166Z,60.6275,-150.7552,49.1,2.1,ml,,,,0.52,ak,ak001xbd4sc,2020-02-20T20:35:48.180Z,"10 km N of Sterling, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-20T16:52:35.498Z,63.091,-150.5866,122.2,2.7,ml,,,,0.65,ak,ak001xcl3j1,2020-02-20T20:35:47.810Z,"66 km N of Petersville, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-20T17:09:43.560Z,62.0185,-151.2893,79.2,1.8,ml,,,,0.41,ak,ak001xcxbys,2020-02-20T20:35:47.181Z,"6 km ENE of Skwentna, Alaska",earthquake,,3.3,,,reviewed,ak,ak
+2001-01-20T21:59:38.558Z,61.0108,-147.239,23.6,1.6,ml,,,,0.29,ak,ak001xflrsv,2020-02-20T20:35:47.490Z,"34 km WNW of Tatitlek, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-21T02:05:47.053Z,58.3226,-155.9947,145.1,3.3,mb,,,,0.86,ak,ak001yribsh,2020-02-20T20:35:45.139Z,"56 km SE of King Salmon, Alaska",earthquake,,7.5,,,reviewed,ak,ak
+2001-01-21T03:28:36.504Z,60.1891,-151.9263,55.9,1.5,ml,,,,0.83,ak,ak001ys8o1u,2020-02-20T20:35:43.376Z,"21 km NW of Ninilchik, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-21T06:55:29.947Z,53.6334,-166.8875,1.3,1.8,ml,,,,0.2,ak,ak001yu6qoy,2020-02-20T20:35:43.064Z,"35 km SW of Unalaska, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-21T08:45:12.768Z,60.6776,-152.4292,94.1,2.5,ml,,,,0.51,ak,ak001yvbff0,2020-02-20T20:35:44.795Z,"61 km W of Salamatof, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-21T08:55:16.678Z,61.7475,-150.408,11,2,ml,,,,0.85,ak,ak001yvdkvn,2020-02-20T20:35:44.471Z,"19 km W of Willow, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-21T09:08:31.478Z,61.7935,-150.8253,69.6,2.7,ml,,,,0.56,ak,ak001yvoyyz,2020-02-20T20:35:44.106Z,"32 km NNW of Susitna, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-21T12:57:18.419Z,64.0222,-147.1472,6.7,2.5,ml,,,,0.96,ak,ak001yxrqv5,2020-02-20T20:35:42.728Z,"47 km SW of Harding-Birch Lakes, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-21T14:32:30.691Z,60.3884,-152.3224,106.5,2.2,ml,,,,0.62,ak,ak001yyta4d,2020-02-20T20:35:42.110Z,"52 km NW of Ninilchik, Alaska",earthquake,,4.1,,,reviewed,ak,ak
+2001-01-21T17:33:03.535Z,58.1924,-154.0768,69.6,2.3,ml,,,,0.32,ak,ak001z0lqk1,2020-02-20T20:35:43.681Z,"70 km WNW of Aleneva, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-21T22:51:55.601Z,54.537,-161.5959,0.6,2,ml,,,,0.77,ak,ak001z3ovhk,2020-02-20T20:35:42.416Z,"74 km SE of King Cove, Alaska",earthquake,,3.8,,,reviewed,ak,ak
+2001-01-22T05:16:49.356Z,62.7907,-149.5397,67.1,1.6,ml,,,,0.71,ak,ak00110gwc5j,2020-02-20T20:35:39.714Z,"47 km NE of Chase, Alaska",earthquake,,3.9,,,reviewed,ak,ak
+2001-01-22T05:22:29.703Z,63.21,-151.1522,12.3,1.4,ml,,,,0.91,ak,ak00110gxkxm,2020-02-20T20:35:40.019Z,"46 km SE of Denali National Park, Alaska",earthquake,,4.6,,,reviewed,ak,ak
+2001-01-22T08:10:20.907Z,62.5009,-149.8681,60.3,2.1,ml,,,,0.7,ak,ak00110inah6,2020-02-20T20:35:41.786Z,"13 km ENE of Chase, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-22T12:27:24.105Z,59.9194,-152.7571,93.9,2.4,ml,,,,0.61,ak,ak00110l4obe,2020-02-20T20:35:41.419Z,"54 km WNW of Anchor Point, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-22T15:49:48.295Z,63.0525,-151.1878,9.9,1.5,ml,,,,0.88,ak,ak00110n1qr1,2020-02-20T20:35:39.407Z,"60 km SSE of Denali National Park, Alaska",earthquake,,2.3,,,reviewed,ak,ak
+2001-01-22T15:55:19.891Z,60.9099,-147.0254,19.6,2.5,ml,,,,0.92,ak,ak00110n2yut,2020-02-20T20:35:41.067Z,"19 km WNW of Tatitlek, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-22T16:25:36.806Z,61.163,-149.0793,34,2.9,ml,,,,0.75,ak,ak00110ni0a8,2020-02-20T20:35:40.675Z,"25 km N of Girdwood, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-22T19:14:40.702Z,63.2719,-151.3277,6.9,2.9,ml,,,,1.07,ak,ak00110p7yiu,2020-02-20T20:35:40.330Z,"35 km SSE of Denali National Park, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-22T20:54:00.233Z,61.6704,-150.9187,52.3,1.9,ml,,,,0.43,ak,ak00110q1vnb,2020-02-20T20:35:39.101Z,"25 km WNW of Susitna, Alaska",earthquake,,1.8,,,reviewed,ak,ak
+2001-01-22T21:27:10.106Z,61.8187,-149.969,46.2,2,ml,,,,0.58,ak,ak00110qhjoi,2020-02-20T20:35:38.779Z,"8 km NNE of Willow, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-23T00:06:29.503Z,59.8285,-151.8965,43.8,1.2,ml,,,,0.42,ak,ak001121ebxi,2020-02-20T20:35:34.376Z,"6 km NNW of Anchor Point, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-23T00:19:00.643Z,60.4403,-143.4345,26.7,1.7,ml,,,,0.34,ak,ak001121h20g,2020-02-20T20:35:34.686Z,"114 km SSW of McCarthy, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-23T01:45:26.068Z,60.7206,-143.8968,18.5,2.2,ml,,,,0.7,ak,ak0011228472,2020-02-20T20:35:34.067Z,"93 km SSE of Chitina, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-23T02:47:33.510Z,61.0671,-151.1081,58.5,1.5,ml,,,,0.79,ak,ak001122tzt3,2020-02-20T20:35:33.749Z,"1 km E of Tyonek, Alaska",earthquake,,1.5,,,reviewed,ak,ak
+2001-01-23T03:00:00.221Z,59.511,-152.8422,93.4,2.3,ml,,,,0.35,ak,ak0011235a6u,2020-02-20T20:35:38.437Z,"55 km WNW of Nanwalek, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-23T04:32:34.580Z,60.314,-140.897,1.7,4.3,ml,49,,,,us,usp000a86e,2020-02-20T20:35:34.983Z,"107 km NW of Yakutat, Alaska",earthquake,,,,,reviewed,aeic,pmr
+2001-01-23T04:46:05.142Z,59.9612,-153.4618,132.9,2.2,ml,,,,0.61,ak,ak0011240l42,2020-02-20T20:35:38.106Z,"40 km ENE of Pedro Bay, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-23T05:56:32.554Z,58.9366,-154.4404,116.6,2.6,ml,,,,0.73,ak,ak001124o7zr,2020-02-20T20:35:37.717Z,"59 km SSE of Kokhanok, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-23T08:25:11.363Z,60.8009,-151.7202,80,1.6,ml,,,,0.67,ak,ak0011269tz4,2020-02-20T20:35:37.398Z,"26 km WNW of Nikiski, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-23T09:41:44.456Z,60.7796,-149.9545,46.9,2.4,ml,,,,0.66,ak,ak001126yrl9,2020-02-20T20:35:37.045Z,"22 km SW of Hope, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-23T11:34:09.276Z,60.5508,-150.3065,46.3,1.3,ml,,,,0.39,ak,ak001128422n,2020-02-20T20:35:33.441Z,"25 km E of Sterling, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-23T12:57:42.913Z,54.7828,-160.9345,73.8,2.6,ml,,,,0.36,ak,ak001128uhqr,2020-02-20T20:35:36.729Z,"67 km SSW of Sand Point, Alaska",earthquake,,6.8,,,reviewed,ak,ak
+2001-01-23T13:27:10.400Z,51.821,-174.665,67.2,3.8,mb,26,,,1.22,us,usp000a87y,2020-02-20T20:35:33.128Z,"52 km SW of Atka, Alaska",earthquake,,,,6,reviewed,us,us
+2001-01-23T17:04:35.827Z,61.4582,-149.7992,34.9,3,ml,,,,0.75,ak,ak00112bia9q,2020-02-20T20:35:36.325Z,"3 km W of Knik, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-23T17:50:31.386Z,60.0512,-152.2818,63.7,2,ml,,,,0.78,ak,ak00112bs4v6,2020-02-20T20:35:36.004Z,"32 km WNW of Happy Valley, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-23T18:28:15.225Z,60.0052,-152.0996,54.8,2.1,ml,,,,0.81,ak,ak00112c8tgy,2020-02-20T20:35:35.667Z,"21 km WNW of Happy Valley, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-23T20:59:03.563Z,61.2734,-150.9131,57.8,1.7,ml,,,,0.61,ak,ak00112dmaz8,2020-02-20T20:35:32.497Z,"17 km NNE of Beluga, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-23T21:23:24.186Z,59.9137,-152.6584,80.8,1.7,ml,,,,0.49,ak,ak00112e02ea,2020-02-20T20:35:32.817Z,"48 km WNW of Anchor Point, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-23T21:38:56.025Z,61.6889,-146.4831,23.6,2.1,ml,,,,0.79,ak,ak00112e3cle,2020-02-20T20:35:35.321Z,"36 km SSE of Nelchina, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-24T05:24:30.303Z,63.2707,-151.0265,8,1.9,ml,,,,0.88,ak,ak00113s0pee,2020-02-20T20:35:29.631Z,"46 km SE of Denali National Park, Alaska",earthquake,,2.5,,,reviewed,ak,ak
+2001-01-24T06:20:58.914Z,61.6922,-149.7035,51.7,1.7,ml,,,,0.34,ak,ak00113slccj,2020-02-20T20:35:29.966Z,"9 km NE of Houston, Alaska",earthquake,,2.2,,,reviewed,ak,ak
+2001-01-24T07:04:46.339Z,61.4018,-150.8546,62.1,1.8,ml,,,,0.55,ak,ak00113t3bix,2020-02-20T20:35:30.277Z,"24 km SW of Susitna, Alaska",earthquake,,2.2,,,reviewed,ak,ak
+2001-01-24T08:25:58.698Z,61.6463,-151.0256,73.2,1.5,ml,,,,0.21,ak,ak00113tta4d,2020-02-20T20:35:30.603Z,"29 km WNW of Susitna, Alaska",earthquake,,6.6,,,reviewed,ak,ak
+2001-01-24T11:13:39.582Z,61.6817,-150.2293,39.4,2.9,ml,,,,0.64,ak,ak00113viyva,2020-02-20T20:35:32.082Z,"12 km SW of Willow, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-24T11:53:46.569Z,62.2407,-149.2234,35.9,1.7,ml,,,,0.67,ak,ak00113vrk1s,2020-02-20T20:35:29.331Z,"33 km ENE of Susitna North, Alaska",earthquake,,2.5,,,reviewed,ak,ak
+2001-01-24T16:01:24.750Z,63.4604,-150.9068,12.3,2.5,ml,,,,1.21,ak,ak00113yfj5n,2020-02-20T20:35:28.688Z,"41 km ESE of Denali National Park, Alaska",earthquake,,3.4,,,reviewed,ak,ak
+2001-01-24T16:33:24.443Z,55.8378,-160.8035,6.6,1.9,ml,,,,0.23,ak,ak00113yme1o,2020-02-20T20:35:30.919Z,"31 km SE of Nelson Lagoon, Alaska",earthquake,,15,,,reviewed,ak,ak
+2001-01-24T17:28:22.490Z,63.4903,-150.7166,14.6,1.8,ml,,,,1.02,ak,ak00113z6qx5,2020-02-20T20:35:28.355Z,"50 km E of Denali National Park, Alaska",earthquake,,5.3,,,reviewed,ak,ak
+2001-01-24T17:47:21.480Z,55.448,-156.4149,22.2,5,mb,,,,0.54,ak,ak00113zatg4,2020-02-20T20:35:31.581Z,"156 km SE of Chignik, Alaska",earthquake,,10.1,,,reviewed,ak,ak
+2001-01-24T18:39:38.581Z,63.3006,-150.3395,6.5,1.5,ml,,,,0.98,ak,ak00113zukn6,2020-02-20T20:35:28.023Z,"70 km W of Cantwell, Alaska",earthquake,,3.9,,,reviewed,ak,ak
+2001-01-24T19:59:33.061Z,63.9276,-149.0882,1,1.6,ml,,,,0.67,ak,ak001140ka56,2020-02-20T20:35:27.729Z,"9 km NW of Healy, Alaska",explosion,,0,,,reviewed,ak,ak
+2001-01-24T22:21:30.475Z,63.8601,-150.3629,5.1,2.8,ml,,,,1.02,ak,ak0011424fjr,2020-02-20T20:35:27.389Z,"Central Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-24T22:52:42.953Z,55.701,-158.7242,43,3.5,ml,,,,0.98,ak,ak001142b3pj,2020-02-20T20:35:31.224Z,"35 km SE of Perryville, Alaska",earthquake,,8.2,,,reviewed,ak,ak
+2001-01-25T01:40:23.235Z,61.0274,-152.6921,137.3,2.5,ml,,,,0.52,ak,ak00115d9qdv,2020-02-20T20:35:23.786Z,"84 km W of Tyonek, Alaska",earthquake,,3.2,,,reviewed,ak,ak
+2001-01-25T02:51:50.460Z,55.4532,-156.4029,10,4.3,mb,,,,0.51,ak,ak00115dxkyu,2020-02-20T20:35:26.994Z,"156 km SE of Chignik, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-25T03:28:19.936Z,53.9432,-166.5202,10.7,1.9,ml,,,,0.34,ak,ak00115ee0qx,2020-02-20T20:35:24.144Z,"6 km NNE of Dutch Harbor, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-25T04:51:34.134Z,59.7163,-153.4426,104.4,2.4,ml,,,,0.97,ak,ak00115f4ex1,2020-02-20T20:35:26.656Z,"38 km ESE of Pedro Bay, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-25T05:29:38.817Z,60.1364,-152.3581,83,5.5,mw,,,,0.76,ak,ak00115fl54p,2022-04-29T19:06:05.989Z,"39 km WNW of Ninilchik, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-25T05:38:52.955Z,60.1408,-152.5393,83.6,1.4,ml,,,,0.37,ak,ak00115fn3nz,2020-02-20T20:35:23.453Z,"49 km WNW of Ninilchik, Alaska",earthquake,,2.3,,,reviewed,ak,ak
+2001-01-25T05:39:22.245Z,59.9473,-152.7347,96.8,1.6,ml,,,,0.47,ak,ak00115fn90g,2020-02-20T20:35:23.139Z,"54 km WNW of Anchor Point, Alaska",earthquake,,2,,,reviewed,ak,ak
+2001-01-25T05:55:43.550Z,60.1177,-152.5686,85.4,2.5,ml,,,,0.56,ak,ak00115fqq43,2020-02-20T20:35:25.814Z,"50 km WNW of Happy Valley, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-25T05:56:12.020Z,64.5683,-147.9496,11.9,1.1,ml,,,,0.71,ak,ak00115fqvea,2020-02-20T20:35:22.826Z,"27 km SSW of South Van Horn, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-25T06:30:33.408Z,51.2435,-177.1492,17.7,1.7,ml,,,,0.33,ak,ak00115g6s18,2020-02-20T20:35:22.506Z,"78 km SSW of Adak, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-25T07:01:15.071Z,61.4878,-146.6247,30,1.8,ml,,,,0.58,ak,ak00115glygj,2020-02-20T20:35:25.475Z,"42 km NNW of Valdez, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-25T09:18:14.571Z,60.3193,-141.9141,7,1.8,ml,,,,0.76,ak,ak00115hwgsx,2020-02-20T20:35:22.196Z,"135 km SSE of McCarthy, Alaska",earthquake,,1.8,,,reviewed,ak,ak
+2001-01-25T10:21:27.707Z,51.5917,-176.9103,9.3,1.7,ml,,,,0.2,ak,ak00115iikki,2020-02-20T20:35:21.873Z,"36 km SSW of Adak, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-25T11:43:39.315Z,60.1378,-152.5706,88.3,1.4,ml,,,,0.55,ak,ak00115j8qtn,2020-02-20T20:35:21.559Z,"51 km W of Ninilchik, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-25T12:40:31.616Z,60.9608,-151.911,73.7,1.3,ml,,,,0.73,ak,ak00115jtiop,2020-02-20T20:35:21.253Z,"43 km WSW of Tyonek, Alaska",earthquake,,3.4,,,reviewed,ak,ak
+2001-01-25T12:44:26.005Z,59.8835,-153.0377,94.1,2.4,ml,,,,1.43,ak,ak00115jud48,2020-02-20T20:35:20.924Z,"60 km E of Pedro Bay, Alaska",earthquake,,3.6,,,reviewed,ak,ak
+2001-01-25T12:52:49.789Z,59.8438,-151.9154,47.9,1.5,ml,,,,0.5,ak,ak00115jw4oi,2020-02-20T20:35:20.304Z,"8 km NNW of Anchor Point, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-25T14:03:03.503Z,59.4017,-155.0732,10.6,2.1,ml,,,,0.52,ak,ak00115kse8e,2020-02-20T20:35:19.991Z,"17 km WSW of Kokhanok, Alaska",earthquake,,2,,,reviewed,ak,ak
+2001-01-25T14:07:12.705Z,59.3746,-155.2269,7.8,2.7,ml,,,,0.88,ak,ak00115kt9t2,2020-02-20T20:35:25.164Z,"26 km WSW of Kokhanok, Alaska",earthquake,,5,,,reviewed,ak,ak
+2001-01-25T14:20:02.585Z,66.4291,-147.7182,26.8,1.8,ml,,,,0.82,ak,ak00115kw1c2,2020-02-20T20:35:19.676Z,"16 km WNW of Beaver, Alaska",earthquake,,14.8,,,reviewed,ak,ak
+2001-01-25T16:17:02.035Z,59.8991,-153.1806,122.7,2.6,ml,,,,0.68,ak,ak00115m29cr,2020-02-20T20:35:24.799Z,"53 km ENE of Pedro Bay, Alaska",earthquake,,1.4,,,reviewed,ak,ak
+2001-01-25T16:24:55.938Z,60.9742,-152.1964,97.2,1.9,ml,,,,0.6,ak,ak00115m3vix,2020-02-20T20:35:19.353Z,"58 km W of Tyonek, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-25T16:38:52.622Z,61.9846,-148.8915,28.3,2,ml,,,,0.57,ak,ak00115m6vam,2020-02-20T20:35:24.465Z,"23 km NNW of Sutton-Alpine, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-25T17:17:33.226Z,59.669,-150.7893,40.2,1.5,ml,,,,0.66,ak,ak00115mnrd6,2020-02-20T20:35:19.045Z,"23 km SSE of Fox River, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-25T21:44:09.991Z,60.1219,-152.5558,92.9,1.7,ml,,,,0.45,ak,ak00115p78br,2020-02-20T20:35:18.722Z,"Southern Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-25T22:04:45.164Z,61.153,-151.2214,65.7,1.2,ml,,,,0.38,ak,ak00115pk604,2020-02-20T20:35:18.414Z,"7 km W of Beluga, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2001-01-26T01:41:30.874Z,62.5556,-149.1404,63.5,2.9,ml,,,,0.65,ak,ak001170tb6n,2020-02-20T20:35:18.028Z,"50 km ENE of Chase, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-26T02:24:35.627Z,63.061,-150.8148,127,1.8,ml,,,,0.64,ak,ak001171b3ze,2020-02-20T20:35:15.176Z,"62 km N of Petersville, Alaska",earthquake,,4.8,,,reviewed,ak,ak
+2001-01-26T04:24:41.909Z,63.3849,-150.1646,112.3,1.8,ml,,,,0.55,ak,ak001172hzoe,2020-02-20T20:35:14.853Z,"60 km W of Cantwell, Alaska",earthquake,,2.5,,,reviewed,ak,ak
+2001-01-26T04:41:32.088Z,62.2779,-149.0094,24.7,2.8,ml,,,,0.86,ak,ak001172lm3c,2020-02-20T20:35:17.678Z,"45 km ENE of Susitna North, Alaska",earthquake,,0.3,,,reviewed,ak,ak
+2001-01-26T05:47:29.491Z,61.8984,-151.0059,24,1.7,ml,,,,0.26,ak,ak0011738bsl,2020-02-20T20:35:14.549Z,"22 km ESE of Skwentna, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-26T09:42:15.743Z,62.4287,-151.3329,82.9,3.2,ml,,,,1.01,ak,ak001175kykm,2020-02-20T20:35:17.249Z,"30 km WSW of Petersville, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-26T10:20:13.627Z,63.0818,-151.6032,9.2,3.3,ml,,,,0.86,ak,ak0011761o9e,2020-02-20T20:35:16.877Z,"51 km S of Denali National Park, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-26T13:00:25.927Z,62.1627,-151.1511,75.6,2,ml,,,,0.58,ak,ak001177pppc,2020-02-20T20:35:14.217Z,"23 km NE of Skwentna, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-26T15:18:08.793Z,62.0586,-150.4253,64.5,1.7,ml,,,,0.3,ak,ak0011790ehb,2020-02-20T20:35:13.915Z,"30 km SSW of Trapper Creek, Alaska",earthquake,,11.3,,,reviewed,ak,ak
+2001-01-26T15:55:59.270Z,57.8749,-156.7348,5,3.2,ml,,,,0.89,ak,ak0011798fvb,2020-02-20T20:35:16.525Z,"53 km SE of Egegik, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-26T19:07:08.944Z,58.243,-155.1518,3.7,1.8,ml,,,,0.14,ak,ak00117bbs1a,2020-02-20T20:35:16.214Z,"Alaska Peninsula",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-26T19:59:05.506Z,57.8106,-153.1455,41.4,2.9,ml,,,,0.39,ak,ak00117bmx06,2020-02-20T20:35:15.870Z,"16 km WSW of Port Lions, Alaska",earthquake,,4.8,,,reviewed,ak,ak
+2001-01-26T20:52:23.652Z,63.8929,-148.8217,6.6,2.9,ml,,,,1.04,ak,ak00117c6vzx,2020-02-20T20:35:15.495Z,"8 km ENE of Healy, Alaska",earthquake,,0.4,,,reviewed,ak,ak
+2001-01-26T20:55:13.485Z,62.0103,-150.5205,14.8,2.1,ml,,,,0.46,ak,ak00117c7id0,2020-02-20T20:35:13.605Z,"37 km SSW of Trapper Creek, Alaska",earthquake,,2,,,reviewed,ak,ak
+2001-01-26T22:31:30.655Z,63.2293,-151.0997,3,1.8,ml,,,,1.07,ak,ak00117d99pl,2020-02-20T20:35:13.288Z,"46 km SE of Denali National Park, Alaska",earthquake,,5,,,reviewed,ak,ak
+2001-01-27T00:35:16.230Z,61.4202,-147.5635,13.5,1.4,ml,,,,0.63,ak,ak00118npwnb,2020-02-20T20:35:12.829Z,"43 km S of Glacier View, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-27T01:58:15.800Z,51.468,-179.678,33,4.4,mb,26,,,1.14,us,usp000a8fu,2014-11-07T01:11:59.286Z,"215 km WSW of Adak, Alaska",earthquake,,,,12,reviewed,us,us
+2001-01-27T02:05:41.379Z,60.2678,-151.0883,46.7,1.7,ml,,,,0.9,ak,ak00118oqebd,2020-02-20T20:35:10.443Z,"12 km SE of Kasilof, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-27T02:34:45.021Z,60.2347,-152.3545,92.6,1.9,ml,,,,0.71,ak,ak00118owmd2,2020-02-20T20:35:10.121Z,"43 km WNW of Ninilchik, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-27T05:39:45.195Z,51.5075,-176.7855,17.3,1.6,ml,,,,0.39,ak,ak00118qpzrr,2020-02-20T20:35:09.808Z,"42 km SSW of Adak, Alaska",earthquake,,1.1,,,reviewed,ak,ak
+2001-01-27T05:41:50.625Z,60.3848,-151.7681,57,1.6,ml,,,,0.72,ak,ak00118qqfme,2020-02-20T20:35:09.488Z,"25 km W of Cohoe, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-27T06:27:47.565Z,59.7633,-152.2956,57.6,1.8,ml,,,,0.62,ak,ak00118r8uys,2020-02-20T20:35:09.172Z,"26 km W of Anchor Point, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-27T08:06:07.933Z,59.7216,-152.2502,4,1.5,ml,,,,0.8,ak,ak00118sb52x,2020-02-20T20:35:08.864Z,"24 km WSW of Anchor Point, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-27T09:08:46.610Z,53.071,-166.86,33,4.4,mb,32,,,1.16,us,usp000a8gj,2020-02-20T20:34:49.455Z,"91 km SSW of Unalaska, Alaska",earthquake,,,,11,reviewed,us,us
+2001-01-27T09:18:53.464Z,61.2877,-149.3243,36,1.6,ml,,,,0.84,ak,ak00118sz8si,2020-02-20T20:35:12.482Z,"13 km ESE of Eagle River, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-27T10:07:01.297Z,60.3668,-150.6438,42.3,2.2,ml,,,,0.39,ak,ak00118ti7ht,2020-02-20T20:35:12.129Z,"16 km SSE of Funny River, Alaska",earthquake,,0.2,,,reviewed,ak,ak
+2001-01-27T15:25:29.672Z,61.5137,-146.6476,37,1.8,ml,,,,0.68,ak,ak00118wlalj,2020-02-20T20:35:11.788Z,"45 km NNW of Valdez, Alaska",earthquake,,0.9,,,reviewed,ak,ak
+2001-01-27T15:31:36.129Z,61.3672,-150.2906,52.3,2.2,ml,,,,0.86,ak,ak00118wmle4,2020-02-20T20:35:11.442Z,"17 km W of Point MacKenzie, AK",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-27T15:51:51.065Z,59.997,-153.0014,95.8,1.6,ml,,,,0.64,ak,ak00118wqwv6,2020-02-20T20:35:08.545Z,"66 km ENE of Pedro Bay, Alaska",earthquake,,2.1,,,reviewed,ak,ak
+2001-01-27T17:24:04.378Z,59.4929,-153.4332,104.1,2.5,ml,,,,0.75,ak,ak00118xrw51,2020-02-20T20:35:08.212Z,"50 km SE of Pedro Bay, AK",earthquake,,1.3,,,reviewed,ak,ak
+2001-01-27T20:49:57.793Z,59.5933,-146.366,5,2.6,ml,,,,0.54,ak,ak00118zpnz7,2020-02-20T20:35:07.875Z,"106 km ESE of Chenega, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-27T21:18:32.781Z,60.4071,-147.7191,1,1.9,ml,,,,0.92,ak,ak0011904ege,2020-02-20T20:35:11.117Z,"41 km NNE of Chenega, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-27T22:41:22.839Z,60.032,-151.7071,64.4,1.5,ml,,,,0.3,ak,ak001190uqrf,2020-02-20T20:35:07.570Z,"2 km SW of Ninilchik, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-27T23:07:19.298Z,61.8057,-150.9307,10,3.1,ml,,,,0.84,ak,ak0011918vqx,2020-02-20T20:35:10.756Z,"32 km SE of Skwentna, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-28T02:48:55.086Z,61.6683,-149.4942,26.6,1.7,ml,,,,0.62,ak,ak0011acizno,2020-02-20T20:35:07.252Z,"5 km NW of Tanaina, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-28T02:51:19.236Z,62.4011,-149.4321,50.2,2.1,ml,,,,0.48,ak,ak0011acjk1f,2020-02-20T20:35:06.923Z,"34 km NE of Susitna North, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-28T15:35:16.322Z,60.6528,-150.8869,50.7,2.6,ml,,,,0.56,ak,ak0011ak6r80,2020-02-20T20:35:06.569Z,"14 km NNW of Sterling, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-28T16:50:38.210Z,52.368,-174.155,186.6,3.7,mb,16,,,1.19,us,usp000a8jz,2014-11-07T01:11:59.805Z,"19 km N of Atka, Alaska",earthquake,,11.2,,5,reviewed,us,us
+2001-01-28T22:26:15.130Z,50.185,-176.915,33,4,mb,24,,,1.21,us,usp000a8kt,2020-02-20T20:35:05.522Z,"188 km S of Adak, Alaska",earthquake,,,,7,reviewed,us,us
+2001-01-28T22:33:13.370Z,62.3831,-151.17,81.5,3.2,ml,,,,0.9,ak,ak0011aoccsp,2020-02-20T20:35:06.164Z,"24 km WSW of Petersville, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-28T23:31:59.122Z,64.93,-147.5288,17.9,3.4,ml,,,,0.88,ak,ak0011aoxgi0,2020-02-20T20:34:50.851Z,"5 km SE of Fox, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-28T23:43:48.628Z,60.8433,-151.13,69.2,1.9,ml,,,,0.41,ak,ak0011ap00a6,2020-02-20T20:35:05.835Z,"19 km NNE of Nikiski, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-29T00:04:19.420Z,59.9333,-152.7222,90.9,1.6,ml,,,,0.58,ak,ak0011bylyom,2020-02-20T20:35:03.914Z,"52 km WNW of Anchor Point, Alaska",earthquake,,5.2,,,reviewed,ak,ak
+2001-01-29T00:50:15.961Z,59.0357,-152.9274,63.4,2,ml,,,,0.74,ak,ak0011byvtcs,2020-02-20T20:35:03.603Z,"67 km WSW of Nanwalek, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2001-01-29T03:38:29.772Z,61.5615,-145.973,19.6,2.3,ml,,,,0.86,ak,ak0011c0lkn5,2020-02-20T20:35:05.160Z,"43 km WSW of Tonsina, Alaska",earthquake,,0.5,,,reviewed,ak,ak
+2001-01-29T03:47:35.968Z,59.3297,-152.5768,63.8,1.8,ml,,,,0.84,ak,ak0011c0nikc,2020-02-20T20:35:03.302Z,"37 km W of Nanwalek, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-29T03:50:50.301Z,60.3045,-152.6283,86.4,1.3,ml,,,,1.34,ak,ak0011c0o6ti,2020-02-20T20:35:03.008Z,"60 km WNW of Ninilchik, Alaska",earthquake,,4.6,,,reviewed,ak,ak
+2001-01-29T03:53:06.645Z,60.3747,-152.9964,68.2,1.5,ml,,,,0.2,ak,ak0011c0oqlk,2020-02-20T20:35:02.719Z,"75 km ENE of Port Alsworth, Alaska",earthquake,,44,,,reviewed,ak,ak
+2001-01-29T08:13:09.434Z,59.7716,-152.9443,87.8,1.6,ml,,,,0.49,ak,ak0011c3fc73,2020-02-20T20:35:02.425Z,"62 km W of Anchor Point, Alaska",earthquake,,2.1,,,reviewed,ak,ak
+2001-01-29T11:33:13.319Z,60.1392,-152.5172,100.8,2.1,ml,,,,0.6,ak,ak0011c5bxmr,2020-02-20T20:35:04.844Z,"48 km WNW of Ninilchik, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-29T14:50:18.157Z,61.8561,-147.3101,29.9,1.9,ml,,,,0.58,ak,ak0011c77vzr,2020-02-20T20:35:04.514Z,"11 km SW of Eureka Roadhouse, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-29T15:46:16.188Z,61.4041,-150.002,65.4,1.6,ml,,,,0.55,ak,ak0011c7sgky,2020-02-20T20:35:02.096Z,"5 km NNW of Point MacKenzie, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-29T16:29:56.054Z,61.598,-146.22,41.5,1.5,ml,,,,0.82,ak,ak0011c8ac39,2020-02-20T20:35:01.767Z,"52 km N of Valdez, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-29T20:20:34.154Z,60.65,-151.8722,16.6,1.4,ml,,,,0.88,ak,ak0011cam3dj,2020-02-20T20:35:04.209Z,"30 km W of Salamatof, AK",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-29T22:20:53.033Z,60.5571,-149.855,43.3,1.6,ml,,,,0.57,ak,ak0011cbt01j,2020-02-20T20:35:00.989Z,"7 km NNW of Cooper Landing, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-30T00:01:38.767Z,60.0608,-152.8039,106.4,1.8,ml,,,,0.42,ak,ak0011dm4pis,2020-02-20T20:35:00.666Z,"61 km WNW of Happy Valley, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-30T03:20:16.139Z,64.6661,-149.6544,10,1.6,ml,,,,1.14,ak,ak0011do1171,2020-02-20T20:34:58.932Z,"26 km WNW of Four Mile Road, Alaska",earthquake,,0.1,,,reviewed,ak,ak
+2001-01-30T06:23:18.367Z,60.2432,-152.6249,88.7,2.1,ml,,,,0.89,ak,ak0011dptzbw,2020-02-20T20:35:00.291Z,"57 km WNW of Ninilchik, Alaska",earthquake,,1.3,,,reviewed,ak,ak
+2001-01-30T09:07:44.231Z,61.5118,-150.6095,75.3,2.4,ml,,,,0.99,ak,ak0011driwon,2020-02-20T20:34:59.923Z,"6 km SW of Susitna, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-30T13:47:30.465Z,62.996,-151.3289,17.1,2.3,ml,,,,1.66,ak,ak0011du56om,2020-02-20T20:34:58.628Z,"62 km NNW of Petersville, Alaska",earthquake,,18.9,,,reviewed,ak,ak
+2001-01-30T14:15:00.000Z,66.34,-135.62,20,3.7,ml,7,,,,us,usp000a8q4,2014-11-07T01:12:00.165Z,"126 km SSW of Fort McPherson, Canada",earthquake,,,,,reviewed,pgc,pgc
+2001-01-30T18:02:28.880Z,56.2926,-158.676,73.2,3.7,ml,,,,0.85,ak,ak0011dwupd4,2020-02-20T20:34:59.562Z,"6 km NE of Chignik Lake, Alaska",earthquake,,10.1,,,reviewed,ak,ak
+2001-01-30T18:34:55.429Z,63.2035,-151.0021,5,1.3,ml,,,,0.75,ak,ak0011dx1mbq,2020-02-20T20:34:58.334Z,"52 km SE of Denali National Park, Alaska",earthquake,,1.7,,,reviewed,ak,ak
+2001-01-30T19:51:16.318Z,61.9602,-150.93,135.3,1.9,ml,,,,0.7,ak,ak0011dxqm33,2020-02-20T20:34:57.825Z,"24 km E of Skwentna, Alaska",earthquake,,2.7,,,reviewed,ak,ak
+2001-01-30T20:26:02.366Z,62.9131,-151.1385,115,1.9,ml,,,,0.63,ak,ak0011dy6npo,2020-02-20T20:34:59.234Z,"50 km NNW of Petersville, Alaska",earthquake,,3.7,,,reviewed,ak,ak
+2001-01-30T21:03:46.417Z,63.1251,-150.4273,107.1,1.9,ml,,,,0.72,ak,ak0011dyn98x,2020-02-20T20:34:57.509Z,"72 km NNE of Petersville, Alaska",earthquake,,6.7,,,reviewed,ak,ak
+2001-01-30T21:31:17.312Z,61.4339,-151.7791,88.1,1.9,ml,,,,0.93,ak,ak0011dyt71v,2020-02-20T20:34:57.181Z,"49 km NW of Beluga, Alaska",earthquake,,2.9,,,reviewed,ak,ak
+2001-01-30T21:40:36.170Z,62.1781,-153.7365,22.8,2.1,ml,,,,0.93,ak,ak0011dyv5y9,2020-02-20T20:34:56.889Z,"98 km SSE of Nikolai, Alaska",earthquake,,6195.3,,,reviewed,ak,ak
+2001-01-30T22:39:20.126Z,63.7105,-147.7059,10,1.9,ml,,,,0.74,ak,ak0011dzgclo,2020-02-20T20:34:56.576Z,"59 km E of McKinley Park, Alaska",earthquake,,0,,,reviewed,ak,ak
+2001-01-31T04:52:24.638Z,60.1441,-152.5033,85.2,1.5,ml,,,,0.81,ak,ak0011fccov3,2020-02-20T20:34:54.465Z,"47 km WNW of Ninilchik, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-31T06:23:59.955Z,51.5645,-176.7426,24.5,2.8,ml,,,,0.25,ak,ak0011fddf17,2020-02-20T20:34:53.755Z,"35 km SSW of Adak, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-31T06:27:19.783Z,60.8181,-151.8857,73.2,1.8,ml,,,,0.72,ak,ak0011fde6sq,2020-02-20T20:34:54.085Z,"35 km WNW of Nikiski, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-31T07:15:09.629Z,61.7034,-150.9988,68.4,1.6,ml,,,,0.73,ak,ak0011fdx10y,2020-02-20T20:34:53.440Z,"31 km NW of Susitna, Alaska",earthquake,,2.4,,,reviewed,ak,ak
+2001-01-31T07:39:57.275Z,62.0323,-150.0304,28.1,1.2,ml,,,,0.8,ak,ak0011fe29vz,2020-02-20T20:34:53.136Z,"17 km SSW of Susitna North, Alaska",earthquake,,21.2,,,reviewed,ak,ak
+2001-01-31T07:43:52.385Z,62.8143,-148.4529,60,1.3,ml,,,,0.34,ak,ak0011fe34di,2020-02-20T20:34:52.822Z,"69 km SSE of Cantwell, Alaska",earthquake,,0.6,,,reviewed,ak,ak
+2001-01-31T08:05:15.780Z,58.176,-143.174,15,3.9,ml,57,,,,us,usp000a8rj,2020-02-20T20:34:56.163Z,"250 km SW of Yakutat, Alaska",earthquake,,,,,reviewed,aeic,pgc
+2001-01-31T09:25:48.828Z,61.7193,-150.7717,52.7,2,ml,,,,0.82,ak,ak0011ff64f6,2020-02-20T20:34:55.839Z,"23 km NW of Susitna, Alaska",earthquake,,2,,,reviewed,ak,ak
+2001-01-31T11:11:51.896Z,60.6773,-151.074,51.8,1.8,ml,,,,0.76,ak,ak0011fg9zud,2020-02-20T20:34:52.506Z,"11 km E of Nikiski, Alaska",earthquake,,1,,,reviewed,ak,ak
+2001-01-31T11:36:12.781Z,60.4504,-152.0407,80.7,1.8,ml,,,,0.83,ak,ak0011fgf9q6,2020-02-20T20:34:52.187Z,"41 km WNW of Cohoe, Alaska",earthquake,,1.9,,,reviewed,ak,ak
+2001-01-31T13:21:17.169Z,61.9548,-147.7552,29,2.1,ml,,,,0.84,ak,ak0011fhixj8,2020-02-20T20:34:55.495Z,"17 km NNW of Glacier View, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2001-01-31T13:29:23.765Z,57.1931,-150.746,38.9,3.4,mb,,,,1.27,ak,ak0011fhknrs,2020-02-20T20:34:55.110Z,"103 km ESE of Chiniak, Alaska",earthquake,,23.2,,,reviewed,ak,ak
+2001-01-31T13:48:29.282Z,51.4487,-176.1436,18.4,3,ml,,,,0.36,ak,ak0011fhoqsw,2020-02-20T20:34:51.850Z,"58 km SE of Adak, Alaska",earthquake,,0.8,,,reviewed,ak,ak
+2001-01-31T16:51:13.231Z,63.1268,-151.6192,3.7,2.7,ml,,,,0.87,ak,ak0011fjhniz,2020-02-20T20:34:54.770Z,"46 km S of Denali National Park, Alaska",earthquake,,1.2,,,reviewed,ak,ak
+2001-01-31T17:54:45.100Z,51.933,-176.518,65.3,3.6,mb,10,,,1.24,us,usp000a8sm,2020-02-20T20:34:51.532Z,"10 km NE of Adak, Alaska",earthquake,,10,,3,reviewed,us,us
+2001-01-31T19:35:02.434Z,60.4622,-152.298,81.4,1.6,ml,,,,0.77,ak,ak0011fl6i1v,2020-02-20T20:34:51.223Z,"55 km W of Cohoe, Alaska",earthquake,,2.2,,,reviewed,ak,ak

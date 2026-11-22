@@ -1,0 +1,59 @@
+{
+  "dataset": "stress_all",
+  "generated_at": "2026-11-19T16:14:08+00:00",
+  "spark_startup_seconds": 4.982436999998754,
+  "hardware": {
+    "timestamp": "2026-11-19T16:10:40+00:00",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "processor": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+    "cpu_logical": 16,
+    "cpu_physical": 8,
+    "cpu_freq_mhz": 3801.0,
+    "ram_total_bytes": 16435761152,
+    "ram_available_bytes": 6357409792,
+    "python": "3.12.10",
+    "disk_free_bytes": 304361529344
+  },
+  "fractions": {
+    "0.1": {
+      "fraction": 0.1,
+      "rows": 137932,
+      "parquet": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_010.parquet",
+      "csv": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_010.csv",
+      "parquet_bytes": 10133217,
+      "csv_bytes": 37918332,
+      "reused": false
+    },
+    "0.25": {
+      "fraction": 0.25,
+      "rows": 344830,
+      "parquet": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_025.parquet",
+      "csv": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_025.csv",
+      "parquet_bytes": 24153219,
+      "csv_bytes": 94792446,
+      "reused": false
+    },
+    "0.5": {
+      "fraction": 0.5,
+      "rows": 689661,
+      "parquet": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_050.parquet",
+      "csv": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_050.csv",
+      "parquet_bytes": 48349676,
+      "csv_bytes": 189597484,
+      "reused": false
+    },
+    "1.0": {
+      "fraction": 1.0,
+      "rows": 1379322,
+      "parquet": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_100.parquet",
+      "csv": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\benchmark\\stress_all\\fraction_100.csv",
+      "parquet_bytes": 77515177,
+      "csv_bytes": 379195658,
+      "reused": false
+    }
+  },
+  "repeats": 3,
+  "execution_note": "Spark local mode; Pandas single-process. No fabricated values.",
+  "raw_rows": 82,
+  "summary_rows": 49
+}

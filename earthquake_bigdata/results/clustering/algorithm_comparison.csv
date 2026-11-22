@@ -1,0 +1,5 @@
+algorithm,clusters,noise_points,runtime_seconds,uses_time,uses_haversine,f1_vs_reference,adjusted_rand_vs_reference_impl
+ST-DBSCAN (distributed Spark),494,98583,154.04293170000892,True,True,0.4045155833170668,0.9999914952049039
+ST-DBSCAN (single-machine reference),504,98583,24.651097499998286,True,True,0.4045155833170668,1.0
+"DBSCAN (spatial only, Haversine)",204,6367,12.793686099990737,False,True,0.30374770493573816,0.08072105136612298
+"K-Means (3-D unit vectors, illustrative)",25,0,1.0013570000010077,False,False,,0.018434201949695368

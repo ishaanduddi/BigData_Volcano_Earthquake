@@ -1,0 +1,17 @@
+{
+  "dataset": "earthquakes_stress_all",
+  "created_at": "2026-11-19T16:09:44+00:00",
+  "rows": 1379322,
+  "backend_primary": "hdfs",
+  "partition_by": [
+    "year"
+  ],
+  "compression": "snappy",
+  "hdfs_uri": "hdfs://localhost:9000/earthquake/processed/stress_all",
+  "local_mirror": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\processed\\earthquakes\\stress_all",
+  "hdfs_bytes": 93135318,
+  "local_bytes": 93864738,
+  "verified": true,
+  "hdfs_rows_verified": 1379322,
+  "local_files": 182
+}

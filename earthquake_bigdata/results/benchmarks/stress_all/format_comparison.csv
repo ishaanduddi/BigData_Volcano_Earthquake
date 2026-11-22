@@ -1,0 +1,4 @@
+engine,format,fraction,median_seconds
+pandas,parquet,1.0,0.06121099999290891
+spark,csv,1.0,0.6171434999996563
+spark,parquet,1.0,0.1456385500059696

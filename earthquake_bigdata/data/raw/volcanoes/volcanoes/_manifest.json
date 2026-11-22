@@ -1,0 +1,18 @@
+{
+  "pages": {
+    "page_full.json": {
+      "start_index": 0,
+      "features": 1214,
+      "sha256": "3e1a76a1305bd4f6c1aea1d139a7164d0f032a805701161bcba0538ebe16ae0e",
+      "status": "complete"
+    }
+  },
+  "number_matched": 1214,
+  "type_name": "GVP-VOTW:Smithsonian_VOTW_Holocene_Volcanoes",
+  "wfs_url": "https://webservices.volcano.si.edu/geoserver/GVP-VOTW/ows",
+  "updated_at": "2026-11-19T13:48:10+00:00",
+  "combined_file": "C:\\ISHU\\Education\\Amrita\\5th_Sem\\BigData\\Project\\earthquake_bigdata\\data\\raw\\volcanoes\\volcanoes\\volcanoes.geojson",
+  "combined_features": 1214,
+  "combined_sha256": "3cafcf0b80ed5aa0a095e959b0d861af6a94f0a4424afe6cd0ef035ef430f894",
+  "retrieved_at": "2026-11-19T13:48:11+00:00"
+}

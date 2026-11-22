@@ -1,0 +1,31 @@
+# Virtual environments and caches
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+**/.pytest_cache/
+.ipynb_checkpoints/
+
+# Logs and transient runtime files
+logs/
+**/logs/
+*.log
+spark-warehouse/
+**/spark-warehouse/
+metastore_db/
+**/metastore_db/
+
+# Large generated benchmark scratch copies (reproducible from scripts)
+earthquake_bigdata/data/benchmark/
+
+# Duplicate/backup artifacts, not part of the project
+earthquake_bigdata - Copy/
+*.zip
+*.7z
+*.rar
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
