@@ -11,6 +11,7 @@ This repository contains the complete academic project:
 
 Start with:
 
+- `DEMO_GUIDE.md` — exact 10–15 minute walkthrough for the teacher
 - `earthquake_bigdata/README.md`
 - `earthquake_bigdata/PROJECT_STATUS.md`
 - `earthquake_bigdata/docs/RESULTS.md`
