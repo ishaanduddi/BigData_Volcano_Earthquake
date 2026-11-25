@@ -1,0 +1,272 @@
+============================================================
+ BIG DATA PROJECT - TEACHER DEMO NOTES
+============================================================
+
+PROJECT FOLDER
+C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+
+GITHUB REPO
+https://github.com/ishaanduddi/BigData_Volcano_Earthquake
+
+DASHBOARD
+http://localhost:8501
+
+HDFS NAMENODE UI
+http://localhost:9870
+
+
+------------------------------------------------------------
+ BEFORE THE DEMO
+------------------------------------------------------------
+
+[ ] Open PowerShell
+
+    cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+
+[ ] Start HDFS
+
+    .\scripts\start_hadoop.ps1
+
+[ ] Start dashboard in a second PowerShell
+
+    cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+    .\.venv\Scripts\streamlit.exe run dashboard\app.py
+
+[ ] Open browser: http://localhost:8501
+
+If port 8501 is already busy, stop the old dashboard first:
+
+    Get-NetTCPConnection -LocalPort 8501 -State Listen |
+      ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }
+
+
+------------------------------------------------------------
+ 1. ARCHITECTURE - 1 MINUTE
+------------------------------------------------------------
+
+Open README.md and show the pipeline.
+
+SAY:
+"USGS and Smithsonian data go through resumable Python ingestion into
+raw storage and HDFS. PySpark performs ETL and writes Parquet. Spark
+then runs the hotspot, ST-DBSCAN and volcano analyses. Results are
+saved to files, and the Streamlit dashboard reads those saved results."
+
+IMPORTANT:
+Spark is running in local multi-threaded mode on ONE machine.
+It is not a multi-node cluster.
+
+
+------------------------------------------------------------
+ 2. SHOW REAL HDFS DATA - 2 MINUTES
+------------------------------------------------------------
+
+In PowerShell:
+
+    $env:JAVA_HOME="C:\PROGRA~1\ECLIPS~1\JDK-17~1.11-"
+    $env:PATH="$env:JAVA_HOME\bin;C:\hadoop\hadoop-3.3.6\bin;$env:PATH"
+
+    hdfs dfs -ls /earthquake/raw/global | Select-Object -First 8
+    hdfs dfs -du -s /earthquake/raw/global /earthquake/processed/global
+
+SAY:
+"The raw layer has 312 monthly USGS files. The processed layer has
+681,902 earthquake records stored as Parquet partitioned by year."
+
+"The USGS count endpoint reported 689,501 rows. ETL removed 7,594
+non-earthquake event types, and the final count is transparent."
+
+Optional: open HDFS UI at http://localhost:9870
+
+
+------------------------------------------------------------
+ 3. SHOW INGESTION + ETL CODE - 2 MINUTES
+------------------------------------------------------------
+
+Open these files:
+
+    ingestion\download_earthquakes.py
+    preprocessing\earthquake_etl.py
+
+POINT OUT:
+
+- Resumable monthly downloads
+- Manifest with row count, count API value, SHA-256 and timestamp
+- Monthly count validation against USGS
+- Keep genuine earthquakes only
+- Validate latitude/longitude/magnitude
+- Deduplicate by event ID, keep latest "updated" revision
+- Retain quality fields: gap, nst, dmin, rms, errors
+- Write Parquet partitioned by year
+
+
+------------------------------------------------------------
+ 4. DASHBOARD PAGES - 5 MINUTES
+------------------------------------------------------------
+
+PAGE 1 - OVERVIEW
+
+- 681,902 earthquakes
+- 1,214 volcanoes
+- Date range 2000-01-01 to 2025-12-31
+- Storage backend: HDFS
+
+SAY:
+"The dashboard does not run Spark. It reads saved result tables, so it
+loads quickly."
+
+
+PAGE 2 - EARTHQUAKE ANALYSIS
+
+- Yearly and monthly trends
+- Magnitude distribution
+- Depth distribution
+- Epicentre map
+
+SAY:
+"The map is a bounded dashboard sample for responsiveness. The
+statistics are computed from all 681,902 processed records."
+
+
+PAGE 3 - HOTSPOT ANALYSIS (CONTRIBUTION N1)
+
+- Raw vs Mc-corrected hotspot maps
+- Mc values by 5-degree cell and time window
+- Gutenberg-Richter b-values
+- Growth comparison
+
+KEY NUMBERS:
+Median Mc = 4.55
+Median b-value = 0.987
+44 cells where apparent growth disappears after correction
+
+SAY:
+"Raw counts are biased by how well a region is monitored. We estimate
+the magnitude of completeness Mc for each cell and window, then count
+only events above Mc."
+
+
+PAGE 4 - SPACE-TIME CLUSTERING (CONTRIBUTION N2)
+
+- Cluster map, cluster sizes, noise
+- ST-DBSCAN vs DBSCAN vs K-Means
+- ARI against single-machine reference
+- Parameter sensitivity
+
+KEY NUMBERS:
+10k sample: 45 clusters, ARI = 1.000000
+Global bounded run: 119,765 events, 494 clusters, 98,583 noise
+Global ARI = 0.999991
+
+SAY:
+"ST-DBSCAN uses Haversine distance and a 7-day temporal window. The
+distributed version partitions the globe into cells with halo events,
+runs local clustering inside Spark partitions, and merges
+cross-partition clusters with Union-Find."
+
+"It is not independent DBSCAN per partition."
+
+
+PAGE 5 - VOLCANO ANALYSIS (CONTRIBUTION N3)
+
+- Select a volcano
+- Volcano location and nearby earthquakes
+- Historical eruptions
+- Five-year baseline
+- 90-day pre-eruption window
+- 180-day post-eruption window
+- Rate ratio, confidence interval, p-value, FDR q-value
+- Radius sensitivity: 50, 100, 200 km
+
+KEY NUMBERS:
+941 eruptions analysed
+221 volcanoes
+941 eruptions across all radii
+
+SAY:
+"This is statistical association analysis, not eruption prediction and
+not proof of causation. Each volcano has its own baseline, and sparse
+baselines are flagged."
+
+
+PAGE 6 - PERFORMANCE BENCHMARKING (CONTRIBUTION N4)
+
+- Pandas vs Spark timings
+- CSV vs Parquet
+- Partitions: 8, 16, 32, 64
+- Cached vs uncached
+- Scaling curves
+
+KEY NUMBERS:
+681,902 rows
+Spark startup: 5.17 seconds
+Group-by: Pandas 0.034 s vs Spark 0.195 s
+Spatial join: Pandas 1.14 s vs Spark 8.04 s
+
+SAY:
+"At this data size on one machine, Pandas was faster for every measured
+operation. We report that honestly instead of claiming Spark is always
+faster."
+
+
+------------------------------------------------------------
+ 5. SHOW TESTS - 1 MINUTE
+------------------------------------------------------------
+
+Full suite:
+
+    cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+    .\.venv\Scripts\python.exe -m pytest -q
+
+Expected result: 24 passed
+
+Quick subset for live demo:
+
+    .\.venv\Scripts\python.exe -m pytest tests\test_geo.py tests\test_magnitude_completeness.py -q
+
+
+------------------------------------------------------------
+ 6. IF TEACHER ASKS TO RUN SOMETHING LIVE
+------------------------------------------------------------
+
+    .\.venv\Scripts\python.exe main.py env --smoke
+
+Expected output contains: "ok": true
+
+This checks Java, Spark, HDFS, Parquet round-trip and Spark SQL.
+
+Do NOT run the full download or full analytics live. They take a long
+time. Explain that the saved results were produced by the documented
+commands.
+
+
+------------------------------------------------------------
+ 7. LIMITATIONS TO STATE CLEARLY
+------------------------------------------------------------
+
+- HDFS is a single-node development cluster with replication 1.
+- Spark is local[6], not a multi-node cluster.
+- Global ST-DBSCAN uses a documented 119,765-event sample because of
+  the 16 GB RAM limit.
+- ARI 0.999991 is near-equivalence, not bit-identical labels.
+- A few border/core-boundary assignments differ.
+- Mc and b-values depend on method, bin width and magnitude scales.
+- Volcano results are associations, not predictions or causation.
+- Dashboard maps use bounded display samples.
+
+
+------------------------------------------------------------
+ 8. 30-SECOND CLOSING SUMMARY
+------------------------------------------------------------
+
+"The project downloads and validates real USGS and Smithsonian data,
+stores raw and Parquet layers in HDFS, performs Spark ETL and analytics,
+implements a custom distributed ST-DBSCAN with boundary merging and
+validation, tests volcano-earthquake associations with volcano-specific
+baselines, benchmarks Pandas vs Spark honestly, and presents all
+results in a Streamlit dashboard. It is reproducible, tested, and the
+limitations are documented."
+
+============================================================
+ END OF DEMO NOTES
+============================================================
