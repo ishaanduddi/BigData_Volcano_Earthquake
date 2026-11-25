@@ -29,3 +29,6 @@ earthquake_bigdata - Copy/
 # OS/editor noise
 Thumbs.db
 .DS_Store
+
+# Office lock files
+~$*
