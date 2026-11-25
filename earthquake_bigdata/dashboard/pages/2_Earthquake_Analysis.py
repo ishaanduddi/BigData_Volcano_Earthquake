@@ -1,6 +1,15 @@
 """Page 2 — earthquake trends, distributions and geography."""
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+for _parent in Path(__file__).resolve().parents:
+    if (_parent / "dashboard" / "utils.py").exists():
+        if str(_parent) not in sys.path:
+            sys.path.insert(0, str(_parent))
+        break
+
+
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
