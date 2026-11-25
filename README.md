@@ -12,6 +12,7 @@ This repository contains the complete academic project:
 Start with:
 
 - `DEMO_GUIDE.md` — exact 10–15 minute walkthrough for the teacher
+- `CORRECTIONS_APPLIED.md` — factual corrections applied to the paper/slides
 - `earthquake_bigdata/README.md`
 - `earthquake_bigdata/PROJECT_STATUS.md`
 - `earthquake_bigdata/docs/RESULTS.md`
