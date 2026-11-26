@@ -1,0 +1,327 @@
+============================================================
+ DASHBOARD DEMO SCRIPT - WITH SETUP
+ Global Earthquake and Volcanic Activity Analysis
+============================================================
+
+PROJECT FOLDER
+C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+
+============================================================
+ PART 1 - SETUP BEFORE THE DEMO
+============================================================
+
+1. OPEN TERMINAL 1 - START HADOOP / HDFS
+
+Open PowerShell and run:
+
+cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+.\scripts\start_hadoop.ps1
+
+Wait until you see:
+
+HDFS ready at hdfs://localhost:9000
+
+Optional: show the HDFS UI in the browser:
+http://localhost:9870
+
+2. OPEN TERMINAL 2 - START THE DASHBOARD
+
+Open a second PowerShell window and run:
+
+cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+.\.venv\Scripts\streamlit.exe run dashboard\app.py
+
+Wait until you see:
+
+Local URL: http://localhost:8501
+
+3. OPEN THE DASHBOARD
+
+Open this in the browser:
+http://localhost:8501
+
+If port 8501 is already in use, stop the old dashboard:
+
+Get-NetTCPConnection -LocalPort 8501 -State Listen |
+  ForEach-Object { Stop-Process -Id $_.OwningProcess -Force }
+
+Then start the dashboard again.
+
+============================================================
+ PART 2 - DASHBOARD PRESENTATION SCRIPT
+============================================================
+
+OPENING
+
+"Good morning. Our project is a Big Data analysis of global
+earthquakes and their association with volcanic activity.
+
+We used two official sources: the USGS earthquake catalogue and the
+Smithsonian Global Volcanism Program.
+
+The pipeline downloads the data, stores the raw files in Hadoop
+HDFS, cleans the data with PySpark, saves it as Parquet, and then
+runs four analyses. The dashboard reads the saved results, so it
+does not re-run Spark while we are presenting."
+
+------------------------------------------------------------
+ PAGE 1 - OVERVIEW
+------------------------------------------------------------
+
+[Point to the four main numbers.]
+
+"This is the overview page.
+
+We processed 681,902 earthquake records from 2000 to 2025, and we
+have 1,214 volcanoes in the dataset.
+
+The average magnitude is 3.81, and the median depth is about 20
+kilometres.
+
+The storage backend shown here is HDFS. The raw USGS data and the
+processed Parquet data are stored in Hadoop HDFS."
+
+[Point to the map.]
+
+"This map shows the regions with the highest raw earthquake counts.
+Most activity follows plate boundaries."
+
+TRANSITION:
+"Next, I will show the basic earthquake patterns."
+
+------------------------------------------------------------
+ PAGE 2 - EARTHQUAKE ANALYSIS
+------------------------------------------------------------
+
+[Click "Earthquake Analysis".]
+
+"This page shows the basic behaviour of the earthquake data.
+
+The yearly chart shows the number of recorded earthquakes each
+year. The monthly chart shows the same data at a finer time scale.
+
+The next charts show the distribution of magnitude and depth.
+
+The map shows earthquake epicentres. This map is a smaller sample
+used for dashboard speed; the statistics are calculated from all
+681,902 processed records."
+
+[Point to the yearly chart.]
+
+"One important point is that the number of recorded earthquakes
+does not directly prove that the Earth is becoming more active.
+Detection has improved over time, so raw counts can increase just
+because more instruments are recording small events.
+
+That is why the next page uses completeness correction."
+
+TRANSITION:
+"Now I will explain the corrected hotspot analysis."
+
+------------------------------------------------------------
+ PAGE 3 - HOTSPOT ANALYSIS
+------------------------------------------------------------
+
+[Click "Hotspot Analysis".]
+
+"This is one of our main contributions.
+
+A raw earthquake map can be misleading. A region with more
+monitoring stations will detect more small earthquakes, so it can
+look more active even if the actual activity is similar.
+
+To handle this, we estimate a value called Mc - the magnitude of
+completeness. Mc is the smallest magnitude above which we believe
+the earthquake records are complete enough to compare.
+
+We estimate Mc for every 5-degree region and every time window.
+Then we count only the earthquakes above Mc.
+
+[Point to the map.]
+
+"The left map shows raw activity. The right map shows the corrected
+activity above Mc.
+
+The median Mc is 4.55, and the median b-value is 0.99. The b-value
+comes from the Gutenberg-Richter relationship and describes the
+balance between small and large earthquakes.
+
+The main result is this: out of 198 comparable regions, 44 regions
+showed an apparent increase in raw counts, but that increase
+disappeared after correction.
+
+This means the apparent growth was likely caused by better
+detection, not necessarily by a real change in earthquake activity."
+
+TRANSITION:
+"Next, I will show how we group earthquakes in space and time."
+
+------------------------------------------------------------
+ PAGE 4 - SPACE-TIME CLUSTERING
+------------------------------------------------------------
+
+[Click "Space Time Clustering".]
+
+"This page shows our space-time clustering analysis.
+
+Normal DBSCAN groups points using only distance. Our ST-DBSCAN uses
+both space and time.
+
+Two earthquakes are neighbours only if they are within 50 km and
+within 7 days of each other. A group needs at least 10 points.
+
+[Point to the pipeline diagram.]
+
+"Spark MLlib does not provide DBSCAN, so we implemented it ourselves.
+
+The globe is divided into small spatial cells. ST-DBSCAN runs
+inside each Spark partition. Because a cluster can cross a cell
+border, we add overlapping halo events. After local clustering, we
+use Union-Find to merge clusters that share the same earthquake.
+
+[Point to the numbers.]
+
+"On the tested sample, we found 494 clusters and 98,583 noise
+points. Noise points are earthquakes that do not belong to a dense
+group.
+
+The ARI is 0.999991. ARI compares our distributed result with a
+single-machine result. A value close to 1 means the two results are
+almost identical.
+
+The distributed run took about 154 seconds, while the single-machine
+version took about 25 seconds. On this dataset, Spark is slower
+because of its startup and scheduling overhead. We report that
+honestly."
+
+TRANSITION:
+"Now I will explain the volcano analysis."
+
+------------------------------------------------------------
+ PAGE 5 - VOLCANO ANALYSIS
+------------------------------------------------------------
+
+[Click "Volcano Analysis".]
+
+"This page studies whether earthquake activity changes near a
+volcano around the time of an eruption.
+
+We analysed 941 confirmed eruptions at 221 volcanoes.
+
+For each volcano, we use its own previous five years as a normal
+baseline. Then we compare two windows:
+
+- 90 days before the eruption
+- 180 days after the eruption
+
+[Point to the selected volcano and map.]
+
+"The map shows the volcano and nearby earthquakes.
+
+The table shows the baseline rate, pre-eruption rate, post-eruption
+rate, rate ratio, confidence interval and p-values.
+
+At a radius of 100 km, the median pre-eruption rate ratio is about
+1.18. This means earthquake activity was about 18 percent above the
+volcano's normal baseline before the eruption.
+
+The post-eruption ratio is about 1.02, so it is close to the
+baseline.
+
+[Point to the radius comparison.]
+
+"We repeat the analysis at 50, 100 and 200 kilometres to check
+whether the result depends on the chosen radius.
+
+This is an association analysis. It does not predict eruptions and
+it does not prove that eruptions cause the earthquakes."
+
+TRANSITION:
+"Finally, I will show the performance comparison."
+
+------------------------------------------------------------
+ PAGE 6 - PERFORMANCE BENCHMARKING
+------------------------------------------------------------
+
+[Click "Performance Benchmarking".]
+
+"This page compares Pandas and Spark using the same data and the
+same operations.
+
+Pandas runs on a single machine. Spark runs in local mode on this
+machine, using multiple threads.
+
+We tested data sizes from 10 percent to 100 percent, different
+Spark partition counts, CSV and Parquet formats, and cached and
+uncached runs.
+
+[Point to the speed-up chart.]
+
+"On this 681,902-row dataset, Pandas was faster for every measured
+operation.
+
+For example, group-by took about 0.034 seconds in Pandas and 0.195
+seconds in Spark. The spatial join took about 1.14 seconds in Pandas
+and 8.04 seconds in Spark.
+
+Spark startup alone took about 5 seconds.
+
+This is not a failure of Spark. It shows that Spark has high fixed
+overhead, and at this data size a single machine is faster. Spark
+becomes useful when the data is much larger or when we have a real
+multi-node cluster.
+
+We report this negative result honestly instead of claiming that
+Spark is always faster."
+
+------------------------------------------------------------
+ CLOSING
+------------------------------------------------------------
+
+"To summarize:
+
+We built a complete pipeline from official data sources to HDFS,
+PySpark processing, Parquet storage, four analytics modules and an
+interactive dashboard.
+
+We corrected hotspot rankings for detection completeness, implemented
+a custom distributed ST-DBSCAN with boundary merging and validation,
+tested volcano-earthquake associations against volcano-specific
+baselines, and measured Pandas versus Spark fairly.
+
+All results are saved and traceable to files. The main limitations
+are that Spark is running in local mode on one machine, the global
+clustering uses a bounded sample because of memory limits, and the
+volcano analysis shows association only.
+
+Thank you. I am happy to answer questions."
+
+============================================================
+ PART 3 - OPTIONAL LIVE CHECK
+============================================================
+
+If the teacher asks whether the environment works:
+
+cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+.\.venv\Scripts\python.exe main.py env --smoke
+
+Expected output contains:
+
+"ok": true
+
+Do not run the full download or full analytics during the demo.
+
+============================================================
+ PART 4 - STOP AFTER DEMO
+============================================================
+
+In the dashboard terminal, press Ctrl+C.
+
+Then stop Hadoop:
+
+cd C:\ISHU\Education\Amrita\5th_Sem\BigData\Project\earthquake_bigdata
+.\scripts\stop_hadoop.ps1
+
+============================================================
+ END
+============================================================
